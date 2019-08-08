@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 2 elements to &apos;arrays_demo/src/object_arrays&apos;&#x0D;&#x0A;- Original project: &apos;encap_demo&apos;&#x0D;&#x0A;- Destination element: &apos;arrays_demo/src/object_arrays&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     example1.EmployeeMain.java&#x0D;&#x0A;     example1.Employee.java" description="Copy compilation units" destination="=arrays_demo/src&lt;object_arrays" element1="/src&lt;example1{EmployeeMain.java" element2="/src&lt;example1{Employee.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1565207294314" units="2" version="1.0"/>
+</session>

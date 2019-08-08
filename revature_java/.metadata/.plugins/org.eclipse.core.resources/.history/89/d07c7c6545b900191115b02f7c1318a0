@@ -1,0 +1,15 @@
+package example2;
+
+public class Employee {
+	int id;
+	String name;
+	
+	public Employee() {
+		// TODO Auto-generated constructor stub
+	}
+	
+	public Employee(int id,String name) {
+		this.id=id;
+		this.name=name;
+	}
+}

@@ -1,0 +1,9 @@
+package example1;
+
+public class Calculator {
+
+	
+	public Calculator(String name) {
+		System.out.println("Hello "+name);
+	}
+}

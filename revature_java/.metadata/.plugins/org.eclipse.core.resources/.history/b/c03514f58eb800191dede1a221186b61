@@ -1,0 +1,11 @@
+package demo;
+
+public class ReaderOldStyle {
+
+	public static void main(String[] args) {
+		
+		
+
+	}
+
+}

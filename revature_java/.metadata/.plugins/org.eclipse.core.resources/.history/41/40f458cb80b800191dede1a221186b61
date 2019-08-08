@@ -1,0 +1,12 @@
+package example3;
+
+public class ProductMain {
+	public static void main(String[] args) {
+		
+		Product p1=new Product();
+		p1.id=100;
+		p1.name="TV";
+		p1.price=1200.22;
+		
+	}
+}

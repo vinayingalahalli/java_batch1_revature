@@ -1,0 +1,86 @@
+package object_arrays;
+
+import java.util.Scanner;
+
+public class EmployeeMain {
+
+	public static void main(String[] args) {
+
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("Enter number of employees");
+		int size = scanner.nextInt();
+		Employee employeeList[] = new Employee[size];
+		for (int i = 0; i < employeeList.length; i++) {
+			System.out.println("Enter details of employee - " + (i + 1));
+			System.out.println("Enter id");
+			int id = scanner.nextInt();
+			System.out.println("Enter Name");
+			String name = scanner.next();
+			System.out.println("Enter Age");
+			int age = scanner.nextInt();
+			System.out.println("Enter City");
+			String city = scanner.next();
+			employeeList[i] = new Employee(id, name, age, city);
+		}
+		printEmployees(employeeList);
+
+		int ch = 0;
+		do {
+			System.out.println("Search Employee Menu");
+			System.out.println("---------------------------");
+			System.out.println("1)By Id");
+			System.out.println("2)By Name");
+			System.out.println("3)By Age");
+			System.out.println("4)By City");
+			System.out.println("5)EXIT");
+			System.out.println("Enter your choice(1-5)");
+			ch = scanner.nextInt();
+
+			switch (ch) {
+			case 1:
+
+				break;
+			case 2:
+
+				break;
+			case 3:
+
+				break;
+			case 4:System.out.println("Under construction");
+
+				break;
+			case 5:System.out.println("Thanks for using our employee search app.....");
+
+				break;
+			default:
+				System.out.println("Invalid Chice.. Please Re-enter");
+				break;
+			}
+		} while (ch != 5);
+
+	}
+
+	public static void printEmployees(Employee[] employeeList) {
+		System.out.println("Printing details of " + employeeList.length + " employee/s");
+		for (int i = 0; i < employeeList.length; i++) {
+			System.out.println("The details of employee - " + (i + 1));
+			System.out.println("Id  = " + employeeList[i].getId());
+			System.out.println("Name = " + employeeList[i].getName());
+			System.out.println("Age = " + employeeList[i].getAge());
+			System.out.println("City = " + employeeList[i].getCity() + "\n\n");
+		}
+	}
+
+	public Employee getEmployeeById(Employee[] employeeList, int id) {
+		Employee employee = null;
+		for (int i = 0; i < employeeList.length; i++) {
+			if (employeeList[i].getId() == id) {
+				employee = employeeList[i];
+				break;
+			}
+		}
+
+		return employee;
+
+	}
+}

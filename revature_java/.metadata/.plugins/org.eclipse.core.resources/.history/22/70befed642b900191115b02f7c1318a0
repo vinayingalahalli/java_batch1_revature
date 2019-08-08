@@ -1,0 +1,15 @@
+package example1;
+
+public class Calculator {
+
+	int a;
+	int b;
+	
+	public Calculator(String name) {
+		System.out.println("Hello "+name);
+	}
+	
+	public int add() {
+		return a+b;
+	}
+}

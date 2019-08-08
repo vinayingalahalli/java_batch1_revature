@@ -1,0 +1,28 @@
+package examples;
+
+import java.util.Scanner;
+
+public class Demo3 {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter the size of array");
+		int size = sc.nextInt();
+		int ar2[] = new int[size];
+		System.out.println("Enter " + size + " no of element/s");
+		for (int i = 0; i < ar2.length; i++) {
+			ar2[i] = sc.nextInt();
+		}
+		Demo3 d3=new Demo3();
+		d3.printArray(ar2);
+
+	}
+	
+	public void printArray(int arr[]) {
+		System.out.println("Contents of your array is");
+		for (int i = 0; i < arr.length; i++) {
+			System.out.print(arr[i]+" ");
+		}
+		System.out.println();
+	}
+}

@@ -1,0 +1,14 @@
+package demo;
+
+import java.io.BufferedReader;
+
+public class ReaderOldStyle {
+
+	public static void main(String[] args) {
+		
+		BufferedReader br=new BufferedReader(System.in)
+		
+
+	}
+
+}

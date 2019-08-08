@@ -1,0 +1,23 @@
+package example1;
+
+public class EmployeeMain {
+
+	public static void main(String[] args) {
+		
+		
+		Employee e3=new Employee(103, "Robby", 23, "Alaska");
+		printEmployee(e3);
+		
+		
+		
+	}
+	
+	public static void printEmployee(Employee employee) {
+	//	System.out.println("Id  = "+employee.id);//data leakage
+		System.out.println("Id  = "+employee.getId());
+		System.out.println("Name = "+employee.getName());
+		System.out.println("Age = "+employee.getAge());
+		System.out.println("City = "+employee.getCity());
+	}
+
+}

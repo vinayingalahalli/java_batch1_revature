@@ -1,0 +1,34 @@
+package main;
+
+public class Test {
+
+	
+	private class Inner{
+		
+	}
+	protected class Inner2{
+		
+	}
+	
+	public static class InnserStatic{
+		
+	}
+	public class S{
+		public class S1{
+			
+		}
+		
+	}
+}
+
+
+ class Z{
+	
+}
+ 
+ class X{
+	 
+ }
+ class M{
+	 
+ }
