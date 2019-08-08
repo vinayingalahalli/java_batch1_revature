@@ -1,0 +1,10 @@
+package example_inheritance1;
+
+public class WhatsAppMain {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

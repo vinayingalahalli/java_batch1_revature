@@ -1,0 +1,26 @@
+package example_inheritance2;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Employee e=new Employee(100, "Rajesh", "Revature", "Trainee", 1200.00);
+		printAnything(e);
+		
+		Player p=new Player(1001, "Kiran", "Superstars", "Center");
+		printAnything(p);
+		
+		Person per=new Person(999, "Lucky");
+		printAnything(per);
+
+	}
+	
+	public static void printAnything(Object o) {
+		
+		if(o instanceof Employee) {
+			Employee e=(Employee) o;
+			e.printEmployee();
+		}
+		
+	}
+
+}

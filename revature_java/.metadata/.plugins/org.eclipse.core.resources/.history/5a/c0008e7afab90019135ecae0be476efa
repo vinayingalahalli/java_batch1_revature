@@ -1,0 +1,6 @@
+package example_inheritance1;
+
+public class WhatsAppV2 extends WhatsAppV1{
+
+	
+}
