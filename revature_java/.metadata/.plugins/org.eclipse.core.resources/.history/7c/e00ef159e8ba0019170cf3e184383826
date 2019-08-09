@@ -1,0 +1,5 @@
+package example_functional_lambda;
+
+public interface HelloFunctional {
+
+}

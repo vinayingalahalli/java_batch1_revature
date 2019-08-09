@@ -1,0 +1,7 @@
+package example_functional_lambda;
+
+@FunctionalInterface
+public interface HelloFunctional {
+	void hello();
+//void h1();
+}

@@ -1,0 +1,5 @@
+package example_extends;
+
+public class ParentChildImpl {
+
+}

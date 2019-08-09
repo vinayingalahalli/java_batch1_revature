@@ -1,0 +1,20 @@
+package example_functional_lambda;
+
+public class HelloImpl /* implements HelloFunctional */ {
+
+	/*
+	 * @Override public void hello() { // TODO Auto-generated method stub
+	 * System.out.println("Hey"); }
+	 */
+	
+	public static void main(String[] args) {
+		
+		/*
+		 * HelloFunctional h=new HelloImpl(); h.hello();
+		 */
+		HelloFunctional h1=()->{
+			
+		}
+	}
+
+}
