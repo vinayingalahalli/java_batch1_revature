@@ -1,0 +1,23 @@
+package example_basic;
+
+public class RequirementsImpl  implements RequirementA{
+
+	@Override
+	public void requirement1() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void requirement2() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void requirement3() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

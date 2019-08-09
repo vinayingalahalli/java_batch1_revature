@@ -1,0 +1,6 @@
+package example1;
+
+public abstract final class Ems {
+
+	public abstract void addEmployee();
+}

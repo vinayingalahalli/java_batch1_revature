@@ -1,0 +1,5 @@
+package example_basic;
+
+public class RequirementsImpl  implements RequirementA{
+
+}

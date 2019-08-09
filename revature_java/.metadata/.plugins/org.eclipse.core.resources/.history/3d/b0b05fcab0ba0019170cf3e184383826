@@ -1,0 +1,7 @@
+package override_object;
+
+public class Player {
+ private int id;
+ private String name;
+ 
+}
