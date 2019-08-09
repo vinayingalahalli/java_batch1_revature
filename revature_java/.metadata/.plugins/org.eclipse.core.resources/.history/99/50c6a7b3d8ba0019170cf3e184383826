@@ -11,8 +11,4 @@ public interface RequirementB {
 	public class A{
 		
 	}
-	
-	interface Inner{
-		void innerRequirement();
-	}
 }

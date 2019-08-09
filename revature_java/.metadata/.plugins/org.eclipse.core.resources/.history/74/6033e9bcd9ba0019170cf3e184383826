@@ -20,15 +20,5 @@ public class Main {
 		b.requirement4();
 		b.requirement5();
 		System.out.println(b.hashCode());
-		
-		System.out.println("Accessing RequirementB.Inner");
-		RequirementB.Inner i=new RequirementsImpl();
-		i.innerRequirement();
-		System.out.println(i.hashCode());
-		
-		
-		
-		
-		
 	}
 }

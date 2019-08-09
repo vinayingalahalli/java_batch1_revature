@@ -1,6 +1,6 @@
 package example_basic;
 
-public class RequirementsImpl  implements RequirementA,RequirementB,RequirementB.Inner{
+public class RequirementsImpl  implements RequirementA,RequirementB{
 
 	@Override
 	public void requirement1() {
@@ -38,12 +38,6 @@ public class RequirementsImpl  implements RequirementA,RequirementB,RequirementB
 		System.out.println("Common solution given");
 		System.out.println("x = "+x);
 		//x++;
-	}
-
-	@Override
-	public void innerRequirement() {
-		// TODO Auto-generated method stub
-		System.out.println("Inner requirement accomplished of RequirementB");
 	}
 
 }

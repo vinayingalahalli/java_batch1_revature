@@ -7,12 +7,4 @@ public interface RequirementB {
 	void commonRequirement();
 	
 	int x=9; //final & static 
-	
-	public class A{
-		
-	}
-	
-	interface Inner{
-		void innerRequirement();
-	}
 }

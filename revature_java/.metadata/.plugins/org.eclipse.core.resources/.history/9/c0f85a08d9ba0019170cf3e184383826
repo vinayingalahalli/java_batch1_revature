@@ -43,7 +43,7 @@ public class RequirementsImpl  implements RequirementA,RequirementB,RequirementB
 	@Override
 	public void innerRequirement() {
 		// TODO Auto-generated method stub
-		System.out.println("Inner requirement accomplished of RequirementB");
+		
 	}
 
 }
