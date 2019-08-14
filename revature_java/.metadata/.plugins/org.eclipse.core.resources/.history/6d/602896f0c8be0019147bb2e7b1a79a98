@@ -1,0 +1,12 @@
+package buffer;
+
+public class BufferDemo {
+
+	public static void main(String[] args) {
+		StringBuffer sb=new StringBuffer("hello");
+		System.out.println(sb);
+		sb.append(" heyy");
+		System.out.println(sb);
+	}
+
+}

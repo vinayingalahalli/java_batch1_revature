@@ -1,0 +1,21 @@
+package example1;
+
+public class RegEx {
+
+	public static void main(String[] args) {
+		/*
+		 * Reg-Ex(Regular Expression)
+		 * PMA - Pattern Matching Algorithm
+		 * 
+		 * [] - expression/pattern
+		 * {} - length
+		 * ^  - not
+		 * [a-z]{3} - any 3 lower case letters
+		 * [A-Z0-9]{5} - any 5 uppercase letters or digits
+		 * 
+		 * 
+		 */
+
+	}
+
+}
