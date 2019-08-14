@@ -22,14 +22,14 @@ public class HelloImpl /* implements HelloFunctional */ {
 		h1.hello();
 		h2.hello();
 
-		Sum s1 = (x, y) -> {
-			return x + y;
-		};
+		Sum s1 = (x, y) -> x + y;
+		int x = s1.add(99, 99);
+		System.out.println(x);
 
 		System.out.println(s1.add(99, 99));
 		System.out.println(s1.add(889, 9));
-		
-		Hey h=(String n)->System.out.println("Hellooo "+n);
+
+		Hey h = (String n) -> System.out.println("Hellooo " + n);
 		h.hello("Sachin");
 		h.hello("Ram");
 	}

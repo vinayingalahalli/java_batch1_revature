@@ -1,0 +1,17 @@
+package example1;
+
+public class Demo1 {
+
+	public static void main(String[] args) {
+		Integer i1=10;
+		Integer i2=20;
+		Integer i3=10;
+		Integer i4=new Integer(10);
+		
+		System.out.println(i1==i2);
+		System.out.println(i1==i3);
+		System.out.println(i1==i4);
+
+	}
+
+}
