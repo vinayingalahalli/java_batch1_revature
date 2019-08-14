@@ -18,13 +18,12 @@ public class TitleCase {
 			if(ar[i].length()%2==0) {
 				sb1.append(ar[i]);
 			}else {
-				char c[]=ar[i].replaceAll("[^a-zA-Z0-9]", "").toCharArray();
+				char c[]=ar[i].toCharArray();
 				c[c.length/2]=Character.toUpperCase(c[c.length/2]);
 				sb1.append(new String(c));
 			}
 			sb1.append(" ");
 		}
-		System.out.println(sb1.toString().trim());
 	}
 	
 	
