@@ -1,0 +1,7 @@
+package example_sort;
+
+import java.util.Comparator;
+
+public class BusNameComparator implements Comparator<Bus> {
+
+}

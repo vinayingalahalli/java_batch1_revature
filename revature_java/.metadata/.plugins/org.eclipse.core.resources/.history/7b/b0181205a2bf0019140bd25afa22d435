@@ -1,0 +1,22 @@
+package iterator_example;
+
+import java.util.Collections;
+import java.util.Set;
+import java.util.TreeSet;
+
+public class IteratorDemo {
+public static void main(String[] args) {
+	Set<String> ts=new TreeSet<>(Collections.reverseOrder());
+	ts.add("java");
+	ts.add("jee");
+	ts.add("abc");
+	ts.add("xyz");
+	ts.add("java");
+	ts.add("jee");
+	ts.add("hey");
+	ts.add("hello");
+	ts.add("enumerator");
+	ts.add("iterator");
+	ts.add("listiterator");
+}
+}

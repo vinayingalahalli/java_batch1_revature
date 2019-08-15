@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy package &apos;example_sort&apos; to &apos;set_demo/src&apos;&#x0D;&#x0A;- Original project: &apos;list_demo&apos;&#x0D;&#x0A;- Destination element: &apos;set_demo/src&apos;&#x0D;&#x0A;- Original element: &apos;list_demo/src/example_sort&apos;" description="Copy package" destination="=set_demo/src" element1="/src&lt;example_sort" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1565900746228" version="1.0"/>
+</session>
