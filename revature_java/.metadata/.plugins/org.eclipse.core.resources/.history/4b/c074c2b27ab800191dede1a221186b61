@@ -1,8 +1,0 @@
-package example2;
-
-public class Calculator {
-
-	public static void sayHelloStatic() {
-		System.out.println("Hello from static method");
-	}
-}

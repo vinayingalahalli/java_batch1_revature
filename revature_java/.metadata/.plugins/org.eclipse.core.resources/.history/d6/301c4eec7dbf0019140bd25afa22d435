@@ -1,0 +1,12 @@
+package example_sort;
+
+public class Bus {
+private int id;
+private String name;
+private double fare;
+private float ratings;
+public Bus() {
+	// TODO Auto-generated constructor stub
+}
+
+}

@@ -1,0 +1,23 @@
+package example_sort;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class BusMain {
+
+	public static void main(String[] args) {
+		List<Bus> busList=new ArrayList<>();
+		
+
+	}
+	
+	
+	public static void printBuses(List<Bus> busList) {
+		System.out.println("Total "+busList.size()+" no of buses available");
+		System.out.println("Printing Bus Details");
+		for (int i = 0; i <busList.size(); i++) {
+			System.out.println(busList.get(i));
+		}
+	}
+
+}
