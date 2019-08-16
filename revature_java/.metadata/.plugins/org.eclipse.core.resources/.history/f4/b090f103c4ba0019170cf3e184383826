@@ -1,6 +1,0 @@
-package example1;
-
-public abstract  class Ems {
-
-	public abstract void addEmployee();
-}

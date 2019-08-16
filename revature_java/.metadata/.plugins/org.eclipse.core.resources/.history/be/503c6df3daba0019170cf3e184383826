@@ -1,5 +1,0 @@
-package example_extends;
-
-public interface Child {
-
-}

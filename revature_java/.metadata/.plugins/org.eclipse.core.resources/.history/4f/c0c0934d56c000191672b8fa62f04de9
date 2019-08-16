@@ -1,0 +1,6 @@
+package com.business;
+
+public interface ProductBusiness {
+
+	
+}

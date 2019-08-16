@@ -1,0 +1,32 @@
+package example1;
+
+import java.util.ArrayList;
+import java.util.LinkedHashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.Scanner;
+
+public class Demo2 {
+
+	public static void main(String[] args) {
+		Scanner scanner=new Scanner(System.in);
+		
+		Map<String, List<String>> countryMap=new LinkedHashMap<>();
+		System.out.println("Enter number of countries");
+		int n=scanner.nextInt();
+		for (int i = 0; i < n; i++) {
+			System.out.println("Enter country - "+(i+1)+" name - ");
+			String country=scanner.next();
+			System.out.println("Enter number of states you want in country - "+country);
+			int c=scanner.nextInt();
+			List<String> stateList=new ArrayList<>();
+			for (int j = 0; j < c; j++) {
+				System.out.println("Enter "+c+" number of state/s for the country "+country);
+				
+			}
+		}
+		
+
+	}
+
+}

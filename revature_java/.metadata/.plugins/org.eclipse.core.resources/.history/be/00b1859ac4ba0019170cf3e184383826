@@ -1,5 +1,0 @@
-package example1;
-
-public class AbcEmployee extends Ems {
-
-}

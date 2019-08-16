@@ -1,5 +1,0 @@
-package override;
-
-public class MobileV2 extends MobileV1 {
-
-}

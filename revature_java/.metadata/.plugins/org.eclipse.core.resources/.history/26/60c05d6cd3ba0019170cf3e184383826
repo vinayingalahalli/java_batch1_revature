@@ -1,8 +1,0 @@
-package example_basic;
-
-public interface RequirementA {
-
-	void requirement1();
-	void requirement2();
-	void requirement3();
-}

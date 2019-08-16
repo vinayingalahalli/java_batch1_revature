@@ -1,0 +1,18 @@
+package example1;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class Demo1 {
+	public static void main(String[] args) {
+		
+		Map<Integer, String> hm=new HashMap<>();
+		hm.put(123, "java");
+		hm.put(145, "jee");
+		hm.put(113, "deepesh");
+		hm.put(null, "java");
+		hm.put(178, null);
+		hm.put(199, null);
+		System.out.println(hm);
+	}
+}
