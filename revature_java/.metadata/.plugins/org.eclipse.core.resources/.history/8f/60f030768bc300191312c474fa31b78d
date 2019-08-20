@@ -1,0 +1,17 @@
+package example2;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+
+public class Validate {
+
+	
+	public void openFile(String fileName) throws FileNotFoundException {
+		
+		FileInputStream fis=new FileInputStream(fileName);
+	}
+	
+	public int divide(int a,int b) {
+		return a/b;
+	}
+}
