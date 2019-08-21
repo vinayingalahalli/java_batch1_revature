@@ -1,0 +1,38 @@
+package com.service.test;
+
+import static org.junit.Assert.assertFalse;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertTrue;
+
+import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.Test;
+
+import com.service.ServiceProvider;
+
+public class ServieProviderTest {
+
+	private static ServiceProvider service;
+	
+	@BeforeAll
+	public static void instantiateService() {
+		service=new ServiceProvider();
+	}
+	
+	
+
+	@Test
+	public void testIsPrime() {
+		/* fail("Not yet implemented"); */
+		assertTrue(service.isPrime(2));
+		assertFalse(service.isPrime(9));
+	}
+	
+	
+	@Test
+	public void testZero() {
+		assertEquals(false, service.isPrime(0));
+	}
+	
+	
+
+}

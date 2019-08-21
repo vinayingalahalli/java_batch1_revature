@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="ServieProviderTest" project="junit_demo" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="com.service.test.ServieProviderTest" time="0.097" displayname="ServieProviderTest" uniqueid="[engine:junit-jupiter]/[class:com.service.test.ServieProviderTest]">
+    <testcase name="testIsPrime" classname="com.service.test.ServieProviderTest" time="0.097" displayname="testIsPrime()" uniqueid="[engine:junit-jupiter]/[class:com.service.test.ServieProviderTest]/[method:testIsPrime()]"/>
+  </testsuite>
+</testrun>
