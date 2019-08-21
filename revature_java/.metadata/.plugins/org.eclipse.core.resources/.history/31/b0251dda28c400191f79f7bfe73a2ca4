@@ -1,0 +1,18 @@
+package example;
+
+import java.io.FileOutputStream;
+
+import com.pojo.CreditCard;
+
+public class SerializeMain {
+
+	public static void main(String[] args) {
+		CreditCard cc=new CreditCard(1234567890123456L, "Sachin R T", "ABC Bank", 122);
+		
+		try(FileOutputStream fos=new FileOutputStream("serialize.txt")){
+			
+		}
+
+	}
+
+}
