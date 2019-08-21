@@ -1,0 +1,11 @@
+package synch_eg;
+
+public class Main {
+
+	public static void main(String[] args) {
+		new MessageThread("hey hi", " how u doing?");
+		new MessageThread("good evening", " i am doing good....")
+
+	}
+
+}

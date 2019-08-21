@@ -1,0 +1,7 @@
+package synch_eg;
+
+public class Printer {
+	public void printMessages(String message1, String message2) {
+
+	}
+}

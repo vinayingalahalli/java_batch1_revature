@@ -1,0 +1,11 @@
+package synch_eg;
+
+public class MessageThread implements Runnable{
+
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}
