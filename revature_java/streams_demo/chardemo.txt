@@ -1,0 +1,3 @@
+hello from file writer
+I will be in new line 
+No need of conversion when using character stream classes

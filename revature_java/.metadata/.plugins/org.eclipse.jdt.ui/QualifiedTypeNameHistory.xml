@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="java.util.Calendar"/>
-<fullyQualifiedTypeName name="java.util.Date"/>
-<fullyQualifiedTypeName name="example.StaticDemo"/>
 <fullyQualifiedTypeName name="example2.Calculator"/>
 <fullyQualifiedTypeName name="example3.Product"/>
 <fullyQualifiedTypeName name="java.io.BufferedReader"/>
@@ -53,4 +50,14 @@
 <fullyQualifiedTypeName name="com.pojo.Product"/>
 <fullyQualifiedTypeName name="com.business.ProductBusiness"/>
 <fullyQualifiedTypeName name="com.business.impl.ProductBusinessImpl"/>
+<fullyQualifiedTypeName name="java.lang.ArithmeticException"/>
+<fullyQualifiedTypeName name="java.lang.NullPointerException"/>
+<fullyQualifiedTypeName name="java.io.FileInputStream"/>
+<fullyQualifiedTypeName name="example2.Validate"/>
+<fullyQualifiedTypeName name="javax.management.RuntimeErrorException"/>
+<fullyQualifiedTypeName name="java.lang.RuntimeException"/>
+<fullyQualifiedTypeName name="example3.Validate"/>
+<fullyQualifiedTypeName name="com.exception.InvalidAgeException"/>
+<fullyQualifiedTypeName name="java.lang.Exception"/>
+<fullyQualifiedTypeName name="com.exception.BusinessException"/>
 </qualifiedTypeNameHistroy>

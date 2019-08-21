@@ -1,0 +1,10 @@
+package file_byte_demo;
+
+public class FileOutByteDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

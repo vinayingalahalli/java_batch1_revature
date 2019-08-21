@@ -1,0 +1,10 @@
+package file_char_demo;
+
+public class FileWriteDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
