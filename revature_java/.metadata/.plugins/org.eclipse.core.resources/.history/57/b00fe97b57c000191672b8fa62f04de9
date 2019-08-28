@@ -1,7 +1,0 @@
-package com.business.impl;
-
-import com.business.ProductBusiness;
-
-public class ProductBusinessImpl implements ProductBusiness{
-
-}

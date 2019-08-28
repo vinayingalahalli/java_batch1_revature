@@ -1,6 +1,0 @@
-package com.business;
-
-public interface ProductBusiness {
-
-	public Product addProduct(Product product);
-}

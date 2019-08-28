@@ -1,9 +1,0 @@
-package example2;
-
-public class Validate {
-
-	
-	public void openFile(String fileName) {
-		
-	}
-}

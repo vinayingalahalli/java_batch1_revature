@@ -1,0 +1,8 @@
+package insert_demo;
+
+public class Manufacturer {
+private int mid;
+private String name;
+private String city;
+private long contact;
+}

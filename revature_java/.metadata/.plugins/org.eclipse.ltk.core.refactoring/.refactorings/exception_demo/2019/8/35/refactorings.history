@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;BusinessException.java&apos; to &apos;jdbc_demo/src/insert_demo&apos;&#x0D;&#x0A;- Original project: &apos;exception_demo&apos;&#x0D;&#x0A;- Destination element: &apos;jdbc_demo/src/insert_demo&apos;&#x0D;&#x0A;- Original element: &apos;com.exception.BusinessException.java&apos;" description="Copy compilation unit" destination="=jdbc_demo/src&lt;insert_demo" element1="/src&lt;com.exception{BusinessException.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1567028995330" units="1" version="1.0"/>
+</session>

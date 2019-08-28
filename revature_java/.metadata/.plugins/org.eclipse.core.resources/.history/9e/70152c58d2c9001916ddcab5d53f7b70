@@ -1,0 +1,16 @@
+package example1;
+
+public class HelloJdbc {
+
+	public static void main(String[] args) {
+		
+		try {
+			Class.forName("oracle.jdbc.OracleDriver");
+			System.out.println("Driver Loded");
+		} catch (ClassNotFoundException e) {
+			System.out.println(e);
+		}
+
+	}
+
+}

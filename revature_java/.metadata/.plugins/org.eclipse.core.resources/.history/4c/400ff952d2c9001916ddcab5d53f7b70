@@ -1,0 +1,11 @@
+package example1;
+
+public class HelloJdbc {
+
+	public static void main(String[] args) {
+		
+		Class.forName("oracle.jdbc.OracleDriver");
+
+	}
+
+}

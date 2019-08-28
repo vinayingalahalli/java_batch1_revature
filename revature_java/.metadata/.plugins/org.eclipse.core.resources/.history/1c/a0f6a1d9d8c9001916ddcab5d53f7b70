@@ -1,0 +1,12 @@
+package com.dbutil;
+
+import java.sql.Connection;
+
+public class OracleConnection {
+
+	private static Connection connection;
+	
+	public static Connection getConnection() {
+		
+	}
+}

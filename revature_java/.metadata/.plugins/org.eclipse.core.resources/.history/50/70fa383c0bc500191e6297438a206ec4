@@ -1,0 +1,27 @@
+package validation;
+
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
+public class ValidateDate {
+
+	public static void main(String[] args) {
+		
+		String s="32-13-2000";
+		
+		SimpleDateFormat sdf=new SimpleDateFormat("dd-MM-yyyy");
+		
+		//public Date parse(Stringobject) throws ParseException
+		
+		Date d=null;
+		
+		try {
+			d=sdf.parse(s);
+			System.out.println("Valid date "+d);
+		} catch (ParseException e) {
+			System.out.println("Invalid date entered");
+		}
+	}
+
+}

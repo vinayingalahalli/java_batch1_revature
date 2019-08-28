@@ -1,7 +1,0 @@
-package runnable_demo;
-
-public class RunnableMain {
-public static void main(String[] args) {
-	
-}
-}

@@ -1,0 +1,16 @@
+package insert_demo;
+
+import java.util.Scanner;
+
+public class InsertMain {
+
+	public static void main(String[] args) {
+		
+		Scanner scanner=new Scanner(System.in);
+		
+		System.out.println("Enter manufacturer id ");
+		int mid=scanner.nextInt();
+		System.out.println("Enter ");
+	}
+
+}
