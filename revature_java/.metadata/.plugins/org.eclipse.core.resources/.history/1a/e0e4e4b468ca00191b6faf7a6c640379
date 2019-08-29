@@ -1,0 +1,5 @@
+package callable_demo;
+
+public interface ProductDAO {
+
+}

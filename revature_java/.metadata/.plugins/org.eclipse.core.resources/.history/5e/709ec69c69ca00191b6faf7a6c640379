@@ -1,0 +1,13 @@
+package callable_demo;
+
+import insert_demo.BusinessException;
+
+public class ProductDaoImpl implements ProductDAO {
+
+	@Override
+	public Product registerProduct(Product product) throws BusinessException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}
