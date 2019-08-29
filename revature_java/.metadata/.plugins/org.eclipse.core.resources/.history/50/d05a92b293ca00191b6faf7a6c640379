@@ -1,0 +1,53 @@
+package com.search.dao.impl;
+
+import java.util.List;
+
+import com.search.dao.SearchDAO;
+import com.search.exceptions.BusinessException;
+import com.search.model.Product;
+
+public class SearchDaoImpl implements SearchDAO{
+
+	@Override
+	public Product getProductById(int id) throws BusinessException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Product> getProductsByName(String name) throws BusinessException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Product> getProductsByPrice(double price) throws BusinessException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Product> getProductsByRating(float rating) throws BusinessException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Product> getProductsByManufacturedDate(String date) throws BusinessException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Product> getProductsByManufacturerName(int mid) throws BusinessException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Product> getAllProducts() throws BusinessException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

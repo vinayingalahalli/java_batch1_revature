@@ -1,0 +1,9 @@
+package com.search.service;
+
+import com.search.exceptions.BusinessException;
+import com.search.model.Product;
+
+public interface SearchService {
+
+	public Product getProductById(int id) throws BusinessException;
+}

@@ -1,0 +1,5 @@
+package com.search.service.impl;
+
+public class SearchServiceImpl {
+
+}

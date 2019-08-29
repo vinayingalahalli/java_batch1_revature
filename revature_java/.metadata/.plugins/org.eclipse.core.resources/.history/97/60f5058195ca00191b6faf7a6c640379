@@ -1,0 +1,87 @@
+package com.search.dao.impl;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.util.List;
+
+import com.dbutil.OracleConnection;
+import com.search.dao.SearchDAO;
+import com.search.exceptions.BusinessException;
+import com.search.model.Manufacturer;
+import com.search.model.Product;
+
+public class SearchDaoImpl implements SearchDAO{
+
+	@Override
+	public Product getProductById(int id) throws BusinessException {
+		Product product = null;
+		try(Connection connection=OracleConnection.getConnection()){
+			String sql="select p.name as product_name,p.price,p.ratings,p.manufactured_date,m.name as manufacturer_name,p.mid "
+					+ "from products p join manufacturers m on m.mid=p.mid "
+					+ "where p.id=?";
+			PreparedStatement preparedStatement=connection.prepareStatement(sql);
+			preparedStatement.setInt(1, id);
+			ResultSet resultSet=preparedStatement.executeQuery();
+			if(resultSet.next()) {
+				product=new Product();
+				product.setId(id);
+				product.setName(resultSet.getString("product_name"));
+				product.setManufactured_date(resultSet.getDate("manufactured_date"));
+				product.setRatings(resultSet.getFloat("ratings"));
+				product.setPrice(resultSet.getDouble("price"));
+				Manufacturer m=new Manufacturer();
+				m.setMid(resultSet.getInt("mid"));
+				m.setName(resultSet.getString("manufacturer_name"));
+				product.setManufacturer(m);
+			}else {
+				throw new BusinessException("Product with id = "+id+" not found");
+			}
+		} catch (ClassNotFoundException | SQLException e) {
+			//System.out.println(e);
+			throw new BusinessException("Internal Error....SYSADMIn is working on that");
+		}
+		
+		
+		
+		return product;
+	}
+
+	@Override
+	public List<Product> getProductsByName(String name) throws BusinessException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Product> getProductsByPrice(double price) throws BusinessException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Product> getProductsByRating(float rating) throws BusinessException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Product> getProductsByManufacturedDate(String date) throws BusinessException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Product> getProductsByManufacturerName(int mid) throws BusinessException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Product> getAllProducts() throws BusinessException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

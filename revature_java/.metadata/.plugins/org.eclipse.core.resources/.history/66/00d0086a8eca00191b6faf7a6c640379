@@ -1,0 +1,13 @@
+package com.search.main;
+
+import org.apache.log4j.Logger;
+
+public class SearchMain {
+
+	private static final Logger log=Logger.getLogger(SearchMain.class);
+	public static void main(String[] args) {
+		
+
+	}
+
+}

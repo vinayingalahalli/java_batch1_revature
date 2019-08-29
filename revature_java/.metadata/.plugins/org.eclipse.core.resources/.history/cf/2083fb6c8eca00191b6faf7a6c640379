@@ -1,0 +1,17 @@
+package com.search.main;
+
+import java.util.Scanner;
+
+import org.apache.log4j.Logger;
+
+public class SearchMain {
+
+	private static final Logger log=Logger.getLogger(SearchMain.class);
+	public static void main(String[] args) {
+		Scanner scanner=new Scanner(Sysytem.in);
+		
+
+	}
+
+}
+

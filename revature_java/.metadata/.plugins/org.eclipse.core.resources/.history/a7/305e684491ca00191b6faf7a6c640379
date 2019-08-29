@@ -1,0 +1,6 @@
+package com.search.service;
+
+public interface SearchService {
+
+	public Produc
+}

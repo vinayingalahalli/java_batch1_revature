@@ -1,0 +1,468 @@
+2019-08-30 00:34:13 INFO  SearchMain:13 - Welcome to Search App V1.0
+2019-08-30 00:34:13 INFO  SearchMain:14 - --------------------------------------------
+2019-08-30 00:34:13 INFO  SearchMain:17 - Search Products By Below Options
+2019-08-30 00:34:13 INFO  SearchMain:18 - 1)By Id
+2019-08-30 00:34:13 INFO  SearchMain:19 - 2)By Name
+2019-08-30 00:34:13 INFO  SearchMain:20 - 3)By Price
+2019-08-30 00:34:13 INFO  SearchMain:21 - 4)By Rating
+2019-08-30 00:34:13 INFO  SearchMain:22 - 5)By Manufacturer Name
+2019-08-30 00:34:13 INFO  SearchMain:23 - 6)By Manufacturer Date
+2019-08-30 00:34:13 INFO  SearchMain:24 - 7)EXIT
+2019-08-30 00:34:13 INFO  SearchMain:25 - Enter your choice(1-7)
+2019-08-30 00:34:16 INFO  SearchMain:64 - Choice SHould be numbers(1-7) only
+2019-08-30 00:34:16 INFO  SearchMain:17 - Search Products By Below Options
+2019-08-30 00:34:16 INFO  SearchMain:18 - 1)By Id
+2019-08-30 00:34:16 INFO  SearchMain:19 - 2)By Name
+2019-08-30 00:34:16 INFO  SearchMain:20 - 3)By Price
+2019-08-30 00:34:16 INFO  SearchMain:21 - 4)By Rating
+2019-08-30 00:34:16 INFO  SearchMain:22 - 5)By Manufacturer Name
+2019-08-30 00:34:16 INFO  SearchMain:23 - 6)By Manufacturer Date
+2019-08-30 00:34:16 INFO  SearchMain:24 - 7)EXIT
+2019-08-30 00:34:16 INFO  SearchMain:25 - Enter your choice(1-7)
+2019-08-30 00:34:28 INFO  SearchMain:64 - Choice SHould be numbers(1-7) only
+2019-08-30 00:34:28 INFO  SearchMain:17 - Search Products By Below Options
+2019-08-30 00:34:28 INFO  SearchMain:18 - 1)By Id
+2019-08-30 00:34:28 INFO  SearchMain:19 - 2)By Name
+2019-08-30 00:34:28 INFO  SearchMain:20 - 3)By Price
+2019-08-30 00:34:28 INFO  SearchMain:21 - 4)By Rating
+2019-08-30 00:34:28 INFO  SearchMain:22 - 5)By Manufacturer Name
+2019-08-30 00:34:28 INFO  SearchMain:23 - 6)By Manufacturer Date
+2019-08-30 00:34:28 INFO  SearchMain:24 - 7)EXIT
+2019-08-30 00:34:28 INFO  SearchMain:25 - Enter your choice(1-7)
+2019-08-30 00:35:35 INFO  SearchMain:30 - Under Construction
+2019-08-30 00:35:35 INFO  SearchMain:17 - Search Products By Below Options
+2019-08-30 00:35:35 INFO  SearchMain:18 - 1)By Id
+2019-08-30 00:35:35 INFO  SearchMain:19 - 2)By Name
+2019-08-30 00:35:35 INFO  SearchMain:20 - 3)By Price
+2019-08-30 00:35:35 INFO  SearchMain:21 - 4)By Rating
+2019-08-30 00:35:35 INFO  SearchMain:22 - 5)By Manufacturer Name
+2019-08-30 00:35:35 INFO  SearchMain:23 - 6)By Manufacturer Date
+2019-08-30 00:35:35 INFO  SearchMain:24 - 7)EXIT
+2019-08-30 00:35:35 INFO  SearchMain:25 - Enter your choice(1-7)
+2019-08-30 00:35:43 INFO  SearchMain:34 - Under Construction
+2019-08-30 00:35:43 INFO  SearchMain:17 - Search Products By Below Options
+2019-08-30 00:35:43 INFO  SearchMain:18 - 1)By Id
+2019-08-30 00:35:43 INFO  SearchMain:19 - 2)By Name
+2019-08-30 00:35:43 INFO  SearchMain:20 - 3)By Price
+2019-08-30 00:35:43 INFO  SearchMain:21 - 4)By Rating
+2019-08-30 00:35:43 INFO  SearchMain:22 - 5)By Manufacturer Name
+2019-08-30 00:35:43 INFO  SearchMain:23 - 6)By Manufacturer Date
+2019-08-30 00:35:43 INFO  SearchMain:24 - 7)EXIT
+2019-08-30 00:35:43 INFO  SearchMain:25 - Enter your choice(1-7)
+2019-08-30 00:35:46 INFO  SearchMain:38 - Under Construction
+2019-08-30 00:35:46 INFO  SearchMain:17 - Search Products By Below Options
+2019-08-30 00:35:46 INFO  SearchMain:18 - 1)By Id
+2019-08-30 00:35:46 INFO  SearchMain:19 - 2)By Name
+2019-08-30 00:35:46 INFO  SearchMain:20 - 3)By Price
+2019-08-30 00:35:46 INFO  SearchMain:21 - 4)By Rating
+2019-08-30 00:35:46 INFO  SearchMain:22 - 5)By Manufacturer Name
+2019-08-30 00:35:46 INFO  SearchMain:23 - 6)By Manufacturer Date
+2019-08-30 00:35:46 INFO  SearchMain:24 - 7)EXIT
+2019-08-30 00:35:46 INFO  SearchMain:25 - Enter your choice(1-7)
+2019-08-30 00:36:01 INFO  SearchMain:55 - Thank you for using our APP.......
+2019-08-30 01:22:38 INFO  SearchMain:18 - Welcome to Search App V1.0
+2019-08-30 01:22:38 INFO  SearchMain:19 - --------------------------------------------
+2019-08-30 01:22:38 INFO  SearchMain:23 - Search Products By Below Options
+2019-08-30 01:22:38 INFO  SearchMain:24 - 1)By Id
+2019-08-30 01:22:38 INFO  SearchMain:25 - 2)By Name
+2019-08-30 01:22:38 INFO  SearchMain:26 - 3)By Price
+2019-08-30 01:22:38 INFO  SearchMain:27 - 4)By Rating
+2019-08-30 01:22:38 INFO  SearchMain:28 - 5)By Manufacturer Name
+2019-08-30 01:22:38 INFO  SearchMain:29 - 6)By Manufacturer Date
+2019-08-30 01:22:38 INFO  SearchMain:30 - 7)Get All Products
+2019-08-30 01:22:38 INFO  SearchMain:31 - 8)EXIT
+2019-08-30 01:22:38 INFO  SearchMain:32 - Enter your choice(1-7)
+2019-08-30 01:23:00 INFO  SearchMain:88 - Choice SHould be numbers(1-7) only
+2019-08-30 01:23:00 INFO  SearchMain:23 - Search Products By Below Options
+2019-08-30 01:23:00 INFO  SearchMain:24 - 1)By Id
+2019-08-30 01:23:00 INFO  SearchMain:25 - 2)By Name
+2019-08-30 01:23:00 INFO  SearchMain:26 - 3)By Price
+2019-08-30 01:23:00 INFO  SearchMain:27 - 4)By Rating
+2019-08-30 01:23:00 INFO  SearchMain:28 - 5)By Manufacturer Name
+2019-08-30 01:23:00 INFO  SearchMain:29 - 6)By Manufacturer Date
+2019-08-30 01:23:00 INFO  SearchMain:30 - 7)Get All Products
+2019-08-30 01:23:00 INFO  SearchMain:31 - 8)EXIT
+2019-08-30 01:23:00 INFO  SearchMain:32 - Enter your choice(1-7)
+2019-08-30 01:23:04 INFO  SearchMain:88 - Choice SHould be numbers(1-7) only
+2019-08-30 01:23:04 INFO  SearchMain:23 - Search Products By Below Options
+2019-08-30 01:23:04 INFO  SearchMain:24 - 1)By Id
+2019-08-30 01:23:04 INFO  SearchMain:25 - 2)By Name
+2019-08-30 01:23:04 INFO  SearchMain:26 - 3)By Price
+2019-08-30 01:23:04 INFO  SearchMain:27 - 4)By Rating
+2019-08-30 01:23:04 INFO  SearchMain:28 - 5)By Manufacturer Name
+2019-08-30 01:23:04 INFO  SearchMain:29 - 6)By Manufacturer Date
+2019-08-30 01:23:04 INFO  SearchMain:30 - 7)Get All Products
+2019-08-30 01:23:04 INFO  SearchMain:31 - 8)EXIT
+2019-08-30 01:23:04 INFO  SearchMain:32 - Enter your choice(1-7)
+2019-08-30 01:23:08 INFO  SearchMain:88 - Choice SHould be numbers(1-7) only
+2019-08-30 01:23:08 INFO  SearchMain:23 - Search Products By Below Options
+2019-08-30 01:23:08 INFO  SearchMain:24 - 1)By Id
+2019-08-30 01:23:08 INFO  SearchMain:25 - 2)By Name
+2019-08-30 01:23:08 INFO  SearchMain:26 - 3)By Price
+2019-08-30 01:23:08 INFO  SearchMain:27 - 4)By Rating
+2019-08-30 01:23:08 INFO  SearchMain:28 - 5)By Manufacturer Name
+2019-08-30 01:23:08 INFO  SearchMain:29 - 6)By Manufacturer Date
+2019-08-30 01:23:08 INFO  SearchMain:30 - 7)Get All Products
+2019-08-30 01:23:08 INFO  SearchMain:31 - 8)EXIT
+2019-08-30 01:23:08 INFO  SearchMain:32 - Enter your choice(1-7)
+2019-08-30 01:23:10 INFO  SearchMain:37 - Enter Product Id
+2019-08-30 01:23:12 INFO  SearchMain:47 - Product should be integer only
+2019-08-30 01:23:12 INFO  SearchMain:23 - Search Products By Below Options
+2019-08-30 01:23:12 INFO  SearchMain:24 - 1)By Id
+2019-08-30 01:23:12 INFO  SearchMain:25 - 2)By Name
+2019-08-30 01:23:12 INFO  SearchMain:26 - 3)By Price
+2019-08-30 01:23:12 INFO  SearchMain:27 - 4)By Rating
+2019-08-30 01:23:12 INFO  SearchMain:28 - 5)By Manufacturer Name
+2019-08-30 01:23:12 INFO  SearchMain:29 - 6)By Manufacturer Date
+2019-08-30 01:23:12 INFO  SearchMain:30 - 7)Get All Products
+2019-08-30 01:23:12 INFO  SearchMain:31 - 8)EXIT
+2019-08-30 01:23:12 INFO  SearchMain:32 - Enter your choice(1-7)
+2019-08-30 01:23:21 INFO  SearchMain:37 - Enter Product Id
+2019-08-30 01:23:28 INFO  SearchMain:49 - Product with id = 1000 Invalid
+2019-08-30 01:23:28 INFO  SearchMain:23 - Search Products By Below Options
+2019-08-30 01:23:28 INFO  SearchMain:24 - 1)By Id
+2019-08-30 01:23:28 INFO  SearchMain:25 - 2)By Name
+2019-08-30 01:23:28 INFO  SearchMain:26 - 3)By Price
+2019-08-30 01:23:28 INFO  SearchMain:27 - 4)By Rating
+2019-08-30 01:23:28 INFO  SearchMain:28 - 5)By Manufacturer Name
+2019-08-30 01:23:28 INFO  SearchMain:29 - 6)By Manufacturer Date
+2019-08-30 01:23:28 INFO  SearchMain:30 - 7)Get All Products
+2019-08-30 01:23:28 INFO  SearchMain:31 - 8)EXIT
+2019-08-30 01:23:28 INFO  SearchMain:32 - Enter your choice(1-7)
+2019-08-30 01:23:37 INFO  SearchMain:37 - Enter Product Id
+2019-08-30 01:23:52 INFO  SearchMain:43 - Product Found with details below
+2019-08-30 01:23:52 INFO  SearchMain:44 - Product [id=9000, name=Car, price=12000.22, ratings=4.5, manufactured_date=2018-10-12, manufacturer=Manufacturer [mid=103, name=Jeep, city=null, contact=0]]
+2019-08-30 01:23:52 INFO  SearchMain:23 - Search Products By Below Options
+2019-08-30 01:23:52 INFO  SearchMain:24 - 1)By Id
+2019-08-30 01:23:52 INFO  SearchMain:25 - 2)By Name
+2019-08-30 01:23:52 INFO  SearchMain:26 - 3)By Price
+2019-08-30 01:23:52 INFO  SearchMain:27 - 4)By Rating
+2019-08-30 01:23:52 INFO  SearchMain:28 - 5)By Manufacturer Name
+2019-08-30 01:23:52 INFO  SearchMain:29 - 6)By Manufacturer Date
+2019-08-30 01:23:52 INFO  SearchMain:30 - 7)Get All Products
+2019-08-30 01:23:52 INFO  SearchMain:31 - 8)EXIT
+2019-08-30 01:23:52 INFO  SearchMain:32 - Enter your choice(1-7)
+2019-08-30 01:24:22 INFO  SearchMain:37 - Enter Product Id
+2019-08-30 01:24:25 INFO  SearchMain:49 - Product with id = 9999 not found
+2019-08-30 01:24:25 INFO  SearchMain:23 - Search Products By Below Options
+2019-08-30 01:24:25 INFO  SearchMain:24 - 1)By Id
+2019-08-30 01:24:25 INFO  SearchMain:25 - 2)By Name
+2019-08-30 01:24:25 INFO  SearchMain:26 - 3)By Price
+2019-08-30 01:24:25 INFO  SearchMain:27 - 4)By Rating
+2019-08-30 01:24:25 INFO  SearchMain:28 - 5)By Manufacturer Name
+2019-08-30 01:24:25 INFO  SearchMain:29 - 6)By Manufacturer Date
+2019-08-30 01:24:25 INFO  SearchMain:30 - 7)Get All Products
+2019-08-30 01:24:25 INFO  SearchMain:31 - 8)EXIT
+2019-08-30 01:24:25 INFO  SearchMain:32 - Enter your choice(1-7)
+2019-08-30 01:26:14 INFO  SearchMain:79 - Thank you for using our APP.......
+2019-08-30 02:08:57 INFO  SearchMain:21 - Welcome to Search App V1.0
+2019-08-30 02:08:57 INFO  SearchMain:22 - --------------------------------------------
+2019-08-30 02:08:57 INFO  SearchMain:26 - Search Products By Below Options
+2019-08-30 02:08:57 INFO  SearchMain:27 - 1)By Id
+2019-08-30 02:08:57 INFO  SearchMain:28 - 2)By Name
+2019-08-30 02:08:57 INFO  SearchMain:29 - 3)By Price
+2019-08-30 02:08:57 INFO  SearchMain:30 - 4)By Rating
+2019-08-30 02:08:57 INFO  SearchMain:31 - 5)By Manufacturer Name
+2019-08-30 02:08:57 INFO  SearchMain:32 - 6)By Manufacturer Date
+2019-08-30 02:08:57 INFO  SearchMain:33 - 7)Get All Products
+2019-08-30 02:08:57 INFO  SearchMain:34 - 8)EXIT
+2019-08-30 02:08:57 INFO  SearchMain:35 - Enter your choice(1-7)
+2019-08-30 02:09:05 INFO  SearchMain:74 - 1)Hyundai
+2019-08-30 02:09:05 INFO  SearchMain:74 - 2)Nike
+2019-08-30 02:09:05 INFO  SearchMain:74 - 3)Philips
+2019-08-30 02:09:05 INFO  SearchMain:74 - 4)Louie Philipe
+2019-08-30 02:09:05 INFO  SearchMain:74 - 5)Sony
+2019-08-30 02:09:05 INFO  SearchMain:74 - 6)Jeep
+2019-08-30 02:09:05 INFO  SearchMain:74 - 7)Mcd
+2019-08-30 02:09:05 INFO  SearchMain:76 - Please enter a valid option number to get the products
+2019-08-30 02:09:17 INFO  SearchMain:113 - Choice SHould be numbers(1-7) only
+2019-08-30 02:09:17 INFO  SearchMain:26 - Search Products By Below Options
+2019-08-30 02:09:17 INFO  SearchMain:27 - 1)By Id
+2019-08-30 02:09:17 INFO  SearchMain:28 - 2)By Name
+2019-08-30 02:09:17 INFO  SearchMain:29 - 3)By Price
+2019-08-30 02:09:17 INFO  SearchMain:30 - 4)By Rating
+2019-08-30 02:09:17 INFO  SearchMain:31 - 5)By Manufacturer Name
+2019-08-30 02:09:17 INFO  SearchMain:32 - 6)By Manufacturer Date
+2019-08-30 02:09:17 INFO  SearchMain:33 - 7)Get All Products
+2019-08-30 02:09:17 INFO  SearchMain:34 - 8)EXIT
+2019-08-30 02:09:17 INFO  SearchMain:35 - Enter your choice(1-7)
+2019-08-30 02:09:33 INFO  SearchMain:74 - 1)Hyundai
+2019-08-30 02:09:33 INFO  SearchMain:74 - 2)Nike
+2019-08-30 02:09:33 INFO  SearchMain:74 - 3)Philips
+2019-08-30 02:09:33 INFO  SearchMain:74 - 4)Louie Philipe
+2019-08-30 02:09:33 INFO  SearchMain:74 - 5)Sony
+2019-08-30 02:09:33 INFO  SearchMain:74 - 6)Jeep
+2019-08-30 02:09:33 INFO  SearchMain:74 - 7)Mcd
+2019-08-30 02:09:33 INFO  SearchMain:76 - Please enter a valid option number to get the products
+2019-08-30 02:09:39 INFO  SearchMain:91 - Invalid Option
+2019-08-30 02:09:39 INFO  SearchMain:26 - Search Products By Below Options
+2019-08-30 02:09:39 INFO  SearchMain:27 - 1)By Id
+2019-08-30 02:09:39 INFO  SearchMain:28 - 2)By Name
+2019-08-30 02:09:39 INFO  SearchMain:29 - 3)By Price
+2019-08-30 02:09:39 INFO  SearchMain:30 - 4)By Rating
+2019-08-30 02:09:39 INFO  SearchMain:31 - 5)By Manufacturer Name
+2019-08-30 02:09:39 INFO  SearchMain:32 - 6)By Manufacturer Date
+2019-08-30 02:09:39 INFO  SearchMain:33 - 7)Get All Products
+2019-08-30 02:09:39 INFO  SearchMain:34 - 8)EXIT
+2019-08-30 02:09:39 INFO  SearchMain:35 - Enter your choice(1-7)
+2019-08-30 02:09:47 INFO  SearchMain:74 - 1)Hyundai
+2019-08-30 02:09:47 INFO  SearchMain:74 - 2)Nike
+2019-08-30 02:09:47 INFO  SearchMain:74 - 3)Philips
+2019-08-30 02:09:47 INFO  SearchMain:74 - 4)Louie Philipe
+2019-08-30 02:09:47 INFO  SearchMain:74 - 5)Sony
+2019-08-30 02:09:47 INFO  SearchMain:74 - 6)Jeep
+2019-08-30 02:09:47 INFO  SearchMain:74 - 7)Mcd
+2019-08-30 02:09:47 INFO  SearchMain:76 - Please enter a valid option number to get the products
+2019-08-30 02:09:53 INFO  SearchMain:83 - Total 3 no of product/s found manufactured by Nike
+2019-08-30 02:09:53 INFO  SearchMain:85 - Printing product/s
+2019-08-30 02:09:53 INFO  SearchMain:87 - Product [id=9003, name=Shirt, price=15.0, ratings=3.3, manufactured_date=2019-08-15, manufacturer=Manufacturer [mid=108, name=Nike, city=null, contact=0]]
+2019-08-30 02:09:53 INFO  SearchMain:87 - Product [id=9004, name=Shoes, price=10.22, ratings=4.9, manufactured_date=2019-08-01, manufacturer=Manufacturer [mid=108, name=Nike, city=null, contact=0]]
+2019-08-30 02:09:53 INFO  SearchMain:87 - Product [id=9103, name=coffee, price=12.22, ratings=4.6, manufactured_date=2018-10-12, manufacturer=Manufacturer [mid=108, name=Nike, city=null, contact=0]]
+2019-08-30 02:09:53 INFO  SearchMain:26 - Search Products By Below Options
+2019-08-30 02:09:53 INFO  SearchMain:27 - 1)By Id
+2019-08-30 02:09:53 INFO  SearchMain:28 - 2)By Name
+2019-08-30 02:09:53 INFO  SearchMain:29 - 3)By Price
+2019-08-30 02:09:53 INFO  SearchMain:30 - 4)By Rating
+2019-08-30 02:09:53 INFO  SearchMain:31 - 5)By Manufacturer Name
+2019-08-30 02:09:53 INFO  SearchMain:32 - 6)By Manufacturer Date
+2019-08-30 02:09:53 INFO  SearchMain:33 - 7)Get All Products
+2019-08-30 02:09:53 INFO  SearchMain:34 - 8)EXIT
+2019-08-30 02:09:53 INFO  SearchMain:35 - Enter your choice(1-7)
+2019-08-30 02:10:15 INFO  SearchMain:74 - 1)Hyundai
+2019-08-30 02:10:15 INFO  SearchMain:74 - 2)Nike
+2019-08-30 02:10:15 INFO  SearchMain:74 - 3)Philips
+2019-08-30 02:10:15 INFO  SearchMain:74 - 4)Louie Philipe
+2019-08-30 02:10:15 INFO  SearchMain:74 - 5)Sony
+2019-08-30 02:10:15 INFO  SearchMain:74 - 6)Jeep
+2019-08-30 02:10:15 INFO  SearchMain:74 - 7)Mcd
+2019-08-30 02:10:15 INFO  SearchMain:76 - Please enter a valid option number to get the products
+2019-08-30 02:10:18 INFO  SearchMain:91 - Invalid Option
+2019-08-30 02:10:18 INFO  SearchMain:26 - Search Products By Below Options
+2019-08-30 02:10:18 INFO  SearchMain:27 - 1)By Id
+2019-08-30 02:10:18 INFO  SearchMain:28 - 2)By Name
+2019-08-30 02:10:18 INFO  SearchMain:29 - 3)By Price
+2019-08-30 02:10:18 INFO  SearchMain:30 - 4)By Rating
+2019-08-30 02:10:18 INFO  SearchMain:31 - 5)By Manufacturer Name
+2019-08-30 02:10:18 INFO  SearchMain:32 - 6)By Manufacturer Date
+2019-08-30 02:10:18 INFO  SearchMain:33 - 7)Get All Products
+2019-08-30 02:10:18 INFO  SearchMain:34 - 8)EXIT
+2019-08-30 02:10:18 INFO  SearchMain:35 - Enter your choice(1-7)
+2019-08-30 02:10:28 INFO  SearchMain:74 - 1)Hyundai
+2019-08-30 02:10:28 INFO  SearchMain:74 - 2)Nike
+2019-08-30 02:10:28 INFO  SearchMain:74 - 3)Philips
+2019-08-30 02:10:28 INFO  SearchMain:74 - 4)Louie Philipe
+2019-08-30 02:10:28 INFO  SearchMain:74 - 5)Sony
+2019-08-30 02:10:28 INFO  SearchMain:74 - 6)Jeep
+2019-08-30 02:10:28 INFO  SearchMain:74 - 7)Mcd
+2019-08-30 02:10:28 INFO  SearchMain:76 - Please enter a valid option number to get the products
+2019-08-30 02:10:31 INFO  SearchMain:83 - Total 1 no of product/s found manufactured by Jeep
+2019-08-30 02:10:32 INFO  SearchMain:85 - Printing product/s
+2019-08-30 02:10:32 INFO  SearchMain:87 - Product [id=9000, name=Car, price=12000.22, ratings=4.5, manufactured_date=2018-10-12, manufacturer=Manufacturer [mid=103, name=Jeep, city=null, contact=0]]
+2019-08-30 02:10:32 INFO  SearchMain:26 - Search Products By Below Options
+2019-08-30 02:10:32 INFO  SearchMain:27 - 1)By Id
+2019-08-30 02:10:32 INFO  SearchMain:28 - 2)By Name
+2019-08-30 02:10:32 INFO  SearchMain:29 - 3)By Price
+2019-08-30 02:10:32 INFO  SearchMain:30 - 4)By Rating
+2019-08-30 02:10:32 INFO  SearchMain:31 - 5)By Manufacturer Name
+2019-08-30 02:10:32 INFO  SearchMain:32 - 6)By Manufacturer Date
+2019-08-30 02:10:32 INFO  SearchMain:33 - 7)Get All Products
+2019-08-30 02:10:32 INFO  SearchMain:34 - 8)EXIT
+2019-08-30 02:10:32 INFO  SearchMain:35 - Enter your choice(1-7)
+2019-08-30 02:10:37 INFO  SearchMain:104 - Thank you for using our APP.......
+2019-08-30 02:10:50 INFO  SearchMain:21 - Welcome to Search App V1.0
+2019-08-30 02:10:50 INFO  SearchMain:22 - --------------------------------------------
+2019-08-30 02:10:50 INFO  SearchMain:26 - Search Products By Below Options
+2019-08-30 02:10:50 INFO  SearchMain:27 - 1)By Id
+2019-08-30 02:10:50 INFO  SearchMain:28 - 2)By Name
+2019-08-30 02:10:50 INFO  SearchMain:29 - 3)By Price
+2019-08-30 02:10:50 INFO  SearchMain:30 - 4)By Rating
+2019-08-30 02:10:50 INFO  SearchMain:31 - 5)By Manufacturer Name
+2019-08-30 02:10:50 INFO  SearchMain:32 - 6)By Manufacturer Date
+2019-08-30 02:10:50 INFO  SearchMain:33 - 7)Get All Products
+2019-08-30 02:10:50 INFO  SearchMain:34 - 8)EXIT
+2019-08-30 02:10:50 INFO  SearchMain:35 - Enter your choice(1-7)
+2019-08-30 02:10:56 INFO  SearchMain:74 - 1)Hyundai
+2019-08-30 02:10:56 INFO  SearchMain:74 - 2)Nike
+2019-08-30 02:10:56 INFO  SearchMain:74 - 3)Philips
+2019-08-30 02:10:56 INFO  SearchMain:74 - 4)Louie Philipe
+2019-08-30 02:10:56 INFO  SearchMain:74 - 5)Sony
+2019-08-30 02:10:56 INFO  SearchMain:74 - 6)Jeep
+2019-08-30 02:10:56 INFO  SearchMain:74 - 7)Mcd
+2019-08-30 02:10:56 INFO  SearchMain:76 - Please enter a valid option number to get the products
+2019-08-30 02:11:02 INFO  SearchMain:91 - Product not found for the manufacturer = 
+2019-08-30 02:11:02 INFO  SearchMain:26 - Search Products By Below Options
+2019-08-30 02:11:02 INFO  SearchMain:27 - 1)By Id
+2019-08-30 02:11:02 INFO  SearchMain:28 - 2)By Name
+2019-08-30 02:11:02 INFO  SearchMain:29 - 3)By Price
+2019-08-30 02:11:02 INFO  SearchMain:30 - 4)By Rating
+2019-08-30 02:11:02 INFO  SearchMain:31 - 5)By Manufacturer Name
+2019-08-30 02:11:02 INFO  SearchMain:32 - 6)By Manufacturer Date
+2019-08-30 02:11:02 INFO  SearchMain:33 - 7)Get All Products
+2019-08-30 02:11:02 INFO  SearchMain:34 - 8)EXIT
+2019-08-30 02:11:02 INFO  SearchMain:35 - Enter your choice(1-7)
+2019-08-30 02:11:38 INFO  SearchMain:57 - Under Construction
+2019-08-30 02:11:38 INFO  SearchMain:26 - Search Products By Below Options
+2019-08-30 02:11:38 INFO  SearchMain:27 - 1)By Id
+2019-08-30 02:11:38 INFO  SearchMain:28 - 2)By Name
+2019-08-30 02:11:38 INFO  SearchMain:29 - 3)By Price
+2019-08-30 02:11:38 INFO  SearchMain:30 - 4)By Rating
+2019-08-30 02:11:38 INFO  SearchMain:31 - 5)By Manufacturer Name
+2019-08-30 02:11:38 INFO  SearchMain:32 - 6)By Manufacturer Date
+2019-08-30 02:11:38 INFO  SearchMain:33 - 7)Get All Products
+2019-08-30 02:11:38 INFO  SearchMain:34 - 8)EXIT
+2019-08-30 02:11:38 INFO  SearchMain:35 - Enter your choice(1-7)
+2019-08-30 02:11:42 INFO  SearchMain:74 - 1)Hyundai
+2019-08-30 02:11:42 INFO  SearchMain:74 - 2)Nike
+2019-08-30 02:11:42 INFO  SearchMain:74 - 3)Philips
+2019-08-30 02:11:42 INFO  SearchMain:74 - 4)Louie Philipe
+2019-08-30 02:11:42 INFO  SearchMain:74 - 5)Sony
+2019-08-30 02:11:42 INFO  SearchMain:74 - 6)Jeep
+2019-08-30 02:11:42 INFO  SearchMain:74 - 7)Mcd
+2019-08-30 02:11:42 INFO  SearchMain:76 - Please enter a valid option number to get the products
+2019-08-30 02:11:45 INFO  SearchMain:91 - Product not found for the manufacturer = 
+2019-08-30 02:11:45 INFO  SearchMain:26 - Search Products By Below Options
+2019-08-30 02:11:45 INFO  SearchMain:27 - 1)By Id
+2019-08-30 02:11:45 INFO  SearchMain:28 - 2)By Name
+2019-08-30 02:11:45 INFO  SearchMain:29 - 3)By Price
+2019-08-30 02:11:45 INFO  SearchMain:30 - 4)By Rating
+2019-08-30 02:11:45 INFO  SearchMain:31 - 5)By Manufacturer Name
+2019-08-30 02:11:45 INFO  SearchMain:32 - 6)By Manufacturer Date
+2019-08-30 02:11:45 INFO  SearchMain:33 - 7)Get All Products
+2019-08-30 02:11:45 INFO  SearchMain:34 - 8)EXIT
+2019-08-30 02:11:45 INFO  SearchMain:35 - Enter your choice(1-7)
+2019-08-30 02:12:00 INFO  SearchMain:104 - Thank you for using our APP.......
+2019-08-30 02:13:50 INFO  SearchMain:21 - Welcome to Search App V1.0
+2019-08-30 02:13:50 INFO  SearchMain:22 - --------------------------------------------
+2019-08-30 02:13:50 INFO  SearchMain:26 - Search Products By Below Options
+2019-08-30 02:13:50 INFO  SearchMain:27 - 1)By Id
+2019-08-30 02:13:50 INFO  SearchMain:28 - 2)By Name
+2019-08-30 02:13:50 INFO  SearchMain:29 - 3)By Price
+2019-08-30 02:13:50 INFO  SearchMain:30 - 4)By Rating
+2019-08-30 02:13:50 INFO  SearchMain:31 - 5)By Manufacturer Name
+2019-08-30 02:13:50 INFO  SearchMain:32 - 6)By Manufacturer Date
+2019-08-30 02:13:50 INFO  SearchMain:33 - 7)Get All Products
+2019-08-30 02:13:50 INFO  SearchMain:34 - 8)EXIT
+2019-08-30 02:13:50 INFO  SearchMain:35 - Enter your choice(1-7)
+2019-08-30 02:13:57 INFO  SearchMain:76 - 1)Hyundai
+2019-08-30 02:13:57 INFO  SearchMain:76 - 2)Nike
+2019-08-30 02:13:57 INFO  SearchMain:76 - 3)Philips
+2019-08-30 02:13:57 INFO  SearchMain:76 - 4)Louie Philipe
+2019-08-30 02:13:57 INFO  SearchMain:76 - 5)Sony
+2019-08-30 02:13:57 INFO  SearchMain:76 - 6)Jeep
+2019-08-30 02:13:57 INFO  SearchMain:76 - 7)Mcd
+2019-08-30 02:13:57 INFO  SearchMain:78 - Please enter a valid option number to get the products
+2019-08-30 02:14:00 INFO  SearchMain:93 - Product not found for the manufacturer = Mcd
+2019-08-30 02:14:00 INFO  SearchMain:26 - Search Products By Below Options
+2019-08-30 02:14:00 INFO  SearchMain:27 - 1)By Id
+2019-08-30 02:14:00 INFO  SearchMain:28 - 2)By Name
+2019-08-30 02:14:00 INFO  SearchMain:29 - 3)By Price
+2019-08-30 02:14:00 INFO  SearchMain:30 - 4)By Rating
+2019-08-30 02:14:00 INFO  SearchMain:31 - 5)By Manufacturer Name
+2019-08-30 02:14:00 INFO  SearchMain:32 - 6)By Manufacturer Date
+2019-08-30 02:14:00 INFO  SearchMain:33 - 7)Get All Products
+2019-08-30 02:14:00 INFO  SearchMain:34 - 8)EXIT
+2019-08-30 02:14:00 INFO  SearchMain:35 - Enter your choice(1-7)
+2019-08-30 02:14:26 INFO  SearchMain:106 - Thank you for using our APP.......
+2019-08-30 02:30:51 INFO  SearchMain:21 - Welcome to Search App V1.0
+2019-08-30 02:30:51 INFO  SearchMain:22 - --------------------------------------------
+2019-08-30 02:30:51 INFO  SearchMain:26 - Search Products By Below Options
+2019-08-30 02:30:51 INFO  SearchMain:27 - 1)By Id
+2019-08-30 02:30:51 INFO  SearchMain:28 - 2)By Name
+2019-08-30 02:30:51 INFO  SearchMain:29 - 3)By Price
+2019-08-30 02:30:51 INFO  SearchMain:30 - 4)By Rating
+2019-08-30 02:30:51 INFO  SearchMain:31 - 5)By Manufacturer Name
+2019-08-30 02:30:51 INFO  SearchMain:32 - 6)By Manufacturer Date
+2019-08-30 02:30:51 INFO  SearchMain:33 - 7)Get All Products
+2019-08-30 02:30:51 INFO  SearchMain:34 - 8)EXIT
+2019-08-30 02:30:51 INFO  SearchMain:35 - Enter your choice(1-7)
+2019-08-30 02:30:55 INFO  SearchMain:98 - Enter manufactured date in(dd.MM.yyyy) format please
+2019-08-30 02:30:56 INFO  SearchMain:110 - Date entered fsdfsd is invalid
+2019-08-30 02:30:56 INFO  SearchMain:26 - Search Products By Below Options
+2019-08-30 02:30:56 INFO  SearchMain:27 - 1)By Id
+2019-08-30 02:30:56 INFO  SearchMain:28 - 2)By Name
+2019-08-30 02:30:56 INFO  SearchMain:29 - 3)By Price
+2019-08-30 02:30:56 INFO  SearchMain:30 - 4)By Rating
+2019-08-30 02:30:56 INFO  SearchMain:31 - 5)By Manufacturer Name
+2019-08-30 02:30:56 INFO  SearchMain:32 - 6)By Manufacturer Date
+2019-08-30 02:30:56 INFO  SearchMain:33 - 7)Get All Products
+2019-08-30 02:30:56 INFO  SearchMain:34 - 8)EXIT
+2019-08-30 02:30:56 INFO  SearchMain:35 - Enter your choice(1-7)
+2019-08-30 02:31:07 INFO  SearchMain:98 - Enter manufactured date in(dd.MM.yyyy) format please
+2019-08-30 02:31:10 INFO  SearchMain:110 - Date entered 1.1.1 is invalid
+2019-08-30 02:31:10 INFO  SearchMain:26 - Search Products By Below Options
+2019-08-30 02:31:10 INFO  SearchMain:27 - 1)By Id
+2019-08-30 02:31:10 INFO  SearchMain:28 - 2)By Name
+2019-08-30 02:31:10 INFO  SearchMain:29 - 3)By Price
+2019-08-30 02:31:10 INFO  SearchMain:30 - 4)By Rating
+2019-08-30 02:31:10 INFO  SearchMain:31 - 5)By Manufacturer Name
+2019-08-30 02:31:10 INFO  SearchMain:32 - 6)By Manufacturer Date
+2019-08-30 02:31:10 INFO  SearchMain:33 - 7)Get All Products
+2019-08-30 02:31:10 INFO  SearchMain:34 - 8)EXIT
+2019-08-30 02:31:10 INFO  SearchMain:35 - Enter your choice(1-7)
+2019-08-30 02:31:17 INFO  SearchMain:98 - Enter manufactured date in(dd.MM.yyyy) format please
+2019-08-30 02:31:27 INFO  SearchMain:110 - Date entered 12.13.2000 is invalid
+2019-08-30 02:31:27 INFO  SearchMain:26 - Search Products By Below Options
+2019-08-30 02:31:27 INFO  SearchMain:27 - 1)By Id
+2019-08-30 02:31:27 INFO  SearchMain:28 - 2)By Name
+2019-08-30 02:31:27 INFO  SearchMain:29 - 3)By Price
+2019-08-30 02:31:27 INFO  SearchMain:30 - 4)By Rating
+2019-08-30 02:31:27 INFO  SearchMain:31 - 5)By Manufacturer Name
+2019-08-30 02:31:27 INFO  SearchMain:32 - 6)By Manufacturer Date
+2019-08-30 02:31:27 INFO  SearchMain:33 - 7)Get All Products
+2019-08-30 02:31:27 INFO  SearchMain:34 - 8)EXIT
+2019-08-30 02:31:27 INFO  SearchMain:35 - Enter your choice(1-7)
+2019-08-30 02:31:38 INFO  SearchMain:98 - Enter manufactured date in(dd.MM.yyyy) format please
+2019-08-30 02:31:48 INFO  SearchMain:110 - Product not found for the entered manfacturing date 20.10.2018
+2019-08-30 02:31:48 INFO  SearchMain:26 - Search Products By Below Options
+2019-08-30 02:31:48 INFO  SearchMain:27 - 1)By Id
+2019-08-30 02:31:48 INFO  SearchMain:28 - 2)By Name
+2019-08-30 02:31:48 INFO  SearchMain:29 - 3)By Price
+2019-08-30 02:31:48 INFO  SearchMain:30 - 4)By Rating
+2019-08-30 02:31:48 INFO  SearchMain:31 - 5)By Manufacturer Name
+2019-08-30 02:31:48 INFO  SearchMain:32 - 6)By Manufacturer Date
+2019-08-30 02:31:48 INFO  SearchMain:33 - 7)Get All Products
+2019-08-30 02:31:48 INFO  SearchMain:34 - 8)EXIT
+2019-08-30 02:31:48 INFO  SearchMain:35 - Enter your choice(1-7)
+2019-08-30 02:31:57 INFO  SearchMain:98 - Enter manufactured date in(dd.MM.yyyy) format please
+2019-08-30 02:32:08 INFO  SearchMain:110 - Product not found for the entered manfacturing date 10.09.2018
+2019-08-30 02:32:08 INFO  SearchMain:26 - Search Products By Below Options
+2019-08-30 02:32:08 INFO  SearchMain:27 - 1)By Id
+2019-08-30 02:32:08 INFO  SearchMain:28 - 2)By Name
+2019-08-30 02:32:08 INFO  SearchMain:29 - 3)By Price
+2019-08-30 02:32:08 INFO  SearchMain:30 - 4)By Rating
+2019-08-30 02:32:08 INFO  SearchMain:31 - 5)By Manufacturer Name
+2019-08-30 02:32:08 INFO  SearchMain:32 - 6)By Manufacturer Date
+2019-08-30 02:32:08 INFO  SearchMain:33 - 7)Get All Products
+2019-08-30 02:32:08 INFO  SearchMain:34 - 8)EXIT
+2019-08-30 02:32:08 INFO  SearchMain:35 - Enter your choice(1-7)
+2019-08-30 02:32:41 INFO  SearchMain:98 - Enter manufactured date in(dd.MM.yyyy) format please
+2019-08-30 02:32:49 INFO  SearchMain:103 - Total we have 1 no of product/s manufactured on  09.10.2018
+2019-08-30 02:32:49 INFO  SearchMain:104 - Printing product Details
+2019-08-30 02:32:49 INFO  SearchMain:106 - Product [id=9100, name=Mobile, price=134.44, ratings=4.4, manufactured_date=Tue Oct 09 00:00:00 IST 2018, manufacturer=Manufacturer [mid=104, name=Sony, city=null, contact=0]]
+2019-08-30 02:32:49 INFO  SearchMain:26 - Search Products By Below Options
+2019-08-30 02:32:49 INFO  SearchMain:27 - 1)By Id
+2019-08-30 02:32:49 INFO  SearchMain:28 - 2)By Name
+2019-08-30 02:32:49 INFO  SearchMain:29 - 3)By Price
+2019-08-30 02:32:49 INFO  SearchMain:30 - 4)By Rating
+2019-08-30 02:32:49 INFO  SearchMain:31 - 5)By Manufacturer Name
+2019-08-30 02:32:49 INFO  SearchMain:32 - 6)By Manufacturer Date
+2019-08-30 02:32:49 INFO  SearchMain:33 - 7)Get All Products
+2019-08-30 02:32:49 INFO  SearchMain:34 - 8)EXIT
+2019-08-30 02:32:49 INFO  SearchMain:35 - Enter your choice(1-7)
+2019-08-30 02:33:41 INFO  SearchMain:98 - Enter manufactured date in(dd.MM.yyyy) format please
+2019-08-30 02:33:46 INFO  SearchMain:103 - Total we have 3 no of product/s manufactured on  12.10.2018
+2019-08-30 02:33:46 INFO  SearchMain:104 - Printing product Details
+2019-08-30 02:33:46 INFO  SearchMain:106 - Product [id=9000, name=Car, price=12000.22, ratings=4.5, manufactured_date=Fri Oct 12 00:00:00 IST 2018, manufacturer=Manufacturer [mid=103, name=Jeep, city=null, contact=0]]
+2019-08-30 02:33:46 INFO  SearchMain:106 - Product [id=9102, name=Biscuits, price=1.0, ratings=4.4, manufactured_date=Fri Oct 12 00:00:00 IST 2018, manufacturer=Manufacturer [mid=105, name=Louie Philipe, city=null, contact=0]]
+2019-08-30 02:33:46 INFO  SearchMain:106 - Product [id=9103, name=coffee, price=12.22, ratings=4.6, manufactured_date=Fri Oct 12 00:00:00 IST 2018, manufacturer=Manufacturer [mid=108, name=Nike, city=null, contact=0]]
+2019-08-30 02:33:46 INFO  SearchMain:26 - Search Products By Below Options
+2019-08-30 02:33:46 INFO  SearchMain:27 - 1)By Id
+2019-08-30 02:33:46 INFO  SearchMain:28 - 2)By Name
+2019-08-30 02:33:46 INFO  SearchMain:29 - 3)By Price
+2019-08-30 02:33:46 INFO  SearchMain:30 - 4)By Rating
+2019-08-30 02:33:46 INFO  SearchMain:31 - 5)By Manufacturer Name
+2019-08-30 02:33:46 INFO  SearchMain:32 - 6)By Manufacturer Date
+2019-08-30 02:33:46 INFO  SearchMain:33 - 7)Get All Products
+2019-08-30 02:33:46 INFO  SearchMain:34 - 8)EXIT
+2019-08-30 02:33:46 INFO  SearchMain:35 - Enter your choice(1-7)
+2019-08-30 02:34:13 INFO  SearchMain:118 - Thank you for using our APP.......
