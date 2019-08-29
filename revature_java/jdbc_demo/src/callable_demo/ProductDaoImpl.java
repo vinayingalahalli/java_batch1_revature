@@ -18,7 +18,7 @@ public class ProductDaoImpl implements ProductDAO {
 			callableStatement.setString(2, product.getName());
 			callableStatement.setDouble(3, product.getPrice());
 			callableStatement.setFloat(4, product.getRatings());
-			callableStatement.setInt(5, product.getMid());
+			callableStatement.setInt(5, product.getManufacturer().getMid());
 			callableStatement.setDate(6, new java.sql.Date(product.getManufactured_date().getTime()));
 			callableStatement.registerOutParameter(1, java.sql.Types.NUMERIC);
 			
