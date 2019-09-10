@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>First Page</title>
+</head>
+<body>
+<h1>Welcome Page Configured</h1>
+<form action="">
+<input type="submit" value="CLick here for doGet()">
+</form>
+
+</body>
+</html>
