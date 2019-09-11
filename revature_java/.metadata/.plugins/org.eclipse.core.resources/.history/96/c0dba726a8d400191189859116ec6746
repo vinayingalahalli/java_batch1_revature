@@ -1,0 +1,25 @@
+package com.dao.impl;
+
+import java.sql.Connection;
+import java.sql.SQLException;
+
+import com.dao.LoginDAO;
+import com.dbutil.OracleConnection;
+import com.exceptions.BusinessException;
+import com.model.User;
+
+public class LoginDaoImpl implements LoginDAO {
+
+	@Override
+	public boolean isValidUser(User user) throws BusinessException {
+		boolean b=false;
+		try(Connection connection=OracleConnection.getConnection()){
+			
+		} catch (ClassNotFoundException | SQLException e) {
+			System.out.println(e); // should be commented at production
+			throw new BusinessException("Internal Error Occured... Please reach out support team.");
+		}
+		return b;
+	}
+
+}

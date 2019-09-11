@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy package &apos;com.dbutil&apos; to &apos;login_web_app/src&apos;&#x0D;&#x0A;- Original project: &apos;jdbc_demo&apos;&#x0D;&#x0A;- Destination element: &apos;login_web_app/src&apos;&#x0D;&#x0A;- Original element: &apos;jdbc_demo/src/com.dbutil&apos;" description="Copy package" destination="=login_web_app/src" element1="/src&lt;com.dbutil" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1568214252655" version="1.0"/>
+</session>

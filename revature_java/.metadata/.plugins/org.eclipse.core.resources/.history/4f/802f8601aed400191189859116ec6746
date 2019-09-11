@@ -1,0 +1,5 @@
+function isValidUser(){
+	let b=false;
+	
+	return b;
+}

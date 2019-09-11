@@ -1,5 +1,0 @@
-package insert_demo;
-
-public interface ManufacturerDAO {
-public Manufacturer registerManufacturer(Manufacturer manufacturer)
-}

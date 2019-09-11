@@ -1,8 +1,0 @@
-package com.search.service;
-
-import com.search.model.Product;
-
-public interface SearchService {
-
-	public Product getProductById(int id);
-}

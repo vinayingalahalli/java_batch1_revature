@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Login Page</title>
+</head>
+<body>
+<div align="center">
+	<h3><u>Login</u></h3>
+	<form action="login" method="post">
+	<table border="1px">
+	<tr>
+	<td><input type="text" name="userName" placeholder="Enter Username"/></td>
+	</tr>
+	<tr>
+	<td><input type="password" name="password" placeholder="Enter Password"/></td>
+	</tr>
+	<tr>
+	<td><input type="submit" value="Login"/></td>
+	</tr>
+	</table>
+	
+	</form>
+	<span id="errMessage" style="color: red;"></span>
+</div>
+</body>
+</html>

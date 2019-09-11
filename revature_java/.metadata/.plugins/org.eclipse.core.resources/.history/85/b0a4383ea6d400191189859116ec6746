@@ -1,0 +1,11 @@
+package com.model;
+
+public class User {
+private String userName;
+private String password;
+
+public User() {
+	// TODO Auto-generated constructor stub
+}
+
+}

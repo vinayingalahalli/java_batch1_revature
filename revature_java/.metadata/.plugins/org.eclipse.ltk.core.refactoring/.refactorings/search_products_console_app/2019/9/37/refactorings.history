@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy package &apos;com.search.exceptions&apos; to &apos;login_web_app/src&apos;&#x0D;&#x0A;- Original project: &apos;search_products_console_app&apos;&#x0D;&#x0A;- Destination element: &apos;login_web_app/src&apos;&#x0D;&#x0A;- Original element: &apos;search_products_console_app/src/com.search.exceptions&apos;" description="Copy package" destination="=login_web_app/src" element1="/src&lt;com.search.exceptions" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1568214286378" version="1.0"/>
+</session>
