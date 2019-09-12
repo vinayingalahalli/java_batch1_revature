@@ -1,0 +1,19 @@
+package com.model;
+
+public class User {
+
+	private int id;
+	private String lname;
+	private String fname;
+	private String city;
+	private String state;
+	private String country;
+	private String email;
+	private int age;
+	private long contact;
+	
+	public User() {
+		// TODO Auto-generated constructor stub
+	}
+	
+}

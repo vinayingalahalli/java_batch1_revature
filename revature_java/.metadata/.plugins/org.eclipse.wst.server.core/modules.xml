@@ -2,5 +2,7 @@
 <modules>
   <module moduleId="org.eclipse.jst.jee.server:my_servlet_app" serverId="Tomcat v8.0 Server at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:context_config_demo" serverId="Tomcat v8.0 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:session_demo" serverId="Tomcat v8.0 Server at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:login_web_app" serverId="Tomcat v8.0 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:cookie_demo" serverId="Tomcat v8.0 Server at localhost"/>
 </modules>

@@ -1,0 +1,15 @@
+127.0.0.1 - - [12/Sep/2019:20:04:51 +0530] "GET / HTTP/1.1" 404 994
+0:0:0:0:0:0:0:1 - - [12/Sep/2019:20:04:52 +0530] "GET /cookie_demo/ HTTP/1.1" 200 300
+0:0:0:0:0:0:0:1 - - [12/Sep/2019:20:04:57 +0530] "GET /cookie_demo/ HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [12/Sep/2019:20:05:06 +0530] "GET /cookie_demo/first?fname=Giri&lname=Kumar HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [12/Sep/2019:20:05:06 +0530] "GET /cookie_demo/two.html HTTP/1.1" 200 414
+0:0:0:0:0:0:0:1 - - [12/Sep/2019:20:05:23 +0530] "GET /cookie_demo/second?city=Hyderabad&state=AP&country=India&contact=1231231234 HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [12/Sep/2019:20:05:23 +0530] "GET /cookie_demo/three.html HTTP/1.1" 200 294
+0:0:0:0:0:0:0:1 - - [12/Sep/2019:20:05:33 +0530] "GET /cookie_demo/summary?age=22&email=giri%40gmail.com HTTP/1.1" 200 359
+0:0:0:0:0:0:0:1 - - [12/Sep/2019:20:15:45 +0530] "GET /cookie_demo/summary?age=22&email=giri%40gmail.com HTTP/1.1" 200 359
+127.0.0.1 - - [12/Sep/2019:20:47:15 +0530] "GET / HTTP/1.1" 404 994
+0:0:0:0:0:0:0:1 - - [12/Sep/2019:20:47:15 +0530] "GET /session_demo/second HTTP/1.1" 200 79
+0:0:0:0:0:0:0:1 - - [12/Sep/2019:20:47:32 +0530] "GET /session_demo/two.html HTTP/1.1" 200 414
+0:0:0:0:0:0:0:1 - - [12/Sep/2019:20:47:37 +0530] "GET /session_demo/second?city=&state=&country=&contact= HTTP/1.1" 200 79
+0:0:0:0:0:0:0:1 - - [12/Sep/2019:20:47:46 +0530] "GET /session_demo HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [12/Sep/2019:20:47:46 +0530] "GET /session_demo/ HTTP/1.1" 404 1020
