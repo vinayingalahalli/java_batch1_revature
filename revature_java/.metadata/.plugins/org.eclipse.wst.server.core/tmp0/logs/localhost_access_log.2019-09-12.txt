@@ -13,3 +13,14 @@
 0:0:0:0:0:0:0:1 - - [12/Sep/2019:20:47:37 +0530] "GET /session_demo/second?city=&state=&country=&contact= HTTP/1.1" 200 79
 0:0:0:0:0:0:0:1 - - [12/Sep/2019:20:47:46 +0530] "GET /session_demo HTTP/1.1" 302 -
 0:0:0:0:0:0:0:1 - - [12/Sep/2019:20:47:46 +0530] "GET /session_demo/ HTTP/1.1" 404 1020
+127.0.0.1 - - [12/Sep/2019:20:59:12 +0530] "GET / HTTP/1.1" 404 994
+0:0:0:0:0:0:0:1 - - [12/Sep/2019:20:59:13 +0530] "GET /session_demo/two.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [12/Sep/2019:20:59:16 +0530] "GET /session_demo/second?city=&state=&country=&contact= HTTP/1.1" 200 79
+0:0:0:0:0:0:0:1 - - [12/Sep/2019:20:59:19 +0530] "GET /session_demo HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [12/Sep/2019:20:59:19 +0530] "GET /session_demo/ HTTP/1.1" 200 300
+0:0:0:0:0:0:0:1 - - [12/Sep/2019:20:59:34 +0530] "GET /session_demo/first?fname=daniel&lname=nsalksdj HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [12/Sep/2019:20:59:55 +0530] "GET /session_demo/second?city=Dallas&state=TX&country=USA&contact=1212121212 HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [12/Sep/2019:20:59:55 +0530] "GET /session_demo/three.html HTTP/1.1" 200 294
+0:0:0:0:0:0:0:1 - - [12/Sep/2019:21:00:04 +0530] "GET /session_demo/summary?age=22&email=dan%40yahoomail.com HTTP/1.1" 200 308
+0:0:0:0:0:0:0:1 - - [12/Sep/2019:21:00:31 +0530] "GET /session_demo/summary?age=22&email=dan%40yahoomail.com HTTP/1.1" 200 79
+0:0:0:0:0:0:0:1 - - [12/Sep/2019:21:00:46 +0530] "GET /session_demo HTTP/1.1" 302 -
