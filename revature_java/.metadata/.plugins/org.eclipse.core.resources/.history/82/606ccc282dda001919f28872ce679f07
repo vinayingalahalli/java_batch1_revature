@@ -1,0 +1,13 @@
+package com.model;
+
+public class Player {
+
+	private int id;
+	private String name;
+	private int age;
+	private String team;
+	public Player() {
+		// TODO Auto-generated constructor stub
+	}
+	
+}
