@@ -1,0 +1,16 @@
+package com.model;
+
+import java.io.Serializable;
+
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+@Entity
+@Table
+public class Team implements Serializable {
+
+	private int teamid;
+	private String teamName;
+	private String coachName;
+	
+}

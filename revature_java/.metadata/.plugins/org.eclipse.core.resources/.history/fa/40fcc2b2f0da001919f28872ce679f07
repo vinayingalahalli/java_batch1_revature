@@ -1,0 +1,25 @@
+package com.model;
+
+import java.io.Serializable;
+
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Entity
+@Table
+public class Team implements Serializable {
+	
+	@Id
+	@GeneratedValue
+	private int teamid;
+	private String teamName;
+	private String coachName;
+	
+	public Team() {
+		// TODO Auto-generated constructor stub
+	}
+	
+	
+}
