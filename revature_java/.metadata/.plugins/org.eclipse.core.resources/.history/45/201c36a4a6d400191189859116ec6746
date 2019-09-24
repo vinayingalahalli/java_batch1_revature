@@ -1,8 +1,0 @@
-package com.dao;
-
-import com.exceptions.BusinessException;
-
-public interface LoginDAO {
-
-	public boolean isValidUser(User user)throws BusinessException;
-}

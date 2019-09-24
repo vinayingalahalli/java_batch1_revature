@@ -1,8 +1,0 @@
-function isValidUser(){
-	let b=false;
-	let message="";
-	const userName=document.getElementsByName("userName")[0].value;
-	const password=document.getElementsByName("password")[0].value;
-	
-	return b;
-}

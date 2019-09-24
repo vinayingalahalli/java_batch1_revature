@@ -1,7 +1,0 @@
-package com.dao.impl;
-
-import com.dao.LoginDAO;
-
-public class LoginDaoImpl implements LoginDAO {
-
-}

@@ -1,25 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="com.business.ProductBusiness"/>
-<fullyQualifiedTypeName name="com.business.impl.test.ProductBusinessImplTest"/>
-<fullyQualifiedTypeName name="com.business.impl.ProductBusinessImpl"/>
-<fullyQualifiedTypeName name="com.pojo.Product"/>
-<fullyQualifiedTypeName name="java.lang.Override"/>
-<fullyQualifiedTypeName name="extending_thread.MyThread"/>
-<fullyQualifiedTypeName name="runnable_demo.RunnableThread"/>
-<fullyQualifiedTypeName name="java.lang.Runnable"/>
-<fullyQualifiedTypeName name="java.lang.Thread"/>
-<fullyQualifiedTypeName name="synch_eg.MessageThread"/>
-<fullyQualifiedTypeName name="java.time.LocalDate"/>
-<fullyQualifiedTypeName name="java.time.format.DateTimeFormatter"/>
-<fullyQualifiedTypeName name="java.time.Period"/>
-<fullyQualifiedTypeName name="java.time.temporal.ChronoUnit"/>
-<fullyQualifiedTypeName name="java.sql.DriverManager"/>
-<fullyQualifiedTypeName name="java.sql.Statement"/>
-<fullyQualifiedTypeName name="java.sql.CallableStatement"/>
-<fullyQualifiedTypeName name="java.sql.Types"/>
-<fullyQualifiedTypeName name="callable_demo.Product"/>
-<fullyQualifiedTypeName name="callable_demo.ProductDAO"/>
 <fullyQualifiedTypeName name="callable_demo.ProductDaoImpl"/>
 <fullyQualifiedTypeName name="insert_demo.BusinessException"/>
 <fullyQualifiedTypeName name="insert_demo.ManufacturerDAO"/>
@@ -35,7 +15,6 @@
 <fullyQualifiedTypeName name="com.search.model.Manufacturer"/>
 <fullyQualifiedTypeName name="java.lang.Integer"/>
 <fullyQualifiedTypeName name="com.search.exceptions.BusinessException"/>
-<fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="com.search.model.Product"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="java.sql.Date"/>
@@ -60,4 +39,25 @@
 <fullyQualifiedTypeName name="java.io.PrintWriter"/>
 <fullyQualifiedTypeName name="com.model.User"/>
 <fullyQualifiedTypeName name="java.util.Date"/>
+<fullyQualifiedTypeName name="org.hibernate.cfg.Configuration"/>
+<fullyQualifiedTypeName name="org.hibernate.boot.registry.StandardServiceRegistryBuilder"/>
+<fullyQualifiedTypeName name="org.hibernate.SessionFactory"/>
+<fullyQualifiedTypeName name="org.hibernate.Session"/>
+<fullyQualifiedTypeName name="javax.transaction.Transaction"/>
+<fullyQualifiedTypeName name="org.hibernate.Transaction"/>
+<fullyQualifiedTypeName name="javax.annotation.Generated"/>
+<fullyQualifiedTypeName name="javax.persistence.GenerationType"/>
+<fullyQualifiedTypeName name="javax.persistence.Column"/>
+<fullyQualifiedTypeName name="java.io.Serializable"/>
+<fullyQualifiedTypeName name="javax.persistence.Entity"/>
+<fullyQualifiedTypeName name="javax.persistence.Table"/>
+<fullyQualifiedTypeName name="javax.persistence.GeneratedValue"/>
+<fullyQualifiedTypeName name="javax.persistence.Id"/>
+<fullyQualifiedTypeName name="javax.persistence.OneToOne"/>
+<fullyQualifiedTypeName name="javax.persistence.ForeignKey"/>
+<fullyQualifiedTypeName name="com.model.Team"/>
+<fullyQualifiedTypeName name="com.model.Player"/>
+<fullyQualifiedTypeName name="org.hibernate.Query"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="javax.persistence.FetchType"/>
 </qualifiedTypeNameHistroy>
