@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy package &apos;com.bootdemo.controller&apos; to &apos;demo-1/src/main/java&apos;&#x0D;&#x0A;- Original project: &apos;demo&apos;&#x0D;&#x0A;- Destination element: &apos;demo-1/src/main/java&apos;&#x0D;&#x0A;- Original element: &apos;demo/src/main/java/com.bootdemo.controller&apos;" description="Copy package" destination="=demo-1/src\/main\/java" element1="/src\/main\/java&lt;com.bootdemo.controller" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1569443746721" version="1.0"/>
+</session>

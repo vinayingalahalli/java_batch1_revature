@@ -1,0 +1,5 @@
+package com.bootdemo.controller;
+
+public class HelloController {
+
+}

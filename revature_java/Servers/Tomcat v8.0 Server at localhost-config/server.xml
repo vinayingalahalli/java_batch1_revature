@@ -124,7 +124,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="my_servlet_app" path="/my_servlet_app" reloadable="true" source="org.eclipse.jst.jee.server:my_servlet_app"/><Context docBase="context_config_demo" path="/context_config_demo" reloadable="true" source="org.eclipse.jst.jee.server:context_config_demo"/><Context docBase="login_web_app" path="/login_web_app" reloadable="true" source="org.eclipse.jst.jee.server:login_web_app"/><Context docBase="cookie_demo" path="/cookie_demo" reloadable="true" source="org.eclipse.jst.jee.server:cookie_demo"/><Context docBase="session_demo" path="/session_demo" reloadable="true" source="org.eclipse.jst.jee.server:session_demo"/></Host>
+      <Context docBase="my_servlet_app" path="/my_servlet_app" reloadable="true" source="org.eclipse.jst.jee.server:my_servlet_app"/><Context docBase="context_config_demo" path="/context_config_demo" reloadable="true" source="org.eclipse.jst.jee.server:context_config_demo"/><Context docBase="login_web_app" path="/login_web_app" reloadable="true" source="org.eclipse.jst.jee.server:login_web_app"/><Context docBase="cookie_demo" path="/cookie_demo" reloadable="true" source="org.eclipse.jst.jee.server:cookie_demo"/><Context docBase="session_demo" path="/session_demo" reloadable="true" source="org.eclipse.jst.jee.server:session_demo"/><Context docBase="spring_web_demo" path="/spring_web_demo" reloadable="true" source="org.eclipse.jst.jee.server:spring_web_demo"/></Host>
     </Engine>
   </Service>
 </Server>

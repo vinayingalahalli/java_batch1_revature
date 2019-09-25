@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="insert_demo.Manufacturer"/>
-<fullyQualifiedTypeName name="org.apache.log4j.Logger"/>
-<fullyQualifiedTypeName name="com.search.main.SearchMain"/>
 <fullyQualifiedTypeName name="java.util.Scanner"/>
 <fullyQualifiedTypeName name="java.lang.NumberFormatException"/>
 <fullyQualifiedTypeName name="com.search.dao.SearchDAO"/>
@@ -54,10 +51,13 @@
 <fullyQualifiedTypeName name="com.model.Team"/>
 <fullyQualifiedTypeName name="com.model.Player"/>
 <fullyQualifiedTypeName name="org.hibernate.Query"/>
-<fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="javax.persistence.FetchType"/>
 <fullyQualifiedTypeName name="org.springframework.context.ApplicationContext"/>
 <fullyQualifiedTypeName name="org.springframework.context.support.ClassPathXmlApplicationContext"/>
 <fullyQualifiedTypeName name="com.model.Hello"/>
 <fullyQualifiedTypeName name="com.main.Player"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="sun.misc.Contended"/>
+<fullyQualifiedTypeName name="org.springframework.stereotype.Controller"/>
+<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestMapping"/>
 </qualifiedTypeNameHistroy>
