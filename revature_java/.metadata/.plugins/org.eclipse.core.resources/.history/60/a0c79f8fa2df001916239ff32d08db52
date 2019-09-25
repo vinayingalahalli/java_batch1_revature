@@ -1,0 +1,21 @@
+package com.model;
+
+public class Player {
+	public Player() {
+		// TODO Auto-generated constructor stub
+	}
+
+	private int id;
+	private String name;
+	private Team team;
+	
+	
+	public Player(int id, String name) {
+		super();
+		this.id = id;
+		this.name = name;
+	}
+	
+	
+
+}

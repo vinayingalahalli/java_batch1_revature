@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="callable_demo.ProductDaoImpl"/>
-<fullyQualifiedTypeName name="insert_demo.BusinessException"/>
-<fullyQualifiedTypeName name="insert_demo.ManufacturerDAO"/>
-<fullyQualifiedTypeName name="insert_demo.ManufacturerDaoImpl"/>
 <fullyQualifiedTypeName name="insert_demo.Manufacturer"/>
 <fullyQualifiedTypeName name="org.apache.log4j.Logger"/>
 <fullyQualifiedTypeName name="com.search.main.SearchMain"/>
@@ -60,4 +56,8 @@
 <fullyQualifiedTypeName name="org.hibernate.Query"/>
 <fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="javax.persistence.FetchType"/>
+<fullyQualifiedTypeName name="org.springframework.context.ApplicationContext"/>
+<fullyQualifiedTypeName name="org.springframework.context.support.ClassPathXmlApplicationContext"/>
+<fullyQualifiedTypeName name="com.model.Hello"/>
+<fullyQualifiedTypeName name="com.main.Player"/>
 </qualifiedTypeNameHistroy>
