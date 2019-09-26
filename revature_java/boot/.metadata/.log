@@ -597,3 +597,1885 @@ Contains: Missing org.springframework.boot:spring-boot-starter-test:jar:javadoc:
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 02:22:32.531
 !MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.SysSeRjQ => OK
+!SESSION 2019-09-26 19:47:14.797 -----------------------------------------------
+eclipse.buildId=4.3.1.201907120711-RELEASE
+java.version=1.8.0_161
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.egit.core 1 0 2019-09-26 19:49:50.320
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY org.eclipse.jface 2 0 2019-09-26 19:50:42.548
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-09-26 19:50:42.548
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@63243c8f,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2ea4e762,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-09-26 19:51:48.158
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Vinay'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.osgi 2 0 2019-09-26 19:52:20.083
+!MESSAGE While loading class "org.eclipse.m2e.jdt.internal.MavenClasspathContainerInitializer", thread "Thread[Worker-6: Initializing Java Tooling,5,main]" timed out waiting (30408ms) for thread "Thread[Worker-2: Update dynamic Java sources working sets,5,main]" to finish starting bundle "org.eclipse.m2e.jdt_1.12.0.20190628-1134 [357]". To avoid deadlock, thread "Thread[Worker-6: Initializing Java Tooling,5,main]" is proceeding but "org.eclipse.m2e.jdt.internal.MavenClasspathContainerInitializer" may not be fully initialized.
+!STACK 0
+org.osgi.framework.BundleException: Unable to acquire the state change lock for the module: osgi.identity; type="osgi.bundle"; version:Version="1.12.0.20190628-1134"; osgi.identity="org.eclipse.m2e.jdt"; singleton:="true" [id=357] STARTED [STARTED]
+	at org.eclipse.osgi.container.Module.lockStateChange(Module.java:345)
+	at org.eclipse.osgi.container.Module.start(Module.java:414)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:493)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:117)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:570)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:330)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:396)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:474)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:423)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:415)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:155)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.loadClass(EquinoxBundle.java:620)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:196)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:934)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:246)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:63)
+	at org.eclipse.jdt.core.JavaCore.computeClasspathContainerInitializer(JavaCore.java:3738)
+	at org.eclipse.jdt.core.JavaCore.getClasspathContainerInitializer(JavaCore.java:3714)
+	at org.eclipse.jdt.internal.core.JavaModelManager.initializeContainer(JavaModelManager.java:3176)
+	at org.eclipse.jdt.internal.core.JavaModelManager$10.run(JavaModelManager.java:3079)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2295)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2322)
+	at org.eclipse.jdt.internal.core.JavaModelManager.initializeAllContainers(JavaModelManager.java:3141)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getClasspathContainer(JavaModelManager.java:2111)
+	at org.eclipse.jdt.core.JavaCore.initializeAfterLoad(JavaCore.java:4484)
+	at org.eclipse.jdt.internal.ui.InitializeAfterLoadJob$RealJob.run(InitializeAfterLoadJob.java:39)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.util.concurrent.TimeoutException: Timeout after waiting 30 seconds to acquire the lock.
+	at org.eclipse.osgi.container.Module.lockStateChange(Module.java:342)
+	... 27 more
+Caused by: org.eclipse.osgi.framework.util.ThreadInfoReport: Thread dump
+
+ThreadId: 45 ThreadName: Thread-13 ThreadState: TIMED_WAITING
+  Blocked On: none
+  Synchronizers Locked: none
+  Monitors Locked: none
+  Stack Trace: 
+    java.lang.Thread.sleep(Native Method)
+    org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker$UpdateCheckThread.run(UpdateChecker.java:73)
+
+ThreadId: 44 ThreadName: Worker-8 ThreadState: TIMED_WAITING
+  Blocked On: org.eclipse.core.internal.jobs.WorkerPool@2a9c558e LockOwnerId: -1 LockOwnerName: null
+  Synchronizers Locked: none
+  Monitors Locked: none
+  Stack Trace: 
+    java.lang.Object.wait(Native Method)
+    org.eclipse.core.internal.jobs.WorkerPool.sleep(WorkerPool.java:200)
+    org.eclipse.core.internal.jobs.WorkerPool.startJob(WorkerPool.java:242)
+    org.eclipse.core.internal.jobs.Worker.run(Worker.java:58)
+
+ThreadId: 43 ThreadName: Worker-7 ThreadState: TIMED_WAITING
+  Blocked On: org.eclipse.core.internal.jobs.WorkerPool@2a9c558e LockOwnerId: -1 LockOwnerName: null
+  Synchronizers Locked: none
+  Monitors Locked: none
+  Stack Trace: 
+    java.lang.Object.wait(Native Method)
+    org.eclipse.core.internal.jobs.WorkerPool.sleep(WorkerPool.java:200)
+    org.eclipse.core.internal.jobs.WorkerPool.startJob(WorkerPool.java:242)
+    org.eclipse.core.internal.jobs.Worker.run(Worker.java:58)
+
+ThreadId: 41 ThreadName: Worker-6: Initializing Java Tooling ThreadState: RUNNABLE
+  Blocked On: org.eclipse.osgi.internal.container.EquinoxReentrantLock@6818c3c7[Locked by thread Worker-2: Update dynamic Java sources working sets]
+  Synchronizers Locked: none
+  Monitors Locked: none
+  Stack Trace: 
+    sun.management.ThreadImpl.dumpThreads0(Native Method)
+    sun.management.ThreadImpl.dumpAllThreads(Unknown Source)
+    org.eclipse.osgi.framework.util.ThreadInfoReport.getThreadDump(ThreadInfoReport.java:30)
+    org.eclipse.osgi.framework.util.ThreadInfoReport.<init>(ThreadInfoReport.java:23)
+    org.eclipse.osgi.container.Module.lockStateChange(Module.java:342)
+    org.eclipse.osgi.container.Module.start(Module.java:414)
+    org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:493)
+    org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:117)
+    org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:570)
+    org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:330)
+    org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:396)
+    org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:474)
+    org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:423)
+    org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:415)
+    org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:155)
+    java.lang.ClassLoader.loadClass(Unknown Source)
+    org.eclipse.osgi.internal.framework.EquinoxBundle.loadClass(EquinoxBundle.java:620)
+    org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:196)
+    org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:934)
+    org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:246)
+    org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:63)
+    org.eclipse.jdt.core.JavaCore.computeClasspathContainerInitializer(JavaCore.java:3738)
+    org.eclipse.jdt.core.JavaCore.getClasspathContainerInitializer(JavaCore.java:3714)
+    org.eclipse.jdt.internal.core.JavaModelManager.initializeContainer(JavaModelManager.java:3176)
+    org.eclipse.jdt.internal.core.JavaModelManager$10.run(JavaModelManager.java:3079)
+    org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2295)
+    org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2322)
+    org.eclipse.jdt.internal.core.JavaModelManager.initializeAllContainers(JavaModelManager.java:3141)
+    org.eclipse.jdt.internal.core.JavaModelManager.getClasspathContainer(JavaModelManager.java:2111)
+    org.eclipse.jdt.core.JavaCore.initializeAfterLoad(JavaCore.java:4484)
+    org.eclipse.jdt.internal.ui.InitializeAfterLoadJob$RealJob.run(InitializeAfterLoadJob.java:39)
+    org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+ThreadId: 40 ThreadName: Worker-5 ThreadState: TIMED_WAITING
+  Blocked On: org.eclipse.core.internal.jobs.WorkerPool@2a9c558e LockOwnerId: -1 LockOwnerName: null
+  Synchronizers Locked: none
+  Monitors Locked: none
+  Stack Trace: 
+    java.lang.Object.wait(Native Method)
+    org.eclipse.core.internal.jobs.WorkerPool.sleep(WorkerPool.java:200)
+    org.eclipse.core.internal.jobs.WorkerPool.startJob(WorkerPool.java:242)
+    org.eclipse.core.internal.jobs.Worker.run(Worker.java:58)
+
+ThreadId: 39 ThreadName: Worker-4 ThreadState: TIMED_WAITING
+  Blocked On: org.eclipse.core.internal.jobs.WorkerPool@2a9c558e LockOwnerId: -1 LockOwnerName: null
+  Synchronizers Locked: none
+  Monitors Locked: none
+  Stack Trace: 
+    java.lang.Object.wait(Native Method)
+    org.eclipse.core.internal.jobs.WorkerPool.sleep(WorkerPool.java:200)
+    org.eclipse.core.internal.jobs.WorkerPool.startJob(WorkerPool.java:242)
+    org.eclipse.core.internal.jobs.Worker.run(Worker.java:58)
+
+ThreadId: 38 ThreadName: Worker-3 ThreadState: TIMED_WAITING
+  Blocked On: org.eclipse.core.internal.jobs.WorkerPool@2a9c558e LockOwnerId: -1 LockOwnerName: null
+  Synchronizers Locked: none
+  Monitors Locked: none
+  Stack Trace: 
+    java.lang.Object.wait(Native Method)
+    org.eclipse.core.internal.jobs.WorkerPool.sleep(WorkerPool.java:200)
+    org.eclipse.core.internal.jobs.WorkerPool.startJob(WorkerPool.java:242)
+    org.eclipse.core.internal.jobs.Worker.run(Worker.java:58)
+
+ThreadId: 37 ThreadName: Worker-2: Update dynamic Java sources working sets ThreadState: RUNNABLE
+  Blocked On: none
+  Synchronizers Locked: 
+    java.util.concurrent.locks.ReentrantLock$NonfairSync@69bbe106
+    java.util.concurrent.locks.ReentrantLock$NonfairSync@4e2554fd
+    java.util.concurrent.locks.ReentrantLock$NonfairSync@600da005
+  Monitors Locked: none
+  Stack Trace: 
+    java.util.zip.ZipFile.open(Native Method)
+    java.util.zip.ZipFile.<init>(Unknown Source)
+    java.util.zip.ZipFile.<init>(Unknown Source)
+    java.util.zip.ZipFile.<init>(Unknown Source)
+    org.eclipse.osgi.framework.util.SecureAction.getZipFile(SecureAction.java:322)
+    org.eclipse.osgi.storage.bundlefile.ZipBundleFile.getZipFile(ZipBundleFile.java:136)
+    org.eclipse.osgi.storage.bundlefile.ZipBundleFile.lockOpen(ZipBundleFile.java:83)
+    org.eclipse.osgi.storage.bundlefile.ZipBundleFile.getEntry(ZipBundleFile.java:289)
+    org.eclipse.osgi.internal.loader.classpath.ClasspathEntry.loadManifest(ClasspathEntry.java:230)
+    org.eclipse.osgi.internal.loader.classpath.ClasspathEntry.<init>(ClasspathEntry.java:77)
+    org.eclipse.osgi.internal.loader.ModuleClassLoader.createClassPathEntry(ModuleClassLoader.java:262)
+    org.eclipse.osgi.internal.loader.classpath.ClasspathManager.createClassPathEntry(ClasspathManager.java:344)
+    org.eclipse.osgi.internal.loader.classpath.ClasspathManager.getClasspath(ClasspathManager.java:296)
+    org.eclipse.osgi.internal.loader.classpath.ClasspathManager.addStandardClassPathEntry(ClasspathManager.java:213)
+    org.eclipse.osgi.internal.loader.classpath.ClasspathManager.addClassPathEntry(ClasspathManager.java:205)
+    org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findClassPathEntry(ClasspathManager.java:188)
+    org.eclipse.osgi.internal.loader.classpath.ClasspathManager.buildClasspath(ClasspathManager.java:167)
+    org.eclipse.osgi.internal.loader.classpath.ClasspathManager.<init>(ClasspathManager.java:96)
+    org.eclipse.osgi.internal.loader.EquinoxClassLoader.<init>(EquinoxClassLoader.java:46)
+    org.eclipse.osgi.internal.loader.BundleLoader.createClassLoaderPrivledged(BundleLoader.java:344)
+    org.eclipse.osgi.internal.loader.BundleLoader.getModuleClassLoader(BundleLoader.java:261)
+    org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:396)
+    org.eclipse.osgi.internal.loader.sources.SingleSourcePackage.loadClass(SingleSourcePackage.java:41)
+    org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:470)
+    org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:423)
+    org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:415)
+    org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:155)
+    java.lang.ClassLoader.loadClass(Unknown Source)
+    java.lang.Class.getDeclaredConstructors0(Native Method)
+    java.lang.Class.privateGetDeclaredConstructors(Unknown Source)
+    java.lang.Class.getConstructor0(Unknown Source)
+    java.lang.Class.getConstructor(Unknown Source)
+    org.eclipse.osgi.internal.framework.BundleContextImpl.loadBundleActivator(BundleContextImpl.java:825)
+    org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:778)
+    org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:1013)
+    org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:365)
+    org.eclipse.osgi.container.Module.doStart(Module.java:598)
+    org.eclipse.osgi.container.Module.start(Module.java:462)
+    org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:493)
+    org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:117)
+    org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:570)
+    org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:330)
+    org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:396)
+    org.eclipse.osgi.internal.loader.sources.SingleSourcePackage.loadClass(SingleSourcePackage.java:41)
+    org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:470)
+    org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:423)
+    org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:415)
+    org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:155)
+    java.lang.ClassLoader.loadClass(Unknown Source)
+    java.lang.Class.getDeclaredConstructors0(Native Method)
+    java.lang.Class.privateGetDeclaredConstructors(Unknown Source)
+    java.lang.Class.getConstructor0(Unknown Source)
+    java.lang.Class.getConstructor(Unknown Source)
+    org.eclipse.osgi.internal.framework.BundleContextImpl.loadBundleActivator(BundleContextImpl.java:825)
+    org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:778)
+    org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:1013)
+    org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:365)
+    org.eclipse.osgi.container.Module.doStart(Module.java:598)
+    org.eclipse.osgi.container.Module.start(Module.java:462)
+    org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:493)
+    org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:117)
+    org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:570)
+    org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:330)
+    org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:396)
+    org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:474)
+    org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:423)
+    org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:415)
+    org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:155)
+    java.lang.ClassLoader.loadClass(Unknown Source)
+    org.eclipse.osgi.internal.framework.EquinoxBundle.loadClass(EquinoxBundle.java:620)
+    org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:196)
+    org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:934)
+    org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:246)
+    org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:63)
+    org.eclipse.jdt.core.JavaCore.computeClasspathContainerInitializer(JavaCore.java:3738)
+    org.eclipse.jdt.core.JavaCore.getClasspathContainerInitializer(JavaCore.java:3714)
+    org.eclipse.jdt.internal.core.JavaModelManager.initializeContainer(JavaModelManager.java:3176)
+    org.eclipse.jdt.internal.core.JavaModelManager$10.run(JavaModelManager.java:3079)
+    org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2295)
+    org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2322)
+    org.eclipse.jdt.internal.core.JavaModelManager.initializeAllContainers(JavaModelManager.java:3141)
+    org.eclipse.jdt.internal.core.JavaModelManager.getClasspathContainer(JavaModelManager.java:2111)
+    org.eclipse.jdt.core.JavaCore.getClasspathContainer(JavaCore.java:3691)
+    org.eclipse.jdt.internal.core.JavaProject.resolveClasspath(JavaProject.java:3157)
+    org.eclipse.jdt.internal.core.JavaProject.resolveClasspath(JavaProject.java:3321)
+    org.eclipse.jdt.internal.core.JavaProject.getResolvedClasspath(JavaProject.java:2398)
+    org.eclipse.jdt.internal.core.JavaProject.buildStructure(JavaProject.java:479)
+    org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:268)
+    org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)
+    org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:326)
+    org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:312)
+    org.eclipse.jdt.internal.core.JavaElement.getChildren(JavaElement.java:267)
+    org.eclipse.jdt.internal.core.JavaProject.getPackageFragmentRoots(JavaProject.java:2274)
+    org.eclipse.jdt.internal.ui.workingsets.DynamicSourcesWorkingSetUpdater.updateElements(DynamicSourcesWorkingSetUpdater.java:211)
+    org.eclipse.jdt.internal.ui.workingsets.DynamicSourcesWorkingSetUpdater.updateElements(DynamicSourcesWorkingSetUpdater.java:192)
+    org.eclipse.jdt.internal.ui.workingsets.DynamicSourcesWorkingSetUpdater$1.run(DynamicSourcesWorkingSetUpdater.java:160)
+    org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+ThreadId: 36 ThreadName: Worker-1 ThreadState: TIMED_WAITING
+  Blocked On: org.eclipse.core.internal.jobs.WorkerPool@2a9c558e LockOwnerId: -1 LockOwnerName: null
+  Synchronizers Locked: none
+  Monitors Locked: none
+  Stack Trace: 
+    java.lang.Object.wait(Native Method)
+    org.eclipse.core.internal.jobs.WorkerPool.sleep(WorkerPool.java:200)
+    org.eclipse.core.internal.jobs.WorkerPool.startJob(WorkerPool.java:242)
+    org.eclipse.core.internal.jobs.Worker.run(Worker.java:58)
+
+ThreadId: 35 ThreadName: EventAdmin Async Event Dispatcher Thread ThreadState: WAITING
+  Blocked On: org.eclipse.osgi.framework.eventmgr.EventManager$EventThread@28f5b9af LockOwnerId: -1 LockOwnerName: null
+  Synchronizers Locked: none
+  Monitors Locked: none
+  Stack Trace: 
+    java.lang.Object.wait(Native Method)
+    java.lang.Object.wait(Unknown Source)
+    org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.getNextEvent(EventManager.java:400)
+    org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:341)
+
+ThreadId: 33 ThreadName: Java indexing ThreadState: WAITING
+  Blocked On: org.eclipse.jdt.internal.core.search.indexing.IndexManager@1e70ce66 LockOwnerId: -1 LockOwnerName: null
+  Synchronizers Locked: none
+  Monitors Locked: none
+  Stack Trace: 
+    java.lang.Object.wait(Native Method)
+    java.lang.Object.wait(Unknown Source)
+    org.eclipse.jdt.internal.core.search.processing.JobManager.run(JobManager.java:378)
+    java.lang.Thread.run(Unknown Source)
+
+ThreadId: 28 ThreadName: Bundle File Closer ThreadState: WAITING
+  Blocked On: org.eclipse.osgi.framework.eventmgr.EventManager$EventThread@7a96e3e9 LockOwnerId: -1 LockOwnerName: null
+  Synchronizers Locked: none
+  Monitors Locked: none
+  Stack Trace: 
+    java.lang.Object.wait(Native Method)
+    java.lang.Object.wait(Unknown Source)
+    org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.getNextEvent(EventManager.java:400)
+    org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:341)
+
+ThreadId: 26 ThreadName: EMF Reference Cleaner ThreadState: WAITING
+  Blocked On: java.lang.ref.ReferenceQueue$Lock@77967936 LockOwnerId: -1 LockOwnerName: null
+  Synchronizers Locked: none
+  Monitors Locked: none
+  Stack Trace: 
+    java.lang.Object.wait(Native Method)
+    java.lang.ref.ReferenceQueue.remove(Unknown Source)
+    java.lang.ref.ReferenceQueue.remove(Unknown Source)
+    org.eclipse.emf.common.util.CommonUtil$1ReferenceClearingQueuePollingThread.run(CommonUtil.java:70)
+
+ThreadId: 24 ThreadName: Worker-0 ThreadState: TIMED_WAITING
+  Blocked On: org.eclipse.core.internal.jobs.WorkerPool@2a9c558e LockOwnerId: -1 LockOwnerName: null
+  Synchronizers Locked: none
+  Monitors Locked: none
+  Stack Trace: 
+    java.lang.Object.wait(Native Method)
+    org.eclipse.core.internal.jobs.WorkerPool.sleep(WorkerPool.java:200)
+    org.eclipse.core.internal.jobs.WorkerPool.startJob(WorkerPool.java:242)
+    org.eclipse.core.internal.jobs.Worker.run(Worker.java:58)
+
+ThreadId: 21 ThreadName: Gogo shell ThreadState: WAITING
+  Blocked On: java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@72ab9eaa LockOwnerId: -1 LockOwnerName: null
+  Synchronizers Locked: none
+  Monitors Locked: none
+  Stack Trace: 
+    sun.misc.Unsafe.park(Native Method)
+    java.util.concurrent.locks.LockSupport.park(Unknown Source)
+    java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(Unknown Source)
+    java.util.concurrent.LinkedBlockingQueue.take(Unknown Source)
+    java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+    java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+    java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+    java.lang.Thread.run(Unknown Source)
+
+ThreadId: 18 ThreadName: Worker-JM ThreadState: WAITING
+  Blocked On: java.util.ArrayList@6ab07d67 LockOwnerId: -1 LockOwnerName: null
+  Synchronizers Locked: none
+  Monitors Locked: none
+  Stack Trace: 
+    java.lang.Object.wait(Native Method)
+    org.eclipse.core.internal.jobs.InternalWorker.run(InternalWorker.java:62)
+
+ThreadId: 16 ThreadName: SCR Component Actor ThreadState: WAITING
+  Blocked On: java.util.LinkedList@27744273 LockOwnerId: -1 LockOwnerName: null
+  Synchronizers Locked: none
+  Monitors Locked: none
+  Stack Trace: 
+    java.lang.Object.wait(Native Method)
+    java.lang.Object.wait(Unknown Source)
+    org.apache.felix.scr.impl.ComponentActorThread.run(ComponentActorThread.java:83)
+    java.lang.Thread.run(Unknown Source)
+
+ThreadId: 15 ThreadName: Start Level: Equinox Container: c07b354e-72f1-4841-8dcf-016834bc3b9b ThreadState: WAITING
+  Blocked On: org.eclipse.osgi.framework.eventmgr.EventManager$EventThread@636fc062 LockOwnerId: -1 LockOwnerName: null
+  Synchronizers Locked: none
+  Monitors Locked: none
+  Stack Trace: 
+    java.lang.Object.wait(Native Method)
+    java.lang.Object.wait(Unknown Source)
+    org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.getNextEvent(EventManager.java:400)
+    org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:341)
+
+ThreadId: 14 ThreadName: Framework Event Dispatcher: Equinox Container: c07b354e-72f1-4841-8dcf-016834bc3b9b ThreadState: WAITING
+  Blocked On: org.eclipse.osgi.framework.eventmgr.EventManager$EventThread@4d9f4c6b LockOwnerId: -1 LockOwnerName: null
+  Synchronizers Locked: none
+  Monitors Locked: none
+  Stack Trace: 
+    java.lang.Object.wait(Native Method)
+    java.lang.Object.wait(Unknown Source)
+    org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.getNextEvent(EventManager.java:400)
+    org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:341)
+
+ThreadId: 12 ThreadName: Active Thread: Equinox Container: c07b354e-72f1-4841-8dcf-016834bc3b9b ThreadState: TIMED_WAITING
+  Blocked On: java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@24ad5bfa LockOwnerId: -1 LockOwnerName: null
+  Synchronizers Locked: none
+  Monitors Locked: none
+  Stack Trace: 
+    sun.misc.Unsafe.park(Native Method)
+    java.util.concurrent.locks.LockSupport.parkNanos(Unknown Source)
+    java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(Unknown Source)
+    java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+    java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+    java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+    java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+    java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+    java.lang.Thread.run(Unknown Source)
+
+ThreadId: 6 ThreadName: Attach Listener ThreadState: RUNNABLE
+  Blocked On: none
+  Synchronizers Locked: none
+  Monitors Locked: none
+  Stack Trace: 
+
+ThreadId: 5 ThreadName: Signal Dispatcher ThreadState: RUNNABLE
+  Blocked On: none
+  Synchronizers Locked: none
+  Monitors Locked: none
+  Stack Trace: 
+
+ThreadId: 3 ThreadName: Finalizer ThreadState: WAITING
+  Blocked On: java.lang.ref.ReferenceQueue$Lock@21cfe2c6 LockOwnerId: -1 LockOwnerName: null
+  Synchronizers Locked: none
+  Monitors Locked: none
+  Stack Trace: 
+    java.lang.Object.wait(Native Method)
+    java.lang.ref.ReferenceQueue.remove(Unknown Source)
+    java.lang.ref.ReferenceQueue.remove(Unknown Source)
+    java.lang.ref.Finalizer$FinalizerThread.run(Unknown Source)
+
+ThreadId: 2 ThreadName: Reference Handler ThreadState: WAITING
+  Blocked On: java.lang.ref.Reference$Lock@3c3e5a4d LockOwnerId: -1 LockOwnerName: null
+  Synchronizers Locked: none
+  Monitors Locked: none
+  Stack Trace: 
+    java.lang.Object.wait(Native Method)
+    java.lang.Object.wait(Unknown Source)
+    java.lang.ref.Reference.tryHandlePending(Unknown Source)
+    java.lang.ref.Reference$ReferenceHandler.run(Unknown Source)
+
+ThreadId: 1 ThreadName: main ThreadState: RUNNABLE
+  Blocked On: none
+  Synchronizers Locked: none
+  Monitors Locked: none
+  Stack Trace: 
+    org.eclipse.swt.internal.win32.OS.WaitMessage(Native Method)
+    org.eclipse.swt.widgets.Display.sleep(Display.java:4547)
+    org.eclipse.ui.application.WorkbenchAdvisor.eventLoopIdle(WorkbenchAdvisor.java:360)
+    org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor.eventLoopIdle(IDEWorkbenchAdvisor.java:949)
+    org.eclipse.ui.internal.Workbench$1.eventLoopIdle(Workbench.java:483)
+    org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1178)
+    org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+    org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+    org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+    org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:635)
+    org.eclipse.ui.internal.Workbench$$Lambda$90/470051986.run(Unknown Source)
+    org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+    org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:559)
+    org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+    org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+    org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+    org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+    org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+    org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+    org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+    sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+    sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+    sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+    java.lang.reflect.Method.invoke(Unknown Source)
+    org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:660)
+    org.eclipse.equinox.launcher.Main.basicRun(Main.java:597)
+    org.eclipse.equinox.launcher.Main.run(Main.java:1468)
+	... 28 more
+Root exception:
+java.util.concurrent.TimeoutException: Timeout after waiting 30 seconds to acquire the lock.
+	at org.eclipse.osgi.container.Module.lockStateChange(Module.java:342)
+	at org.eclipse.osgi.container.Module.start(Module.java:414)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:493)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:117)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:570)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:330)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:396)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:474)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:423)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:415)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:155)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.loadClass(EquinoxBundle.java:620)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:196)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:934)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:246)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:63)
+	at org.eclipse.jdt.core.JavaCore.computeClasspathContainerInitializer(JavaCore.java:3738)
+	at org.eclipse.jdt.core.JavaCore.getClasspathContainerInitializer(JavaCore.java:3714)
+	at org.eclipse.jdt.internal.core.JavaModelManager.initializeContainer(JavaModelManager.java:3176)
+	at org.eclipse.jdt.internal.core.JavaModelManager$10.run(JavaModelManager.java:3079)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2295)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2322)
+	at org.eclipse.jdt.internal.core.JavaModelManager.initializeAllContainers(JavaModelManager.java:3141)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getClasspathContainer(JavaModelManager.java:2111)
+	at org.eclipse.jdt.core.JavaCore.initializeAfterLoad(JavaCore.java:4484)
+	at org.eclipse.jdt.internal.ui.InitializeAfterLoadJob$RealJob.run(InitializeAfterLoadJob.java:39)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.eclipse.osgi.framework.util.ThreadInfoReport: Thread dump
+
+ThreadId: 45 ThreadName: Thread-13 ThreadState: TIMED_WAITING
+  Blocked On: none
+  Synchronizers Locked: none
+  Monitors Locked: none
+  Stack Trace: 
+    java.lang.Thread.sleep(Native Method)
+    org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker$UpdateCheckThread.run(UpdateChecker.java:73)
+
+ThreadId: 44 ThreadName: Worker-8 ThreadState: TIMED_WAITING
+  Blocked On: org.eclipse.core.internal.jobs.WorkerPool@2a9c558e LockOwnerId: -1 LockOwnerName: null
+  Synchronizers Locked: none
+  Monitors Locked: none
+  Stack Trace: 
+    java.lang.Object.wait(Native Method)
+    org.eclipse.core.internal.jobs.WorkerPool.sleep(WorkerPool.java:200)
+    org.eclipse.core.internal.jobs.WorkerPool.startJob(WorkerPool.java:242)
+    org.eclipse.core.internal.jobs.Worker.run(Worker.java:58)
+
+ThreadId: 43 ThreadName: Worker-7 ThreadState: TIMED_WAITING
+  Blocked On: org.eclipse.core.internal.jobs.WorkerPool@2a9c558e LockOwnerId: -1 LockOwnerName: null
+  Synchronizers Locked: none
+  Monitors Locked: none
+  Stack Trace: 
+    java.lang.Object.wait(Native Method)
+    org.eclipse.core.internal.jobs.WorkerPool.sleep(WorkerPool.java:200)
+    org.eclipse.core.internal.jobs.WorkerPool.startJob(WorkerPool.java:242)
+    org.eclipse.core.internal.jobs.Worker.run(Worker.java:58)
+
+ThreadId: 41 ThreadName: Worker-6: Initializing Java Tooling ThreadState: RUNNABLE
+  Blocked On: org.eclipse.osgi.internal.container.EquinoxReentrantLock@6818c3c7[Locked by thread Worker-2: Update dynamic Java sources working sets]
+  Synchronizers Locked: none
+  Monitors Locked: none
+  Stack Trace: 
+    sun.management.ThreadImpl.dumpThreads0(Native Method)
+    sun.management.ThreadImpl.dumpAllThreads(Unknown Source)
+    org.eclipse.osgi.framework.util.ThreadInfoReport.getThreadDump(ThreadInfoReport.java:30)
+    org.eclipse.osgi.framework.util.ThreadInfoReport.<init>(ThreadInfoReport.java:23)
+    org.eclipse.osgi.container.Module.lockStateChange(Module.java:342)
+    org.eclipse.osgi.container.Module.start(Module.java:414)
+    org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:493)
+    org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:117)
+    org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:570)
+    org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:330)
+    org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:396)
+    org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:474)
+    org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:423)
+    org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:415)
+    org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:155)
+    java.lang.ClassLoader.loadClass(Unknown Source)
+    org.eclipse.osgi.internal.framework.EquinoxBundle.loadClass(EquinoxBundle.java:620)
+    org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:196)
+    org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:934)
+    org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:246)
+    org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:63)
+    org.eclipse.jdt.core.JavaCore.computeClasspathContainerInitializer(JavaCore.java:3738)
+    org.eclipse.jdt.core.JavaCore.getClasspathContainerInitializer(JavaCore.java:3714)
+    org.eclipse.jdt.internal.core.JavaModelManager.initializeContainer(JavaModelManager.java:3176)
+    org.eclipse.jdt.internal.core.JavaModelManager$10.run(JavaModelManager.java:3079)
+    org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2295)
+    org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2322)
+    org.eclipse.jdt.internal.core.JavaModelManager.initializeAllContainers(JavaModelManager.java:3141)
+    org.eclipse.jdt.internal.core.JavaModelManager.getClasspathContainer(JavaModelManager.java:2111)
+    org.eclipse.jdt.core.JavaCore.initializeAfterLoad(JavaCore.java:4484)
+    org.eclipse.jdt.internal.ui.InitializeAfterLoadJob$RealJob.run(InitializeAfterLoadJob.java:39)
+    org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+ThreadId: 40 ThreadName: Worker-5 ThreadState: TIMED_WAITING
+  Blocked On: org.eclipse.core.internal.jobs.WorkerPool@2a9c558e LockOwnerId: -1 LockOwnerName: null
+  Synchronizers Locked: none
+  Monitors Locked: none
+  Stack Trace: 
+    java.lang.Object.wait(Native Method)
+    org.eclipse.core.internal.jobs.WorkerPool.sleep(WorkerPool.java:200)
+    org.eclipse.core.internal.jobs.WorkerPool.startJob(WorkerPool.java:242)
+    org.eclipse.core.internal.jobs.Worker.run(Worker.java:58)
+
+ThreadId: 39 ThreadName: Worker-4 ThreadState: TIMED_WAITING
+  Blocked On: org.eclipse.core.internal.jobs.WorkerPool@2a9c558e LockOwnerId: -1 LockOwnerName: null
+  Synchronizers Locked: none
+  Monitors Locked: none
+  Stack Trace: 
+    java.lang.Object.wait(Native Method)
+    org.eclipse.core.internal.jobs.WorkerPool.sleep(WorkerPool.java:200)
+    org.eclipse.core.internal.jobs.WorkerPool.startJob(WorkerPool.java:242)
+    org.eclipse.core.internal.jobs.Worker.run(Worker.java:58)
+
+ThreadId: 38 ThreadName: Worker-3 ThreadState: TIMED_WAITING
+  Blocked On: org.eclipse.core.internal.jobs.WorkerPool@2a9c558e LockOwnerId: -1 LockOwnerName: null
+  Synchronizers Locked: none
+  Monitors Locked: none
+  Stack Trace: 
+    java.lang.Object.wait(Native Method)
+    org.eclipse.core.internal.jobs.WorkerPool.sleep(WorkerPool.java:200)
+    org.eclipse.core.internal.jobs.WorkerPool.startJob(WorkerPool.java:242)
+    org.eclipse.core.internal.jobs.Worker.run(Worker.java:58)
+
+ThreadId: 37 ThreadName: Worker-2: Update dynamic Java sources working sets ThreadState: RUNNABLE
+  Blocked On: none
+  Synchronizers Locked: 
+    java.util.concurrent.locks.ReentrantLock$NonfairSync@69bbe106
+    java.util.concurrent.locks.ReentrantLock$NonfairSync@4e2554fd
+    java.util.concurrent.locks.ReentrantLock$NonfairSync@600da005
+  Monitors Locked: none
+  Stack Trace: 
+    java.util.zip.ZipFile.open(Native Method)
+    java.util.zip.ZipFile.<init>(Unknown Source)
+    java.util.zip.ZipFile.<init>(Unknown Source)
+    java.util.zip.ZipFile.<init>(Unknown Source)
+    org.eclipse.osgi.framework.util.SecureAction.getZipFile(SecureAction.java:322)
+    org.eclipse.osgi.storage.bundlefile.ZipBundleFile.getZipFile(ZipBundleFile.java:136)
+    org.eclipse.osgi.storage.bundlefile.ZipBundleFile.lockOpen(ZipBundleFile.java:83)
+    org.eclipse.osgi.storage.bundlefile.ZipBundleFile.getEntry(ZipBundleFile.java:289)
+    org.eclipse.osgi.internal.loader.classpath.ClasspathEntry.loadManifest(ClasspathEntry.java:230)
+    org.eclipse.osgi.internal.loader.classpath.ClasspathEntry.<init>(ClasspathEntry.java:77)
+    org.eclipse.osgi.internal.loader.ModuleClassLoader.createClassPathEntry(ModuleClassLoader.java:262)
+    org.eclipse.osgi.internal.loader.classpath.ClasspathManager.createClassPathEntry(ClasspathManager.java:344)
+    org.eclipse.osgi.internal.loader.classpath.ClasspathManager.getClasspath(ClasspathManager.java:296)
+    org.eclipse.osgi.internal.loader.classpath.ClasspathManager.addStandardClassPathEntry(ClasspathManager.java:213)
+    org.eclipse.osgi.internal.loader.classpath.ClasspathManager.addClassPathEntry(ClasspathManager.java:205)
+    org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findClassPathEntry(ClasspathManager.java:188)
+    org.eclipse.osgi.internal.loader.classpath.ClasspathManager.buildClasspath(ClasspathManager.java:167)
+    org.eclipse.osgi.internal.loader.classpath.ClasspathManager.<init>(ClasspathManager.java:96)
+    org.eclipse.osgi.internal.loader.EquinoxClassLoader.<init>(EquinoxClassLoader.java:46)
+    org.eclipse.osgi.internal.loader.BundleLoader.createClassLoaderPrivledged(BundleLoader.java:344)
+    org.eclipse.osgi.internal.loader.BundleLoader.getModuleClassLoader(BundleLoader.java:261)
+    org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:396)
+    org.eclipse.osgi.internal.loader.sources.SingleSourcePackage.loadClass(SingleSourcePackage.java:41)
+    org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:470)
+    org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:423)
+    org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:415)
+    org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:155)
+    java.lang.ClassLoader.loadClass(Unknown Source)
+    java.lang.Class.getDeclaredConstructors0(Native Method)
+    java.lang.Class.privateGetDeclaredConstructors(Unknown Source)
+    java.lang.Class.getConstructor0(Unknown Source)
+    java.lang.Class.getConstructor(Unknown Source)
+    org.eclipse.osgi.internal.framework.BundleContextImpl.loadBundleActivator(BundleContextImpl.java:825)
+    org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:778)
+    org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:1013)
+    org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:365)
+    org.eclipse.osgi.container.Module.doStart(Module.java:598)
+    org.eclipse.osgi.container.Module.start(Module.java:462)
+    org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:493)
+    org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:117)
+    org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:570)
+    org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:330)
+    org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:396)
+    org.eclipse.osgi.internal.loader.sources.SingleSourcePackage.loadClass(SingleSourcePackage.java:41)
+    org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:470)
+    org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:423)
+    org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:415)
+    org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:155)
+    java.lang.ClassLoader.loadClass(Unknown Source)
+    java.lang.Class.getDeclaredConstructors0(Native Method)
+    java.lang.Class.privateGetDeclaredConstructors(Unknown Source)
+    java.lang.Class.getConstructor0(Unknown Source)
+    java.lang.Class.getConstructor(Unknown Source)
+    org.eclipse.osgi.internal.framework.BundleContextImpl.loadBundleActivator(BundleContextImpl.java:825)
+    org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:778)
+    org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:1013)
+    org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:365)
+    org.eclipse.osgi.container.Module.doStart(Module.java:598)
+    org.eclipse.osgi.container.Module.start(Module.java:462)
+    org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:493)
+    org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:117)
+    org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:570)
+    org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:330)
+    org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:396)
+    org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:474)
+    org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:423)
+    org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:415)
+    org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:155)
+    java.lang.ClassLoader.loadClass(Unknown Source)
+    org.eclipse.osgi.internal.framework.EquinoxBundle.loadClass(EquinoxBundle.java:620)
+    org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:196)
+    org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:934)
+    org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:246)
+    org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:63)
+    org.eclipse.jdt.core.JavaCore.computeClasspathContainerInitializer(JavaCore.java:3738)
+    org.eclipse.jdt.core.JavaCore.getClasspathContainerInitializer(JavaCore.java:3714)
+    org.eclipse.jdt.internal.core.JavaModelManager.initializeContainer(JavaModelManager.java:3176)
+    org.eclipse.jdt.internal.core.JavaModelManager$10.run(JavaModelManager.java:3079)
+    org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2295)
+    org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2322)
+    org.eclipse.jdt.internal.core.JavaModelManager.initializeAllContainers(JavaModelManager.java:3141)
+    org.eclipse.jdt.internal.core.JavaModelManager.getClasspathContainer(JavaModelManager.java:2111)
+    org.eclipse.jdt.core.JavaCore.getClasspathContainer(JavaCore.java:3691)
+    org.eclipse.jdt.internal.core.JavaProject.resolveClasspath(JavaProject.java:3157)
+    org.eclipse.jdt.internal.core.JavaProject.resolveClasspath(JavaProject.java:3321)
+    org.eclipse.jdt.internal.core.JavaProject.getResolvedClasspath(JavaProject.java:2398)
+    org.eclipse.jdt.internal.core.JavaProject.buildStructure(JavaProject.java:479)
+    org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:268)
+    org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)
+    org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:326)
+    org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:312)
+    org.eclipse.jdt.internal.core.JavaElement.getChildren(JavaElement.java:267)
+    org.eclipse.jdt.internal.core.JavaProject.getPackageFragmentRoots(JavaProject.java:2274)
+    org.eclipse.jdt.internal.ui.workingsets.DynamicSourcesWorkingSetUpdater.updateElements(DynamicSourcesWorkingSetUpdater.java:211)
+    org.eclipse.jdt.internal.ui.workingsets.DynamicSourcesWorkingSetUpdater.updateElements(DynamicSourcesWorkingSetUpdater.java:192)
+    org.eclipse.jdt.internal.ui.workingsets.DynamicSourcesWorkingSetUpdater$1.run(DynamicSourcesWorkingSetUpdater.java:160)
+    org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+ThreadId: 36 ThreadName: Worker-1 ThreadState: TIMED_WAITING
+  Blocked On: org.eclipse.core.internal.jobs.WorkerPool@2a9c558e LockOwnerId: -1 LockOwnerName: null
+  Synchronizers Locked: none
+  Monitors Locked: none
+  Stack Trace: 
+    java.lang.Object.wait(Native Method)
+    org.eclipse.core.internal.jobs.WorkerPool.sleep(WorkerPool.java:200)
+    org.eclipse.core.internal.jobs.WorkerPool.startJob(WorkerPool.java:242)
+    org.eclipse.core.internal.jobs.Worker.run(Worker.java:58)
+
+ThreadId: 35 ThreadName: EventAdmin Async Event Dispatcher Thread ThreadState: WAITING
+  Blocked On: org.eclipse.osgi.framework.eventmgr.EventManager$EventThread@28f5b9af LockOwnerId: -1 LockOwnerName: null
+  Synchronizers Locked: none
+  Monitors Locked: none
+  Stack Trace: 
+    java.lang.Object.wait(Native Method)
+    java.lang.Object.wait(Unknown Source)
+    org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.getNextEvent(EventManager.java:400)
+    org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:341)
+
+ThreadId: 33 ThreadName: Java indexing ThreadState: WAITING
+  Blocked On: org.eclipse.jdt.internal.core.search.indexing.IndexManager@1e70ce66 LockOwnerId: -1 LockOwnerName: null
+  Synchronizers Locked: none
+  Monitors Locked: none
+  Stack Trace: 
+    java.lang.Object.wait(Native Method)
+    java.lang.Object.wait(Unknown Source)
+    org.eclipse.jdt.internal.core.search.processing.JobManager.run(JobManager.java:378)
+    java.lang.Thread.run(Unknown Source)
+
+ThreadId: 28 ThreadName: Bundle File Closer ThreadState: WAITING
+  Blocked On: org.eclipse.osgi.framework.eventmgr.EventManager$EventThread@7a96e3e9 LockOwnerId: -1 LockOwnerName: null
+  Synchronizers Locked: none
+  Monitors Locked: none
+  Stack Trace: 
+    java.lang.Object.wait(Native Method)
+    java.lang.Object.wait(Unknown Source)
+    org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.getNextEvent(EventManager.java:400)
+    org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:341)
+
+ThreadId: 26 ThreadName: EMF Reference Cleaner ThreadState: WAITING
+  Blocked On: java.lang.ref.ReferenceQueue$Lock@77967936 LockOwnerId: -1 LockOwnerName: null
+  Synchronizers Locked: none
+  Monitors Locked: none
+  Stack Trace: 
+    java.lang.Object.wait(Native Method)
+    java.lang.ref.ReferenceQueue.remove(Unknown Source)
+    java.lang.ref.ReferenceQueue.remove(Unknown Source)
+    org.eclipse.emf.common.util.CommonUtil$1ReferenceClearingQueuePollingThread.run(CommonUtil.java:70)
+
+ThreadId: 24 ThreadName: Worker-0 ThreadState: TIMED_WAITING
+  Blocked On: org.eclipse.core.internal.jobs.WorkerPool@2a9c558e LockOwnerId: -1 LockOwnerName: null
+  Synchronizers Locked: none
+  Monitors Locked: none
+  Stack Trace: 
+    java.lang.Object.wait(Native Method)
+    org.eclipse.core.internal.jobs.WorkerPool.sleep(WorkerPool.java:200)
+    org.eclipse.core.internal.jobs.WorkerPool.startJob(WorkerPool.java:242)
+    org.eclipse.core.internal.jobs.Worker.run(Worker.java:58)
+
+ThreadId: 21 ThreadName: Gogo shell ThreadState: WAITING
+  Blocked On: java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@72ab9eaa LockOwnerId: -1 LockOwnerName: null
+  Synchronizers Locked: none
+  Monitors Locked: none
+  Stack Trace: 
+    sun.misc.Unsafe.park(Native Method)
+    java.util.concurrent.locks.LockSupport.park(Unknown Source)
+    java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(Unknown Source)
+    java.util.concurrent.LinkedBlockingQueue.take(Unknown Source)
+    java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+    java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+    java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+    java.lang.Thread.run(Unknown Source)
+
+ThreadId: 18 ThreadName: Worker-JM ThreadState: WAITING
+  Blocked On: java.util.ArrayList@6ab07d67 LockOwnerId: -1 LockOwnerName: null
+  Synchronizers Locked: none
+  Monitors Locked: none
+  Stack Trace: 
+    java.lang.Object.wait(Native Method)
+    org.eclipse.core.internal.jobs.InternalWorker.run(InternalWorker.java:62)
+
+ThreadId: 16 ThreadName: SCR Component Actor ThreadState: WAITING
+  Blocked On: java.util.LinkedList@27744273 LockOwnerId: -1 LockOwnerName: null
+  Synchronizers Locked: none
+  Monitors Locked: none
+  Stack Trace: 
+    java.lang.Object.wait(Native Method)
+    java.lang.Object.wait(Unknown Source)
+    org.apache.felix.scr.impl.ComponentActorThread.run(ComponentActorThread.java:83)
+    java.lang.Thread.run(Unknown Source)
+
+ThreadId: 15 ThreadName: Start Level: Equinox Container: c07b354e-72f1-4841-8dcf-016834bc3b9b ThreadState: WAITING
+  Blocked On: org.eclipse.osgi.framework.eventmgr.EventManager$EventThread@636fc062 LockOwnerId: -1 LockOwnerName: null
+  Synchronizers Locked: none
+  Monitors Locked: none
+  Stack Trace: 
+    java.lang.Object.wait(Native Method)
+    java.lang.Object.wait(Unknown Source)
+    org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.getNextEvent(EventManager.java:400)
+    org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:341)
+
+ThreadId: 14 ThreadName: Framework Event Dispatcher: Equinox Container: c07b354e-72f1-4841-8dcf-016834bc3b9b ThreadState: WAITING
+  Blocked On: org.eclipse.osgi.framework.eventmgr.EventManager$EventThread@4d9f4c6b LockOwnerId: -1 LockOwnerName: null
+  Synchronizers Locked: none
+  Monitors Locked: none
+  Stack Trace: 
+    java.lang.Object.wait(Native Method)
+    java.lang.Object.wait(Unknown Source)
+    org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.getNextEvent(EventManager.java:400)
+    org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:341)
+
+ThreadId: 12 ThreadName: Active Thread: Equinox Container: c07b354e-72f1-4841-8dcf-016834bc3b9b ThreadState: TIMED_WAITING
+  Blocked On: java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@24ad5bfa LockOwnerId: -1 LockOwnerName: null
+  Synchronizers Locked: none
+  Monitors Locked: none
+  Stack Trace: 
+    sun.misc.Unsafe.park(Native Method)
+    java.util.concurrent.locks.LockSupport.parkNanos(Unknown Source)
+    java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(Unknown Source)
+    java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+    java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+    java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+    java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+    java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+    java.lang.Thread.run(Unknown Source)
+
+ThreadId: 6 ThreadName: Attach Listener ThreadState: RUNNABLE
+  Blocked On: none
+  Synchronizers Locked: none
+  Monitors Locked: none
+  Stack Trace: 
+
+ThreadId: 5 ThreadName: Signal Dispatcher ThreadState: RUNNABLE
+  Blocked On: none
+  Synchronizers Locked: none
+  Monitors Locked: none
+  Stack Trace: 
+
+ThreadId: 3 ThreadName: Finalizer ThreadState: WAITING
+  Blocked On: java.lang.ref.ReferenceQueue$Lock@21cfe2c6 LockOwnerId: -1 LockOwnerName: null
+  Synchronizers Locked: none
+  Monitors Locked: none
+  Stack Trace: 
+    java.lang.Object.wait(Native Method)
+    java.lang.ref.ReferenceQueue.remove(Unknown Source)
+    java.lang.ref.ReferenceQueue.remove(Unknown Source)
+    java.lang.ref.Finalizer$FinalizerThread.run(Unknown Source)
+
+ThreadId: 2 ThreadName: Reference Handler ThreadState: WAITING
+  Blocked On: java.lang.ref.Reference$Lock@3c3e5a4d LockOwnerId: -1 LockOwnerName: null
+  Synchronizers Locked: none
+  Monitors Locked: none
+  Stack Trace: 
+    java.lang.Object.wait(Native Method)
+    java.lang.Object.wait(Unknown Source)
+    java.lang.ref.Reference.tryHandlePending(Unknown Source)
+    java.lang.ref.Reference$ReferenceHandler.run(Unknown Source)
+
+ThreadId: 1 ThreadName: main ThreadState: RUNNABLE
+  Blocked On: none
+  Synchronizers Locked: none
+  Monitors Locked: none
+  Stack Trace: 
+    org.eclipse.swt.internal.win32.OS.WaitMessage(Native Method)
+    org.eclipse.swt.widgets.Display.sleep(Display.java:4547)
+    org.eclipse.ui.application.WorkbenchAdvisor.eventLoopIdle(WorkbenchAdvisor.java:360)
+    org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor.eventLoopIdle(IDEWorkbenchAdvisor.java:949)
+    org.eclipse.ui.internal.Workbench$1.eventLoopIdle(Workbench.java:483)
+    org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1178)
+    org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+    org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+    org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+    org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:635)
+    org.eclipse.ui.internal.Workbench$$Lambda$90/470051986.run(Unknown Source)
+    org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+    org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:559)
+    org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+    org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+    org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+    org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+    org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+    org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+    org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+    sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+    sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+    sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+    java.lang.reflect.Method.invoke(Unknown Source)
+    org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:660)
+    org.eclipse.equinox.launcher.Main.basicRun(Main.java:597)
+    org.eclipse.equinox.launcher.Main.run(Main.java:1468)
+	... 28 more
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2019-09-26 20:10:53.938
+!MESSAGE Could not download sources for org.springframework.boot:spring-boot-starter-data-jpa:2.1.8.RELEASE
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springframework.boot:spring-boot-starter-data-jpa:jar:sources:2.1.8.RELEASE
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:801)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:112)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:769)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:746)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:328)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:302)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:267)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:231)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:159)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:159)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing org.springframework.boot:spring-boot-starter-data-jpa:jar:sources:2.1.8.RELEASE
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2019-09-26 20:10:53.939
+!MESSAGE Could not resolve artifact org.springframework.boot:spring-boot-starter-data-jpa:jar:sources:2.1.8.RELEASE
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2019-09-26 20:10:53.940
+!MESSAGE Missing org.springframework.boot:spring-boot-starter-data-jpa:jar:sources:2.1.8.RELEASE
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2019-09-26 20:10:54.093
+!MESSAGE Could not download sources for org.springframework.boot:spring-boot-starter-aop:2.1.8.RELEASE
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springframework.boot:spring-boot-starter-aop:jar:sources:2.1.8.RELEASE
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:801)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:112)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:769)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:746)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:328)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:302)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:267)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:231)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:159)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:159)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing org.springframework.boot:spring-boot-starter-aop:jar:sources:2.1.8.RELEASE
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2019-09-26 20:10:54.102
+!MESSAGE Could not resolve artifact org.springframework.boot:spring-boot-starter-aop:jar:sources:2.1.8.RELEASE
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2019-09-26 20:10:54.102
+!MESSAGE Missing org.springframework.boot:spring-boot-starter-aop:jar:sources:2.1.8.RELEASE
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2019-09-26 20:10:54.258
+!MESSAGE Could not download sources for org.springframework.boot:spring-boot-starter-jdbc:2.1.8.RELEASE
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springframework.boot:spring-boot-starter-jdbc:jar:sources:2.1.8.RELEASE
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:801)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:112)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:769)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:746)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:328)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:302)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:267)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:231)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:159)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:159)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing org.springframework.boot:spring-boot-starter-jdbc:jar:sources:2.1.8.RELEASE
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2019-09-26 20:10:54.259
+!MESSAGE Could not resolve artifact org.springframework.boot:spring-boot-starter-jdbc:jar:sources:2.1.8.RELEASE
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2019-09-26 20:10:54.259
+!MESSAGE Missing org.springframework.boot:spring-boot-starter-jdbc:jar:sources:2.1.8.RELEASE
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2019-09-26 20:11:26.907
+!MESSAGE Could not download javadoc for org.springframework.boot:spring-boot-starter-data-jpa:2.1.8.RELEASE
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springframework.boot:spring-boot-starter-data-jpa:jar:javadoc:2.1.8.RELEASE
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:801)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:112)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:769)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:746)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:328)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:314)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:267)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:231)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:159)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:159)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing org.springframework.boot:spring-boot-starter-data-jpa:jar:javadoc:2.1.8.RELEASE
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2019-09-26 20:11:26.907
+!MESSAGE Could not resolve artifact org.springframework.boot:spring-boot-starter-data-jpa:jar:javadoc:2.1.8.RELEASE
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2019-09-26 20:11:26.907
+!MESSAGE Missing org.springframework.boot:spring-boot-starter-data-jpa:jar:javadoc:2.1.8.RELEASE
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2019-09-26 20:11:27.106
+!MESSAGE Could not download javadoc for org.springframework.boot:spring-boot-starter-aop:2.1.8.RELEASE
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springframework.boot:spring-boot-starter-aop:jar:javadoc:2.1.8.RELEASE
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:801)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:112)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:769)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:746)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:328)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:314)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:267)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:231)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:159)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:159)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing org.springframework.boot:spring-boot-starter-aop:jar:javadoc:2.1.8.RELEASE
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2019-09-26 20:11:27.106
+!MESSAGE Could not resolve artifact org.springframework.boot:spring-boot-starter-aop:jar:javadoc:2.1.8.RELEASE
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2019-09-26 20:11:27.106
+!MESSAGE Missing org.springframework.boot:spring-boot-starter-aop:jar:javadoc:2.1.8.RELEASE
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2019-09-26 20:11:27.479
+!MESSAGE Could not download javadoc for org.springframework.boot:spring-boot-starter-jdbc:2.1.8.RELEASE
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springframework.boot:spring-boot-starter-jdbc:jar:javadoc:2.1.8.RELEASE
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:801)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:112)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:769)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:746)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:328)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:314)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:267)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:231)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:159)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:159)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing org.springframework.boot:spring-boot-starter-jdbc:jar:javadoc:2.1.8.RELEASE
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2019-09-26 20:11:27.480
+!MESSAGE Could not resolve artifact org.springframework.boot:spring-boot-starter-jdbc:jar:javadoc:2.1.8.RELEASE
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2019-09-26 20:11:27.480
+!MESSAGE Missing org.springframework.boot:spring-boot-starter-jdbc:jar:javadoc:2.1.8.RELEASE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 20:13:24.776
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 20:13:24.818
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@26247027[org.springframework.tooling.boot.ls:1.9.0.201907120625(id=624)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 20:13:24.899
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 20:13:26.633
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 20:14:56.858
+!MESSAGE Boot LS startup time from start to initialized: 9497ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 20:14:57.149
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.FfcvwbiGisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 20:14:57.188
+!MESSAGE subscribing to classpath changes: sts4.classpath.FfcvwbiG isBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 20:14:57.226
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 20:14:57.259
+!MESSAGE subsribers = {sts4.classpath.FfcvwbiG=Send Classpath Notifications(127)}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 20:14:57.290
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 20:14:57.328
+!MESSAGE project spring_boot_rest_animals ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 20:14:57.360
+!MESSAGE project demo ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 20:14:57.391
+!MESSAGE Preparing classpath changed notification spring_boot_rest_animals
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 20:14:57.423
+!MESSAGE project demo-1 ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 20:14:57.455
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 20:14:57.481
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 20:14:57.514
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.FfcvwbiG => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 20:14:57.543
+!MESSAGE classpath=100 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 20:14:57.579
+!MESSAGE buffering callback sts4.classpath.FfcvwbiG spring_boot_rest_animals false 100
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 20:14:57.626
+!MESSAGE Preparing classpath changed notification demo
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 20:14:57.650
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 20:14:57.685
+!MESSAGE classpath=78 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 20:14:57.712
+!MESSAGE buffering callback sts4.classpath.FfcvwbiG demo false 78
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 20:14:57.739
+!MESSAGE Preparing classpath changed notification demo-1
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 20:14:57.765
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 20:14:57.802
+!MESSAGE classpath=78 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 20:14:57.835
+!MESSAGE buffering callback sts4.classpath.FfcvwbiG demo-1 false 78
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 20:14:57.863
+!MESSAGE executing callback sts4.classpath.FfcvwbiG 3 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 20:14:58.166
+!MESSAGE executing callback sts4.classpath.FfcvwbiG SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 20:15:47.698
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.FfcvwbiG
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 20:15:47.726
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.FfcvwbiG
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 20:15:47.754
+!MESSAGE subsribers = null
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 20:15:47.782
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.FfcvwbiG => OK
+
+!ENTRY org.eclipse.ui 2 2 2019-09-26 20:16:33.490
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 20:17:16.048
+!MESSAGE Boot LS startup time from start to initialized: 9659ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 20:17:16.701
+!MESSAGE Boot LS startup time from start to initialized: 10312ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 20:17:16.761
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.qKrCoYgvisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 20:17:16.788
+!MESSAGE subscribing to classpath changes: sts4.classpath.qKrCoYgv isBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 20:17:16.816
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 20:17:16.838
+!MESSAGE subsribers = {sts4.classpath.qKrCoYgv=Send Classpath Notifications(145)}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 20:17:16.859
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 20:17:16.886
+!MESSAGE project spring_boot_rest_animals ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 20:17:16.914
+!MESSAGE Preparing classpath changed notification spring_boot_rest_animals
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 20:17:16.941
+!MESSAGE project demo ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 20:17:16.968
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 20:17:16.995
+!MESSAGE project demo-1 ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 20:17:17.021
+!MESSAGE classpath=100 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 20:17:17.047
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 20:17:17.072
+!MESSAGE buffering callback sts4.classpath.qKrCoYgv spring_boot_rest_animals false 100
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 20:17:17.095
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.qKrCoYgv => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 20:17:17.117
+!MESSAGE Preparing classpath changed notification demo
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 20:17:17.147
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 20:17:17.176
+!MESSAGE classpath=78 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 20:17:17.203
+!MESSAGE buffering callback sts4.classpath.qKrCoYgv demo false 78
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 20:17:17.227
+!MESSAGE Preparing classpath changed notification demo-1
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 20:17:17.251
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 20:17:17.287
+!MESSAGE classpath=78 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 20:17:17.318
+!MESSAGE buffering callback sts4.classpath.qKrCoYgv demo-1 false 78
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 20:17:17.345
+!MESSAGE executing callback sts4.classpath.qKrCoYgv 3 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 20:17:17.572
+!MESSAGE executing callback sts4.classpath.qKrCoYgv SUCCESS [done]
+
+!ENTRY org.eclipse.ui 4 0 2019-09-26 20:19:35.737
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.e4.core.di.InjectionException: java.lang.NullPointerException
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:68)
+	at org.eclipse.e4.ui.internal.di.UIEventObjectSupplier$UIEventHandler$1.run(UIEventObjectSupplier.java:67)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:236)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:146)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4580)
+	at org.eclipse.e4.ui.internal.workbench.swt.E4Application$1.syncExec(E4Application.java:219)
+	at org.eclipse.e4.ui.internal.di.UIEventObjectSupplier$UIEventHandler.handleEvent(UIEventObjectSupplier.java:64)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:205)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:203)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:151)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:132)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:75)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:44)
+	at org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:55)
+	at org.eclipse.e4.ui.internal.workbench.UIEventPublisher.notifyChanged(UIEventPublisher.java:63)
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:424)
+	at org.eclipse.e4.ui.model.application.ui.impl.UIElementImpl.setVisible(UIElementImpl.java:361)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ContributionRecord.updateVisibility(ContributionRecord.java:113)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerRendererFilter.updateElementVisibility(MenuManagerRendererFilter.java:194)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerRendererFilter.updateElementVisibility(MenuManagerRendererFilter.java:205)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerShowProcessor.showMenu(MenuManagerShowProcessor.java:258)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerShowProcessor.menuAboutToHide(MenuManagerShowProcessor.java:115)
+	at org.eclipse.jface.internal.MenuManagerEventHelper.showEventPostHelper(MenuManagerEventHelper.java:95)
+	at org.eclipse.jface.action.MenuManager.handleAboutToShow(MenuManager.java:472)
+	at org.eclipse.jface.action.MenuManager.access$1(MenuManager.java:466)
+	at org.eclipse.jface.action.MenuManager$2.menuShown(MenuManager.java:498)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:259)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4131)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1056)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1080)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1061)
+	at org.eclipse.swt.widgets.Control.WM_INITMENUPOPUP(Control.java:5132)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4788)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:348)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1501)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2138)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4770)
+	at org.eclipse.swt.internal.win32.OS.TrackPopupMenu(Native Method)
+	at org.eclipse.swt.widgets.Menu._setVisible(Menu.java:253)
+	at org.eclipse.swt.widgets.Display.runPopups(Display.java:3985)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3541)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:635)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:559)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:660)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:597)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1468)
+Caused by: java.lang.NullPointerException
+	at org.eclipse.tm4e.ui.internal.menus.ThemeContribution.getContributionItems(ThemeContribution.java:59)
+	at org.eclipse.ui.actions.CompoundContributionItem.getContributionItemsToFill(CompoundContributionItem.java:83)
+	at org.eclipse.ui.actions.CompoundContributionItem.fill(CompoundContributionItem.java:57)
+	at org.eclipse.ui.internal.menus.DynamicMenuContributionItem.fill(DynamicMenuContributionItem.java:146)
+	at org.eclipse.jface.action.MenuManager.doItemFill(MenuManager.java:728)
+	at org.eclipse.jface.action.MenuManager.update(MenuManager.java:805)
+	at org.eclipse.jface.action.MenuManager.update(MenuManager.java:672)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerRenderer.scheduleManagerUpdate(MenuManagerRenderer.java:1223)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerRenderer.subscribeUIElementTopicAllRenderedVisibility(MenuManagerRenderer.java:218)
+	at sun.reflect.GeneratedMethodAccessor15.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	... 64 more
+
+!ENTRY org.eclipse.lsp4e 4 0 2019-09-26 20:42:06.408
+!MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
+!STACK 0
+java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
+	at java.util.concurrent.CompletableFuture.reportGet(Unknown Source)
+	at java.util.concurrent.CompletableFuture.get(Unknown Source)
+	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.computeCompletionProposals(LSContentAssistProcessor.java:96)
+	at org.springframework.tooling.boot.ls.jdt.SpringBootJavaCompletionProposalComputer.lambda$0(SpringBootJavaCompletionProposalComputer.java:51)
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(Unknown Source)
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(Unknown Source)
+	at java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(Unknown Source)
+	at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+	at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:209)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:193)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$1(LanguageServerWrapper.java:214)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.eclipse.lsp4e 4 0 2019-09-26 20:42:25.922
+!MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
+!STACK 0
+java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
+	at java.util.concurrent.CompletableFuture.reportGet(Unknown Source)
+	at java.util.concurrent.CompletableFuture.get(Unknown Source)
+	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.computeCompletionProposals(LSContentAssistProcessor.java:96)
+	at org.springframework.tooling.boot.ls.jdt.SpringBootJavaCompletionProposalComputer.lambda$0(SpringBootJavaCompletionProposalComputer.java:51)
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(Unknown Source)
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(Unknown Source)
+	at java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(Unknown Source)
+	at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+	at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:209)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:193)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$1(LanguageServerWrapper.java:214)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.eclipse.lsp4e 4 0 2019-09-26 20:42:39.585
+!MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
+!STACK 0
+java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
+	at java.util.concurrent.CompletableFuture.reportGet(Unknown Source)
+	at java.util.concurrent.CompletableFuture.get(Unknown Source)
+	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.computeCompletionProposals(LSContentAssistProcessor.java:96)
+	at org.springframework.tooling.boot.ls.jdt.SpringBootJavaCompletionProposalComputer.lambda$0(SpringBootJavaCompletionProposalComputer.java:51)
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(Unknown Source)
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(Unknown Source)
+	at java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(Unknown Source)
+	at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+	at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:209)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:193)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$1(LanguageServerWrapper.java:214)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.eclipse.lsp4e 4 0 2019-09-26 20:47:38.098
+!MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
+!STACK 0
+java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
+	at java.util.concurrent.CompletableFuture.reportGet(Unknown Source)
+	at java.util.concurrent.CompletableFuture.get(Unknown Source)
+	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.computeCompletionProposals(LSContentAssistProcessor.java:96)
+	at org.springframework.tooling.boot.ls.jdt.SpringBootJavaCompletionProposalComputer.lambda$0(SpringBootJavaCompletionProposalComputer.java:51)
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(Unknown Source)
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(Unknown Source)
+	at java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(Unknown Source)
+	at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+	at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:209)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:193)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$1(LanguageServerWrapper.java:214)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.eclipse.lsp4e 4 0 2019-09-26 20:48:37.614
+!MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
+!STACK 0
+java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
+	at java.util.concurrent.CompletableFuture.reportGet(Unknown Source)
+	at java.util.concurrent.CompletableFuture.get(Unknown Source)
+	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.computeCompletionProposals(LSContentAssistProcessor.java:96)
+	at org.springframework.tooling.boot.ls.jdt.SpringBootJavaCompletionProposalComputer.lambda$0(SpringBootJavaCompletionProposalComputer.java:51)
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(Unknown Source)
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(Unknown Source)
+	at java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(Unknown Source)
+	at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+	at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:209)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:193)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$1(LanguageServerWrapper.java:214)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.eclipse.lsp4e 4 0 2019-09-26 20:50:24.625
+!MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
+!STACK 0
+java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
+	at java.util.concurrent.CompletableFuture.reportGet(Unknown Source)
+	at java.util.concurrent.CompletableFuture.get(Unknown Source)
+	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.computeCompletionProposals(LSContentAssistProcessor.java:96)
+	at org.springframework.tooling.boot.ls.jdt.SpringBootJavaCompletionProposalComputer.lambda$0(SpringBootJavaCompletionProposalComputer.java:51)
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(Unknown Source)
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(Unknown Source)
+	at java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(Unknown Source)
+	at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+	at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:209)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:193)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$1(LanguageServerWrapper.java:214)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.eclipse.lsp4e 4 0 2019-09-26 20:50:55.971
+!MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
+!STACK 0
+java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
+	at java.util.concurrent.CompletableFuture.reportGet(Unknown Source)
+	at java.util.concurrent.CompletableFuture.get(Unknown Source)
+	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.computeCompletionProposals(LSContentAssistProcessor.java:96)
+	at org.springframework.tooling.boot.ls.jdt.SpringBootJavaCompletionProposalComputer.lambda$0(SpringBootJavaCompletionProposalComputer.java:51)
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(Unknown Source)
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(Unknown Source)
+	at java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(Unknown Source)
+	at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+	at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:209)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:193)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$1(LanguageServerWrapper.java:214)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.eclipse.lsp4e 4 0 2019-09-26 20:51:28.768
+!MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
+!STACK 0
+java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
+	at java.util.concurrent.CompletableFuture.reportGet(Unknown Source)
+	at java.util.concurrent.CompletableFuture.get(Unknown Source)
+	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.computeCompletionProposals(LSContentAssistProcessor.java:96)
+	at org.springframework.tooling.boot.ls.jdt.SpringBootJavaCompletionProposalComputer.lambda$0(SpringBootJavaCompletionProposalComputer.java:51)
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(Unknown Source)
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(Unknown Source)
+	at java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(Unknown Source)
+	at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+	at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:209)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:193)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$1(LanguageServerWrapper.java:214)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.eclipse.lsp4e 4 0 2019-09-26 20:52:52.066
+!MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
+!STACK 0
+java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
+	at java.util.concurrent.CompletableFuture.reportGet(Unknown Source)
+	at java.util.concurrent.CompletableFuture.get(Unknown Source)
+	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.computeCompletionProposals(LSContentAssistProcessor.java:96)
+	at org.springframework.tooling.boot.ls.jdt.SpringBootJavaCompletionProposalComputer.lambda$0(SpringBootJavaCompletionProposalComputer.java:51)
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(Unknown Source)
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(Unknown Source)
+	at java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(Unknown Source)
+	at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+	at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:209)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:193)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$1(LanguageServerWrapper.java:214)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.eclipse.lsp4e 4 0 2019-09-26 20:53:18.947
+!MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
+!STACK 0
+java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
+	at java.util.concurrent.CompletableFuture.reportGet(Unknown Source)
+	at java.util.concurrent.CompletableFuture.get(Unknown Source)
+	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.computeCompletionProposals(LSContentAssistProcessor.java:96)
+	at org.springframework.tooling.boot.ls.jdt.SpringBootJavaCompletionProposalComputer.lambda$0(SpringBootJavaCompletionProposalComputer.java:51)
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(Unknown Source)
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(Unknown Source)
+	at java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(Unknown Source)
+	at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+	at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:209)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:193)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$1(LanguageServerWrapper.java:214)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.eclipse.lsp4e 4 0 2019-09-26 20:53:40.804
+!MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
+!STACK 0
+java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
+	at java.util.concurrent.CompletableFuture.reportGet(Unknown Source)
+	at java.util.concurrent.CompletableFuture.get(Unknown Source)
+	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.computeCompletionProposals(LSContentAssistProcessor.java:96)
+	at org.springframework.tooling.boot.ls.jdt.SpringBootJavaCompletionProposalComputer.lambda$0(SpringBootJavaCompletionProposalComputer.java:51)
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(Unknown Source)
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(Unknown Source)
+	at java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(Unknown Source)
+	at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+	at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:209)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:193)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$1(LanguageServerWrapper.java:214)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.eclipse.lsp4e 4 0 2019-09-26 20:54:06.601
+!MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
+!STACK 0
+java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
+	at java.util.concurrent.CompletableFuture.reportGet(Unknown Source)
+	at java.util.concurrent.CompletableFuture.get(Unknown Source)
+	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.computeCompletionProposals(LSContentAssistProcessor.java:96)
+	at org.springframework.tooling.boot.ls.jdt.SpringBootJavaCompletionProposalComputer.lambda$0(SpringBootJavaCompletionProposalComputer.java:51)
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(Unknown Source)
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(Unknown Source)
+	at java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(Unknown Source)
+	at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+	at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:209)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:193)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$1(LanguageServerWrapper.java:214)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.eclipse.lsp4e 4 0 2019-09-26 20:56:59.919
+!MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
+!STACK 0
+java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
+	at java.util.concurrent.CompletableFuture.reportGet(Unknown Source)
+	at java.util.concurrent.CompletableFuture.get(Unknown Source)
+	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.computeCompletionProposals(LSContentAssistProcessor.java:96)
+	at org.springframework.tooling.boot.ls.jdt.SpringBootJavaCompletionProposalComputer.lambda$0(SpringBootJavaCompletionProposalComputer.java:51)
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(Unknown Source)
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(Unknown Source)
+	at java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(Unknown Source)
+	at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+	at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:209)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:193)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$1(LanguageServerWrapper.java:214)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-27 01:28:01.413
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.qKrCoYgv
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-27 01:28:01.486
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.qKrCoYgv
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-27 01:28:01.514
+!MESSAGE subsribers = null
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-27 01:28:01.544
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.qKrCoYgv => OK
+
+!ENTRY org.eclipse.lsp4e 4 0 2019-09-27 01:37:45.252
+!MESSAGE 
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.util.concurrent.CompletableFuture.timedGet(Unknown Source)
+	at java.util.concurrent.CompletableFuture.get(Unknown Source)
+	at org.eclipse.lsp4e.LanguageServerWrapper.supportsWorkspaceFolderCapability(LanguageServerWrapper.java:461)
+	at org.eclipse.lsp4e.LanguageServerWrapper.canOperate(LanguageServerWrapper.java:450)
+	at org.eclipse.lsp4e.LanguageServerWrapper.canOperate(LanguageServerWrapper.java:757)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.lambda$6(LanguageServiceAccessor.java:320)
+	at java.util.stream.ReferencePipeline$2$1.accept(Unknown Source)
+	at java.util.stream.ReferencePipeline$2$1.accept(Unknown Source)
+	at java.util.HashMap$KeySpliterator.forEachRemaining(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(Unknown Source)
+	at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+	at java.util.stream.ReferencePipeline.collect(Unknown Source)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getLSWrappers(LanguageServiceAccessor.java:321)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getLanguageServers(LanguageServiceAccessor.java:505)
+	at org.eclipse.lsp4e.operations.hover.LSBasedHover.initiateHoverRequest(LSBasedHover.java:229)
+	at org.eclipse.lsp4e.operations.hover.LSBasedHover.getHoverInfo(LSBasedHover.java:105)
+	at org.springframework.tooling.boot.ls.jdt.SpringBootJavaHoverProvider.getHoverInfo2(SpringBootJavaHoverProvider.java:43)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:167)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:133)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:169)
+
+!ENTRY org.eclipse.lsp4e 4 0 2019-09-27 01:37:46.326
+!MESSAGE 
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.util.concurrent.CompletableFuture.timedGet(Unknown Source)
+	at java.util.concurrent.CompletableFuture.get(Unknown Source)
+	at org.eclipse.lsp4e.LanguageServerWrapper.supportsWorkspaceFolderCapability(LanguageServerWrapper.java:461)
+	at org.eclipse.lsp4e.LanguageServerWrapper.canOperate(LanguageServerWrapper.java:450)
+	at org.eclipse.lsp4e.LanguageServerWrapper.canOperate(LanguageServerWrapper.java:757)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.lambda$7(LanguageServiceAccessor.java:338)
+	at java.util.stream.MatchOps$1MatchSink.accept(Unknown Source)
+	at java.util.HashMap$KeySpliterator.tryAdvance(Unknown Source)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+	at java.util.stream.MatchOps$MatchOp.evaluateSequential(Unknown Source)
+	at java.util.stream.MatchOps$MatchOp.evaluateSequential(Unknown Source)
+	at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+	at java.util.stream.ReferencePipeline.anyMatch(Unknown Source)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getLSWrappers(LanguageServiceAccessor.java:337)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getLanguageServers(LanguageServiceAccessor.java:505)
+	at org.eclipse.lsp4e.operations.hover.LSBasedHover.initiateHoverRequest(LSBasedHover.java:229)
+	at org.eclipse.lsp4e.operations.hover.LSBasedHover.getHoverInfo(LSBasedHover.java:105)
+	at org.springframework.tooling.boot.ls.jdt.SpringBootJavaHoverProvider.getHoverInfo2(SpringBootJavaHoverProvider.java:43)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:167)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:133)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:169)
+
+!ENTRY org.eclipse.lsp4e 4 0 2019-09-27 01:37:46.847
+!MESSAGE 
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.util.concurrent.CompletableFuture.timedGet(Unknown Source)
+	at java.util.concurrent.CompletableFuture.get(Unknown Source)
+	at org.eclipse.lsp4e.operations.hover.LSBasedHover.getHoverInfo(LSBasedHover.java:108)
+	at org.springframework.tooling.boot.ls.jdt.SpringBootJavaHoverProvider.getHoverInfo2(SpringBootJavaHoverProvider.java:43)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:167)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:133)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:169)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-27 01:37:51.198
+!MESSAGE Boot LS startup time from start to initialized: 8226ms
+
+!ENTRY org.eclipse.lsp4e 4 0 2019-09-27 01:37:51.397
+!MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
+!STACK 0
+java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
+	at java.util.concurrent.CompletableFuture.reportGet(Unknown Source)
+	at java.util.concurrent.CompletableFuture.get(Unknown Source)
+	at org.eclipse.lsp4e.operations.hover.LSBasedHover.lambda$11(LSBasedHover.java:236)
+	at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(Unknown Source)
+	at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+	at java.util.stream.ReferencePipeline.collect(Unknown Source)
+	at org.eclipse.lsp4e.operations.hover.LSBasedHover.lambda$10(LSBasedHover.java:245)
+	at java.util.concurrent.CompletableFuture.uniApply(Unknown Source)
+	at java.util.concurrent.CompletableFuture$UniApply.tryFire(Unknown Source)
+	at java.util.concurrent.CompletableFuture$Completion.exec(Unknown Source)
+	at java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(Unknown Source)
+	at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+	at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:209)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:193)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$1(LanguageServerWrapper.java:214)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-27 01:37:51.427
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.sOASTBCPisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-27 01:37:51.454
+!MESSAGE subscribing to classpath changes: sts4.classpath.sOASTBCP isBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-27 01:37:51.482
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-27 01:37:51.510
+!MESSAGE subsribers = {sts4.classpath.sOASTBCP=Send Classpath Notifications(1495)}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-27 01:37:51.539
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-27 01:37:51.567
+!MESSAGE project spring_boot_rest_animals_client ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-27 01:37:51.589
+!MESSAGE project demo ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-27 01:37:51.610
+!MESSAGE Preparing classpath changed notification spring_boot_rest_animals_client
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-27 01:37:51.629
+!MESSAGE project demo-1 ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-27 01:37:51.652
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-27 01:37:51.671
+!MESSAGE project spring_boot_rest_animals ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-27 01:37:51.694
+!MESSAGE classpath=100 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-27 01:37:51.714
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-27 01:37:51.735
+!MESSAGE buffering callback sts4.classpath.sOASTBCP spring_boot_rest_animals_client false 100
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-27 01:37:51.758
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.sOASTBCP => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-27 01:37:51.777
+!MESSAGE Preparing classpath changed notification demo
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-27 01:37:51.799
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-27 01:37:51.823
+!MESSAGE classpath=78 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-27 01:37:51.848
+!MESSAGE buffering callback sts4.classpath.sOASTBCP demo false 78
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-27 01:37:51.867
+!MESSAGE Preparing classpath changed notification demo-1
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-27 01:37:51.888
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-27 01:37:51.916
+!MESSAGE classpath=78 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-27 01:37:51.939
+!MESSAGE buffering callback sts4.classpath.sOASTBCP demo-1 false 78
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-27 01:37:51.963
+!MESSAGE Preparing classpath changed notification spring_boot_rest_animals
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-27 01:37:51.988
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-27 01:37:52.014
+!MESSAGE classpath=100 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-27 01:37:52.045
+!MESSAGE buffering callback sts4.classpath.sOASTBCP spring_boot_rest_animals false 100
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-27 01:37:52.067
+!MESSAGE executing callback sts4.classpath.sOASTBCP 4 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-27 01:37:53.785
+!MESSAGE executing callback sts4.classpath.sOASTBCP SUCCESS [done]

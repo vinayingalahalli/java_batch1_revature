@@ -1,0 +1,5 @@
+package com.animal.service.impl;
+
+public class AnimalServiceImpl {
+
+}

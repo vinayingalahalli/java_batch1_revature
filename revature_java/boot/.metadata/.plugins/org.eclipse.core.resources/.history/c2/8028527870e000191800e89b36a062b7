@@ -1,0 +1,44 @@
+package com.animal.controller;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.animal.model.Animal;
+import com.animal.service.AnimalService;
+
+@RestController
+public class AnimalController {
+	
+	@Autowired
+	private AnimalService service;
+	
+	public Animal createAnimal(Animal animal) {
+		return service.createAnimal(animal);
+	}
+
+	
+	public Animal getAnimalById(int id) {
+		// TODO Auto-generated method stub
+		return service.getAnimalById(id);
+	}
+
+	
+	public List<Animal> getAllAnimals() {
+		// TODO Auto-generated method stub
+		return service.getAllAnimals();
+	}
+
+	
+	public Animal updateAnimal(Animal animal) {
+		// TODO Auto-generated method stub
+		return service.updateAnimal(animal);
+	}
+
+	public void deleteAnimal(int id) {
+		// TODO Auto-generated method stub
+		service.deleteAnimal(id);
+	}
+
+}

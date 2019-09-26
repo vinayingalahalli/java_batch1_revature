@@ -1,0 +1,5 @@
+package com.animal.model;
+
+public class Animal {
+
+}

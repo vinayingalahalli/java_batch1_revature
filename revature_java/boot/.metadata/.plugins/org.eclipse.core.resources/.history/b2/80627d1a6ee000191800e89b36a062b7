@@ -1,0 +1,10 @@
+package com.animal.service.impl;
+
+import org.springframework.stereotype.Service;
+
+import com.animal.service.AnimalService;
+
+@Service
+public class AnimalServiceImpl implements AnimalService {
+
+}

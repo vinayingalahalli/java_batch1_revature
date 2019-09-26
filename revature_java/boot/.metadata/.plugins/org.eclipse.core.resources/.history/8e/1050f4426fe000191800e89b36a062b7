@@ -1,0 +1,43 @@
+package com.animal.service.impl;
+
+import java.util.List;
+
+import org.springframework.stereotype.Service;
+
+import com.animal.model.Animal;
+import com.animal.service.AnimalService;
+
+@Service
+public class AnimalServiceImpl implements AnimalService {
+
+	@Override
+	public Animal createAnimal(Animal animal) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Animal getAnimalById(int id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Animal> getAllAnimals() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Animal updateAnimal(Animal animal) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void deleteAnimal(int id) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

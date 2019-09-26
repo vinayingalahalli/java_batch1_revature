@@ -1,0 +1,19 @@
+package com.animal.model;
+
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+import org.springframework.stereotype.Indexed;
+
+@Entity
+@Table
+@Indexed
+public class Animal {
+	
+	@Id
+	@GeneratedValue
+	private int id;
+	
+}

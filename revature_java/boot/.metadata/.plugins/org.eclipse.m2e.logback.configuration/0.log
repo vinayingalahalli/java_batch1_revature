@@ -555,3 +555,405 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springfra
 2019-09-26 02:17:05,723 [Worker-35: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
 2019-09-26 02:17:05,728 [Worker-35: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2019-09-26 02:17:05,728 [Worker-35: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\revature_java\boot\demo\src\test\resources
+2019-09-26 19:51:49,033 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2019-09-26 20:10:15,297 [Worker-3: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.animal:spring_boot_demo:0.0.1-SNAPSHOT @ E:\revature_java\boot\spring_boot_rest_animals\pom.xml.
+2019-09-26 20:10:15,793 [Worker-3: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-data-jpa/2.1.8.RELEASE/spring-boot-starter-data-jpa-2.1.8.RELEASE.pom
+2019-09-26 20:10:15,846 [Worker-3: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-data-jpa/2.1.8.RELEASE/spring-boot-starter-data-jpa-2.1.8.RELEASE.pom
+2019-09-26 20:10:16,021 [Worker-3: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-aop/2.1.8.RELEASE/spring-boot-starter-aop-2.1.8.RELEASE.pom
+2019-09-26 20:10:16,072 [Worker-3: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-aop/2.1.8.RELEASE/spring-boot-starter-aop-2.1.8.RELEASE.pom
+2019-09-26 20:10:17,426 [Worker-3: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-jdbc/2.1.8.RELEASE/spring-boot-starter-jdbc-2.1.8.RELEASE.pom
+2019-09-26 20:10:17,509 [Worker-3: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-jdbc/2.1.8.RELEASE/spring-boot-starter-jdbc-2.1.8.RELEASE.pom
+2019-09-26 20:10:17,633 [Worker-3: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-jdbc/5.1.9.RELEASE/spring-jdbc-5.1.9.RELEASE.pom
+2019-09-26 20:10:17,696 [Worker-3: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-jdbc/5.1.9.RELEASE/spring-jdbc-5.1.9.RELEASE.pom
+2019-09-26 20:10:17,753 [Worker-3: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-tx/5.1.9.RELEASE/spring-tx-5.1.9.RELEASE.pom
+2019-09-26 20:10:18,008 [Worker-3: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-tx/5.1.9.RELEASE/spring-tx-5.1.9.RELEASE.pom
+2019-09-26 20:10:18,517 [Worker-3: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/hibernate/hibernate-core/5.3.11.Final/hibernate-core-5.3.11.Final.pom
+2019-09-26 20:10:18,575 [Worker-3: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/hibernate/hibernate-core/5.3.11.Final/hibernate-core-5.3.11.Final.pom
+2019-09-26 20:10:19,520 [Worker-3: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-jpa/2.1.10.RELEASE/spring-data-jpa-2.1.10.RELEASE.pom
+2019-09-26 20:10:19,623 [Worker-3: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-jpa/2.1.10.RELEASE/spring-data-jpa-2.1.10.RELEASE.pom
+2019-09-26 20:10:19,668 [Worker-3: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/data/build/spring-data-parent/2.1.10.RELEASE/spring-data-parent-2.1.10.RELEASE.pom
+2019-09-26 20:10:19,725 [Worker-3: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/data/build/spring-data-parent/2.1.10.RELEASE/spring-data-parent-2.1.10.RELEASE.pom
+2019-09-26 20:10:19,774 [Worker-3: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/projectreactor/reactor-bom/Californium-SR10/reactor-bom-Californium-SR10.pom
+2019-09-26 20:10:19,816 [Worker-3: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/projectreactor/reactor-bom/Californium-SR10/reactor-bom-Californium-SR10.pom
+2019-09-26 20:10:19,984 [Worker-3: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-commons/2.1.10.RELEASE/spring-data-commons-2.1.10.RELEASE.pom
+2019-09-26 20:10:20,030 [Worker-3: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-commons/2.1.10.RELEASE/spring-data-commons-2.1.10.RELEASE.pom
+2019-09-26 20:10:20,103 [Worker-3: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-orm/5.1.9.RELEASE/spring-orm-5.1.9.RELEASE.pom
+2019-09-26 20:10:20,159 [Worker-3: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-orm/5.1.9.RELEASE/spring-orm-5.1.9.RELEASE.pom
+2019-09-26 20:10:20,224 [Worker-3: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-aspects/5.1.9.RELEASE/spring-aspects-5.1.9.RELEASE.pom
+2019-09-26 20:10:20,278 [Worker-3: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-aspects/5.1.9.RELEASE/spring-aspects-5.1.9.RELEASE.pom
+2019-09-26 20:10:23,228 [Worker-3: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-data-jpa/2.1.8.RELEASE/spring-boot-starter-data-jpa-2.1.8.RELEASE.jar
+2019-09-26 20:10:23,285 [Worker-3: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-data-jpa/2.1.8.RELEASE/spring-boot-starter-data-jpa-2.1.8.RELEASE.jar
+2019-09-26 20:10:23,292 [Worker-3: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-aop/2.1.8.RELEASE/spring-boot-starter-aop-2.1.8.RELEASE.jar
+2019-09-26 20:10:23,383 [Worker-3: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-aop/2.1.8.RELEASE/spring-boot-starter-aop-2.1.8.RELEASE.jar
+2019-09-26 20:10:23,390 [Worker-3: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-jdbc/2.1.8.RELEASE/spring-boot-starter-jdbc-2.1.8.RELEASE.jar
+2019-09-26 20:10:23,458 [Worker-3: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-jdbc/2.1.8.RELEASE/spring-boot-starter-jdbc-2.1.8.RELEASE.jar
+2019-09-26 20:10:23,465 [Worker-3: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-jdbc/5.1.9.RELEASE/spring-jdbc-5.1.9.RELEASE.jar
+2019-09-26 20:10:23,711 [Worker-3: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-jdbc/5.1.9.RELEASE/spring-jdbc-5.1.9.RELEASE.jar
+2019-09-26 20:10:23,723 [Worker-3: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/hibernate/hibernate-core/5.3.11.Final/hibernate-core-5.3.11.Final.jar
+2019-09-26 20:10:25,529 [Worker-3: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/hibernate/hibernate-core/5.3.11.Final/hibernate-core-5.3.11.Final.jar
+2019-09-26 20:10:25,542 [Worker-3: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-jpa/2.1.10.RELEASE/spring-data-jpa-2.1.10.RELEASE.jar
+2019-09-26 20:10:27,101 [Worker-3: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-jpa/2.1.10.RELEASE/spring-data-jpa-2.1.10.RELEASE.jar
+2019-09-26 20:10:27,115 [Worker-3: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-commons/2.1.10.RELEASE/spring-data-commons-2.1.10.RELEASE.jar
+2019-09-26 20:10:27,463 [Worker-3: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-commons/2.1.10.RELEASE/spring-data-commons-2.1.10.RELEASE.jar
+2019-09-26 20:10:27,474 [Worker-3: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-orm/5.1.9.RELEASE/spring-orm-5.1.9.RELEASE.jar
+2019-09-26 20:10:28,897 [Worker-3: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-orm/5.1.9.RELEASE/spring-orm-5.1.9.RELEASE.jar
+2019-09-26 20:10:28,910 [Worker-3: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-tx/5.1.9.RELEASE/spring-tx-5.1.9.RELEASE.jar
+2019-09-26 20:10:30,063 [Worker-3: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-tx/5.1.9.RELEASE/spring-tx-5.1.9.RELEASE.jar
+2019-09-26 20:10:30,073 [Worker-3: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-aspects/5.1.9.RELEASE/spring-aspects-5.1.9.RELEASE.jar
+2019-09-26 20:10:30,663 [Worker-3: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-aspects/5.1.9.RELEASE/spring-aspects-5.1.9.RELEASE.jar
+2019-09-26 20:10:35,411 [Worker-3: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.bootdemo:spring_boot_demo:0.0.1-SNAPSHOT @ E:\revature_java\boot\demo\pom.xml.
+2019-09-26 20:10:36,813 [Worker-3: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.bootdemo:spring_boot_demo:0.0.1-SNAPSHOT @ E:\revature_java\boot\demo-1\pom.xml.
+2019-09-26 20:10:37,567 [Worker-3: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.animal:spring_boot_demo:0.0.1-SNAPSHOT @ E:\revature_java\boot\spring_boot_rest_animals\pom.xml.
+2019-09-26 20:10:53,877 [Worker-8: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-data-jpa/2.1.8.RELEASE/spring-boot-starter-data-jpa-2.1.8.RELEASE-sources.jar
+2019-09-26 20:10:53,934 [Worker-8: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download sources for org.springframework.boot:spring-boot-starter-data-jpa:2.1.8.RELEASE
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springframework.boot:spring-boot-starter-data-jpa:jar:sources:2.1.8.RELEASE
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:801) ~[org.eclipse.m2e.core_1.12.0.20190628-1134.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177) ~[org.eclipse.m2e.core_1.12.0.20190628-1134.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:112) ~[org.eclipse.m2e.core_1.12.0.20190628-1134.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) ~[org.eclipse.m2e.core_1.12.0.20190628-1134.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:769) ~[org.eclipse.m2e.core_1.12.0.20190628-1134.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:746) ~[org.eclipse.m2e.core_1.12.0.20190628-1134.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:328) [org.eclipse.m2e.jdt_1.12.0.20190628-1134.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:302) [org.eclipse.m2e.jdt_1.12.0.20190628-1134.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:267) [org.eclipse.m2e.jdt_1.12.0.20190628-1134.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:231) [org.eclipse.m2e.jdt_1.12.0.20190628-1134.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:159) [org.eclipse.m2e.jdt_1.12.0.20190628-1134.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177) ~[org.eclipse.m2e.core_1.12.0.20190628-1134.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151) ~[org.eclipse.m2e.core_1.12.0.20190628-1134.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) ~[org.eclipse.m2e.core_1.12.0.20190628-1134.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374) ~[org.eclipse.m2e.core_1.12.0.20190628-1134.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:159) [org.eclipse.m2e.jdt_1.12.0.20190628-1134.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) ~[org.eclipse.core.jobs_3.10.400.v20190506-1457.jar:na]
+2019-09-26 20:10:54,051 [Worker-8: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-aop/2.1.8.RELEASE/spring-boot-starter-aop-2.1.8.RELEASE-sources.jar
+2019-09-26 20:10:54,091 [Worker-8: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download sources for org.springframework.boot:spring-boot-starter-aop:2.1.8.RELEASE
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springframework.boot:spring-boot-starter-aop:jar:sources:2.1.8.RELEASE
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:801) ~[org.eclipse.m2e.core_1.12.0.20190628-1134.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177) ~[org.eclipse.m2e.core_1.12.0.20190628-1134.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:112) ~[org.eclipse.m2e.core_1.12.0.20190628-1134.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) ~[org.eclipse.m2e.core_1.12.0.20190628-1134.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:769) ~[org.eclipse.m2e.core_1.12.0.20190628-1134.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:746) ~[org.eclipse.m2e.core_1.12.0.20190628-1134.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:328) [org.eclipse.m2e.jdt_1.12.0.20190628-1134.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:302) [org.eclipse.m2e.jdt_1.12.0.20190628-1134.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:267) [org.eclipse.m2e.jdt_1.12.0.20190628-1134.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:231) [org.eclipse.m2e.jdt_1.12.0.20190628-1134.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:159) [org.eclipse.m2e.jdt_1.12.0.20190628-1134.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177) ~[org.eclipse.m2e.core_1.12.0.20190628-1134.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151) ~[org.eclipse.m2e.core_1.12.0.20190628-1134.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) ~[org.eclipse.m2e.core_1.12.0.20190628-1134.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374) ~[org.eclipse.m2e.core_1.12.0.20190628-1134.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:159) [org.eclipse.m2e.jdt_1.12.0.20190628-1134.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) ~[org.eclipse.core.jobs_3.10.400.v20190506-1457.jar:na]
+2019-09-26 20:10:54,219 [Worker-8: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-jdbc/2.1.8.RELEASE/spring-boot-starter-jdbc-2.1.8.RELEASE-sources.jar
+2019-09-26 20:10:54,257 [Worker-8: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download sources for org.springframework.boot:spring-boot-starter-jdbc:2.1.8.RELEASE
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springframework.boot:spring-boot-starter-jdbc:jar:sources:2.1.8.RELEASE
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:801) ~[org.eclipse.m2e.core_1.12.0.20190628-1134.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177) ~[org.eclipse.m2e.core_1.12.0.20190628-1134.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:112) ~[org.eclipse.m2e.core_1.12.0.20190628-1134.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) ~[org.eclipse.m2e.core_1.12.0.20190628-1134.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:769) ~[org.eclipse.m2e.core_1.12.0.20190628-1134.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:746) ~[org.eclipse.m2e.core_1.12.0.20190628-1134.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:328) [org.eclipse.m2e.jdt_1.12.0.20190628-1134.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:302) [org.eclipse.m2e.jdt_1.12.0.20190628-1134.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:267) [org.eclipse.m2e.jdt_1.12.0.20190628-1134.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:231) [org.eclipse.m2e.jdt_1.12.0.20190628-1134.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:159) [org.eclipse.m2e.jdt_1.12.0.20190628-1134.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177) ~[org.eclipse.m2e.core_1.12.0.20190628-1134.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151) ~[org.eclipse.m2e.core_1.12.0.20190628-1134.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) ~[org.eclipse.m2e.core_1.12.0.20190628-1134.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374) ~[org.eclipse.m2e.core_1.12.0.20190628-1134.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:159) [org.eclipse.m2e.jdt_1.12.0.20190628-1134.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) ~[org.eclipse.core.jobs_3.10.400.v20190506-1457.jar:na]
+2019-09-26 20:10:54,365 [Worker-8: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-jdbc/5.1.9.RELEASE/spring-jdbc-5.1.9.RELEASE-sources.jar
+2019-09-26 20:10:54,605 [Worker-8: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-jdbc/5.1.9.RELEASE/spring-jdbc-5.1.9.RELEASE-sources.jar
+2019-09-26 20:10:54,980 [Worker-8: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-jdbc:5.1.9.RELEASE
+2019-09-26 20:10:55,099 [Worker-8: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/hibernate/hibernate-core/5.3.11.Final/hibernate-core-5.3.11.Final-sources.jar
+2019-09-26 20:10:56,474 [Worker-8: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/hibernate/hibernate-core/5.3.11.Final/hibernate-core-5.3.11.Final-sources.jar
+2019-09-26 20:10:56,905 [Worker-8: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.hibernate:hibernate-core:5.3.11.Final
+2019-09-26 20:10:56,984 [Worker-8: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-jpa/2.1.10.RELEASE/spring-data-jpa-2.1.10.RELEASE-sources.jar
+2019-09-26 20:10:57,108 [Worker-8: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-jpa/2.1.10.RELEASE/spring-data-jpa-2.1.10.RELEASE-sources.jar
+2019-09-26 20:10:57,435 [Worker-8: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.data:spring-data-jpa:2.1.10.RELEASE
+2019-09-26 20:10:57,555 [Worker-8: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-commons/2.1.10.RELEASE/spring-data-commons-2.1.10.RELEASE-sources.jar
+2019-09-26 20:10:57,982 [Worker-8: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-commons/2.1.10.RELEASE/spring-data-commons-2.1.10.RELEASE-sources.jar
+2019-09-26 20:10:58,306 [Worker-8: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.data:spring-data-commons:2.1.10.RELEASE
+2019-09-26 20:10:58,387 [Worker-8: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-orm/5.1.9.RELEASE/spring-orm-5.1.9.RELEASE-sources.jar
+2019-09-26 20:10:58,492 [Worker-8: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-orm/5.1.9.RELEASE/spring-orm-5.1.9.RELEASE-sources.jar
+2019-09-26 20:10:58,974 [Worker-8: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-orm:5.1.9.RELEASE
+2019-09-26 20:10:59,055 [Worker-8: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-tx/5.1.9.RELEASE/spring-tx-5.1.9.RELEASE-sources.jar
+2019-09-26 20:10:59,297 [Worker-8: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-tx/5.1.9.RELEASE/spring-tx-5.1.9.RELEASE-sources.jar
+2019-09-26 20:10:59,584 [Worker-8: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-tx:5.1.9.RELEASE
+2019-09-26 20:10:59,662 [Worker-8: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-aspects/5.1.9.RELEASE/spring-aspects-5.1.9.RELEASE-sources.jar
+2019-09-26 20:11:00,147 [Worker-8: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-aspects/5.1.9.RELEASE/spring-aspects-5.1.9.RELEASE-sources.jar
+2019-09-26 20:11:00,416 [Worker-8: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-aspects:5.1.9.RELEASE
+2019-09-26 20:11:08,895 [Worker-3: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /spring_boot_rest_animals/src/main/java
+2019-09-26 20:11:08,897 [Worker-3: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /spring_boot_rest_animals/src/main/resources
+2019-09-26 20:11:08,930 [Worker-3: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /spring_boot_rest_animals/src/main/resources
+2019-09-26 20:11:08,963 [Worker-3: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /spring_boot_rest_animals/src/test/java
+2019-09-26 20:11:16,414 [Worker-3: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 87 sec
+2019-09-26 20:11:16,422 [Worker-3: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2019-09-26 20:11:17,579 [Worker-3: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.animal:spring_boot_demo:0.0.1-SNAPSHOT @ E:\revature_java\boot\spring_boot_rest_animals\pom.xml.
+2019-09-26 20:11:20,173 [Worker-3: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /spring_boot_rest_animals/src/main/java
+2019-09-26 20:11:20,174 [Worker-3: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /spring_boot_rest_animals/src/main/resources
+2019-09-26 20:11:20,181 [Worker-3: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /spring_boot_rest_animals/src/main/resources
+2019-09-26 20:11:20,195 [Worker-3: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /spring_boot_rest_animals/src/test/java
+2019-09-26 20:11:22,772 [Worker-3: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 6 sec
+2019-09-26 20:11:26,864 [Worker-13: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-data-jpa/2.1.8.RELEASE/spring-boot-starter-data-jpa-2.1.8.RELEASE-javadoc.jar
+2019-09-26 20:11:26,905 [Worker-13: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download javadoc for org.springframework.boot:spring-boot-starter-data-jpa:2.1.8.RELEASE
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springframework.boot:spring-boot-starter-data-jpa:jar:javadoc:2.1.8.RELEASE
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:801) ~[org.eclipse.m2e.core_1.12.0.20190628-1134.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177) ~[org.eclipse.m2e.core_1.12.0.20190628-1134.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:112) ~[org.eclipse.m2e.core_1.12.0.20190628-1134.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) ~[org.eclipse.m2e.core_1.12.0.20190628-1134.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:769) ~[org.eclipse.m2e.core_1.12.0.20190628-1134.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:746) ~[org.eclipse.m2e.core_1.12.0.20190628-1134.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:328) [org.eclipse.m2e.jdt_1.12.0.20190628-1134.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:314) [org.eclipse.m2e.jdt_1.12.0.20190628-1134.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:267) [org.eclipse.m2e.jdt_1.12.0.20190628-1134.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:231) [org.eclipse.m2e.jdt_1.12.0.20190628-1134.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:159) [org.eclipse.m2e.jdt_1.12.0.20190628-1134.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177) ~[org.eclipse.m2e.core_1.12.0.20190628-1134.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151) ~[org.eclipse.m2e.core_1.12.0.20190628-1134.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) ~[org.eclipse.m2e.core_1.12.0.20190628-1134.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374) ~[org.eclipse.m2e.core_1.12.0.20190628-1134.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:159) [org.eclipse.m2e.jdt_1.12.0.20190628-1134.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) ~[org.eclipse.core.jobs_3.10.400.v20190506-1457.jar:na]
+2019-09-26 20:11:27,064 [Worker-13: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-aop/2.1.8.RELEASE/spring-boot-starter-aop-2.1.8.RELEASE-javadoc.jar
+2019-09-26 20:11:27,104 [Worker-13: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download javadoc for org.springframework.boot:spring-boot-starter-aop:2.1.8.RELEASE
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springframework.boot:spring-boot-starter-aop:jar:javadoc:2.1.8.RELEASE
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:801) ~[org.eclipse.m2e.core_1.12.0.20190628-1134.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177) ~[org.eclipse.m2e.core_1.12.0.20190628-1134.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:112) ~[org.eclipse.m2e.core_1.12.0.20190628-1134.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) ~[org.eclipse.m2e.core_1.12.0.20190628-1134.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:769) ~[org.eclipse.m2e.core_1.12.0.20190628-1134.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:746) ~[org.eclipse.m2e.core_1.12.0.20190628-1134.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:328) [org.eclipse.m2e.jdt_1.12.0.20190628-1134.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:314) [org.eclipse.m2e.jdt_1.12.0.20190628-1134.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:267) [org.eclipse.m2e.jdt_1.12.0.20190628-1134.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:231) [org.eclipse.m2e.jdt_1.12.0.20190628-1134.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:159) [org.eclipse.m2e.jdt_1.12.0.20190628-1134.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177) ~[org.eclipse.m2e.core_1.12.0.20190628-1134.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151) ~[org.eclipse.m2e.core_1.12.0.20190628-1134.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) ~[org.eclipse.m2e.core_1.12.0.20190628-1134.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374) ~[org.eclipse.m2e.core_1.12.0.20190628-1134.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:159) [org.eclipse.m2e.jdt_1.12.0.20190628-1134.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) ~[org.eclipse.core.jobs_3.10.400.v20190506-1457.jar:na]
+2019-09-26 20:11:27,437 [Worker-13: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-jdbc/2.1.8.RELEASE/spring-boot-starter-jdbc-2.1.8.RELEASE-javadoc.jar
+2019-09-26 20:11:27,478 [Worker-13: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download javadoc for org.springframework.boot:spring-boot-starter-jdbc:2.1.8.RELEASE
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springframework.boot:spring-boot-starter-jdbc:jar:javadoc:2.1.8.RELEASE
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:801) ~[org.eclipse.m2e.core_1.12.0.20190628-1134.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177) ~[org.eclipse.m2e.core_1.12.0.20190628-1134.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:112) ~[org.eclipse.m2e.core_1.12.0.20190628-1134.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) ~[org.eclipse.m2e.core_1.12.0.20190628-1134.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:769) ~[org.eclipse.m2e.core_1.12.0.20190628-1134.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:746) ~[org.eclipse.m2e.core_1.12.0.20190628-1134.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:328) [org.eclipse.m2e.jdt_1.12.0.20190628-1134.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:314) [org.eclipse.m2e.jdt_1.12.0.20190628-1134.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:267) [org.eclipse.m2e.jdt_1.12.0.20190628-1134.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:231) [org.eclipse.m2e.jdt_1.12.0.20190628-1134.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:159) [org.eclipse.m2e.jdt_1.12.0.20190628-1134.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177) ~[org.eclipse.m2e.core_1.12.0.20190628-1134.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151) ~[org.eclipse.m2e.core_1.12.0.20190628-1134.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) ~[org.eclipse.m2e.core_1.12.0.20190628-1134.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374) ~[org.eclipse.m2e.core_1.12.0.20190628-1134.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:159) [org.eclipse.m2e.jdt_1.12.0.20190628-1134.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) ~[org.eclipse.core.jobs_3.10.400.v20190506-1457.jar:na]
+2019-09-26 20:11:27,916 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-26 20:11:27,933 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-09-26 20:11:28,002 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-09-26 20:11:28,014 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-26 20:11:28,014 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\revature_java\boot\demo\src\test\resources
+2019-09-26 20:11:32,313 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-26 20:11:32,360 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-09-26 20:11:32,377 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-09-26 20:11:32,384 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-26 20:11:32,385 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\revature_java\boot\demo-1\src\test\resources
+2019-09-26 20:11:33,485 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-26 20:11:33,487 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-09-26 20:11:33,491 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-09-26 20:11:33,499 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-26 20:11:33,499 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\revature_java\boot\spring_boot_rest_animals\src\test\resources
+2019-09-26 20:17:06,595 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-26 20:17:06,607 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-09-26 20:17:06,611 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-09-26 20:17:06,619 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-26 20:17:06,620 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\revature_java\boot\spring_boot_rest_animals\src\test\resources
+2019-09-26 20:18:28,557 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-26 20:18:28,560 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-09-26 20:18:28,564 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-09-26 20:18:28,574 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-26 20:18:28,574 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\revature_java\boot\spring_boot_rest_animals\src\test\resources
+2019-09-26 20:19:48,140 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-26 20:19:48,143 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-09-26 20:19:48,147 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-09-26 20:19:48,154 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-26 20:19:48,154 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\revature_java\boot\spring_boot_rest_animals\src\test\resources
+2019-09-26 20:21:26,571 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-26 20:21:26,577 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-09-26 20:21:26,580 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-09-26 20:21:26,587 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-26 20:21:26,588 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\revature_java\boot\spring_boot_rest_animals\src\test\resources
+2019-09-26 20:21:48,356 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-26 20:21:48,359 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-09-26 20:21:48,362 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-09-26 20:21:48,376 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-26 20:21:48,376 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\revature_java\boot\spring_boot_rest_animals\src\test\resources
+2019-09-26 20:23:48,398 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-26 20:23:48,400 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-09-26 20:23:48,404 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-09-26 20:23:48,422 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-26 20:23:48,423 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\revature_java\boot\spring_boot_rest_animals\src\test\resources
+2019-09-26 20:27:49,455 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-26 20:27:49,458 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-09-26 20:27:49,461 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-09-26 20:27:49,471 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-26 20:27:49,472 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\revature_java\boot\spring_boot_rest_animals\src\test\resources
+2019-09-26 20:28:23,746 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-26 20:28:23,746 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-09-26 20:28:23,746 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-09-26 20:28:23,746 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-26 20:28:23,746 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\revature_java\boot\spring_boot_rest_animals\src\test\resources
+2019-09-26 20:28:31,057 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-26 20:28:31,060 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-09-26 20:28:31,065 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-09-26 20:28:31,075 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-26 20:28:31,076 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\revature_java\boot\spring_boot_rest_animals\src\test\resources
+2019-09-26 20:33:08,408 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-26 20:33:08,408 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-09-26 20:33:08,408 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-09-26 20:33:08,423 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-26 20:33:08,423 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\revature_java\boot\spring_boot_rest_animals\src\test\resources
+2019-09-26 20:33:48,499 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-26 20:33:48,499 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-09-26 20:33:48,499 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-09-26 20:33:48,515 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-26 20:33:48,515 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\revature_java\boot\spring_boot_rest_animals\src\test\resources
+2019-09-26 20:35:15,721 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-26 20:35:15,724 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-09-26 20:35:15,727 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-09-26 20:35:15,734 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-26 20:35:15,734 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\revature_java\boot\spring_boot_rest_animals\src\test\resources
+2019-09-26 20:36:48,768 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-26 20:36:48,800 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-09-26 20:36:48,800 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-09-26 20:36:48,800 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-26 20:36:48,815 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\revature_java\boot\spring_boot_rest_animals\src\test\resources
+2019-09-26 20:37:30,747 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-26 20:37:30,747 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-09-26 20:37:30,747 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-09-26 20:37:30,762 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-26 20:37:30,762 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\revature_java\boot\spring_boot_rest_animals\src\test\resources
+2019-09-26 20:38:26,594 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-26 20:38:26,594 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-09-26 20:38:26,594 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-09-26 20:38:26,625 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-26 20:38:26,625 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\revature_java\boot\spring_boot_rest_animals\src\test\resources
+2019-09-26 20:38:51,751 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-26 20:38:51,751 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-09-26 20:38:51,751 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-09-26 20:38:51,767 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-26 20:38:51,767 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\revature_java\boot\spring_boot_rest_animals\src\test\resources
+2019-09-26 20:39:57,727 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-26 20:39:57,727 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-09-26 20:39:57,727 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-09-26 20:39:57,743 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-26 20:39:57,743 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\revature_java\boot\spring_boot_rest_animals\src\test\resources
+2019-09-26 20:41:56,182 [Worker-29: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-26 20:41:56,182 [Worker-29: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-09-26 20:41:56,182 [Worker-29: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-09-26 20:41:56,182 [Worker-29: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-26 20:41:56,182 [Worker-29: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\revature_java\boot\spring_boot_rest_animals\src\test\resources
+2019-09-26 20:42:42,082 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-26 20:42:42,082 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-09-26 20:42:42,082 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-09-26 20:42:42,098 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-26 20:42:42,098 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\revature_java\boot\spring_boot_rest_animals\src\test\resources
+2019-09-26 20:44:06,187 [Worker-29: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-26 20:44:06,187 [Worker-29: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-09-26 20:44:06,187 [Worker-29: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-09-26 20:44:06,187 [Worker-29: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-26 20:44:06,187 [Worker-29: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\revature_java\boot\spring_boot_rest_animals\src\test\resources
+2019-09-26 20:44:27,120 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-26 20:44:27,120 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-09-26 20:44:27,120 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-09-26 20:44:27,136 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-26 20:44:27,136 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\revature_java\boot\spring_boot_rest_animals\src\test\resources
+2019-09-26 20:44:47,044 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-26 20:44:47,044 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-09-26 20:44:47,044 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-09-26 20:44:47,044 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-26 20:44:47,044 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\revature_java\boot\spring_boot_rest_animals\src\test\resources
+2019-09-26 20:44:56,432 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-26 20:44:56,448 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-09-26 20:44:56,448 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-09-26 20:44:56,448 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-26 20:44:56,448 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\revature_java\boot\spring_boot_rest_animals\src\test\resources
+2019-09-26 20:45:09,454 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-26 20:45:09,470 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-09-26 20:45:09,470 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-09-26 20:45:09,470 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-26 20:45:09,470 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\revature_java\boot\spring_boot_rest_animals\src\test\resources
+2019-09-26 20:45:15,262 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-26 20:45:15,262 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-09-26 20:45:15,262 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-09-26 20:45:15,293 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-26 20:45:15,293 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\revature_java\boot\spring_boot_rest_animals\src\test\resources
+2019-09-26 20:45:27,393 [Worker-29: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-26 20:45:27,393 [Worker-29: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-09-26 20:45:27,425 [Worker-29: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-09-26 20:45:27,425 [Worker-29: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-26 20:45:27,425 [Worker-29: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\revature_java\boot\spring_boot_rest_animals\src\test\resources
+2019-09-26 20:45:32,628 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-26 20:45:32,628 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-09-26 20:45:32,643 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-09-26 20:45:32,659 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-26 20:45:32,659 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\revature_java\boot\spring_boot_rest_animals\src\test\resources
+2019-09-26 20:45:43,911 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-26 20:45:43,911 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-09-26 20:45:43,911 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-09-26 20:45:43,911 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-26 20:45:43,911 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\revature_java\boot\spring_boot_rest_animals\src\test\resources
+2019-09-26 20:48:39,350 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-26 20:48:39,350 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-09-26 20:48:39,350 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-09-26 20:48:39,366 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-26 20:48:39,366 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\revature_java\boot\spring_boot_rest_animals\src\test\resources
+2019-09-26 20:48:42,350 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-26 20:48:42,350 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-09-26 20:48:42,350 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-09-26 20:48:42,366 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-26 20:48:42,366 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\revature_java\boot\spring_boot_rest_animals\src\test\resources
+2019-09-26 20:50:58,018 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-26 20:50:58,018 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-09-26 20:50:58,018 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-09-26 20:50:58,018 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-26 20:50:58,018 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\revature_java\boot\spring_boot_rest_animals\src\test\resources
+2019-09-26 20:51:45,565 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-26 20:51:45,567 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-09-26 20:51:45,570 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-09-26 20:51:45,577 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-26 20:51:45,578 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\revature_java\boot\spring_boot_rest_animals\src\test\resources
+2019-09-26 20:53:21,244 [Worker-29: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-26 20:53:21,244 [Worker-29: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-09-26 20:53:21,260 [Worker-29: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-09-26 20:53:21,275 [Worker-29: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-26 20:53:21,275 [Worker-29: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\revature_java\boot\spring_boot_rest_animals\src\test\resources
+2019-09-26 20:54:08,962 [Worker-33: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-26 20:54:08,962 [Worker-33: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-09-26 20:54:08,962 [Worker-33: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-09-26 20:54:08,978 [Worker-33: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-26 20:54:08,978 [Worker-33: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\revature_java\boot\spring_boot_rest_animals\src\test\resources
+2019-09-26 20:56:20,895 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-26 20:56:20,895 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-09-26 20:56:20,910 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-09-26 20:56:20,910 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-26 20:56:20,910 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\revature_java\boot\spring_boot_rest_animals\src\test\resources
+2019-09-26 20:57:34,123 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-26 20:57:34,123 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-09-26 20:57:34,139 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-09-26 20:57:34,139 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-26 20:57:34,139 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\revature_java\boot\spring_boot_rest_animals\src\test\resources
+2019-09-26 21:17:10,199 [Worker-39: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-26 21:17:10,199 [Worker-39: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-09-26 21:17:10,214 [Worker-39: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-09-26 21:17:10,214 [Worker-39: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-26 21:17:10,214 [Worker-39: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\revature_java\boot\spring_boot_rest_animals\src\test\resources
