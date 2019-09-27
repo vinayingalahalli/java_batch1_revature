@@ -1,0 +1,16 @@
+<div>
+    <table border='1px'>
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Category</th>
+        </tr>
+        <tr *ngFor="let animal of animals">
+            <td>{{animal.id}}</td>
+            <td>{{animal.name}}</td>
+            <td>{{animal.age}}</td>
+            <td>{{animal.category}}</td>
+        </tr>
+    </table>
+</div>
