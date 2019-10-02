@@ -1,4 +1,2 @@
 #Tomcat publish data
-#Thu Sep 26 01:04:53 IST 2019
-org.eclipse.jst.jee.server\:/binary\:E\:\\revature_java\\spring_web_demo\\WebContent\\WEB-INF\\lib\\spring-web-4.3.9.RELEASE-sources.jar=WEB-INF/lib/spring-web-4.3.9.RELEASE-sources.jar
-org.eclipse.jst.jee.server\:/binary\:E\:\\revature_java\\spring_web_demo\\WebContent\\WEB-INF\\lib\\spring-web-4.3.9.RELEASE.jar=WEB-INF/lib/spring-web-4.3.9.RELEASE.jar
+#Tue Oct 01 21:15:20 IST 2019

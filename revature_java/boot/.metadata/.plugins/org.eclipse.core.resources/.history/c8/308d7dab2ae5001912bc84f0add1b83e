@@ -1,0 +1,2 @@
+server.port=9000
+eureka.client.register-with-eureka=false

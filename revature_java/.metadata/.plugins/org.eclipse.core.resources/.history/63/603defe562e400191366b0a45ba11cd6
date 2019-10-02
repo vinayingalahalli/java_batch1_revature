@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wsdl:definitions targetNamespace="http://services.com" xmlns:apachesoap="http://xml.apache.org/xml-soap" xmlns:impl="http://services.com" xmlns:intf="http://services.com" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:wsdlsoap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<!--WSDL created by Apache Axis version: 1.4
+Built on Apr 22, 2006 (06:55:48 PDT)-->
+ <wsdl:types>
+  <schema elementFormDefault="qualified" targetNamespace="http://services.com" xmlns="http://www.w3.org/2001/XMLSchema">
+   <element name="sayHello">
+    <complexType/>
+   </element>
+   <element name="sayHelloResponse">
+    <complexType>
+     <sequence>
+      <element name="sayHelloReturn" type="xsd:string"/>
+     </sequence>
+    </complexType>
+   </element>
+  </schema>
+ </wsdl:types>
+
+   <wsdl:message name="sayHelloResponse">
+
+      <wsdl:part element="impl:sayHelloResponse" name="parameters">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:message name="sayHelloRequest">
+
+      <wsdl:part element="impl:sayHello" name="parameters">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:portType name="Calculator">
+
+      <wsdl:operation name="sayHello">
+
+         <wsdl:input message="impl:sayHelloRequest" name="sayHelloRequest">
+
+       </wsdl:input>
+
+         <wsdl:output message="impl:sayHelloResponse" name="sayHelloResponse">
+
+       </wsdl:output>
+
+      </wsdl:operation>
+
+   </wsdl:portType>
+
+   <wsdl:binding name="CalculatorSoapBinding" type="impl:Calculator">
+
+      <wsdlsoap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+
+      <wsdl:operation name="sayHello">
+
+         <wsdlsoap:operation soapAction=""/>
+
+         <wsdl:input name="sayHelloRequest">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:input>
+
+         <wsdl:output name="sayHelloResponse">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:output>
+
+      </wsdl:operation>
+
+   </wsdl:binding>
+
+   <wsdl:service name="CalculatorService">
+
+      <wsdl:port binding="impl:CalculatorSoapBinding" name="Calculator">
+
+         <wsdlsoap:address location="http://localhost:1235/soap_demo/services/Calculator"/>
+
+      </wsdl:port>
+
+   </wsdl:service>
+
+</wsdl:definitions>

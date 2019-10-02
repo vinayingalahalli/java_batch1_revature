@@ -1,0 +1,3 @@
+server.port=9000
+#so the server doesnt register with itself
+eureka.client.register-with-eureka=false
